@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.tmp
+.env
+.env.*
+logs/
+models/
+checkpoints/
+*.safetensors
+*.gguf
+
+# 비공개 최종 평가셋은 구조 문서만 버전 관리한다.
+evaluation/private_final/*
+!evaluation/private_final/README.md
+!evaluation/private_final/.gitkeep
+!evaluation/private_final/schema.json

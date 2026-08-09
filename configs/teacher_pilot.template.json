@@ -1,0 +1,20 @@
+{
+  "experiment_id": "pilot-v1-YYYYMMDD",
+  "dataset_name": "compass-ai-pilot",
+  "dataset_version": "pilot-v1",
+  "dataset_checksum": "07cae48e5e5e0ca020fba3455beb33dd45128273fbf4b9c6ad2ce053fe983c92",
+  "teacher_model": null,
+  "checkpoint": null,
+  "revision": null,
+  "quantization": null,
+  "inference_engine": null,
+  "system_prompt": "동일한 공통 system prompt를 두 교사에 사용한다.",
+  "temperature": 0,
+  "top_p": 1,
+  "max_new_tokens": 512,
+  "seed": null,
+  "num_repeats": 1,
+  "timestamp": null,
+  "environment_log_reference": null,
+  "status": "proposed"
+}

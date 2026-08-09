@@ -1,0 +1,672 @@
+{
+  "research_notice": "Mock 결과는 소프트웨어 파이프라인 구현 검증이며 실제 AI 모델 성능 결과가 아니다.",
+  "question_count": 20,
+  "raw_response_count": 38,
+  "conflict_counts": {
+    "agree": 8,
+    "answer_conflict": 6,
+    "one_missing": 2,
+    "format_conflict": 2,
+    "both_suspect": 2
+  },
+  "condition_counts": {
+    "S0": 0,
+    "S1": 20,
+    "S2": 18,
+    "S3a": 38,
+    "S3b": 20,
+    "S3_matched": 16,
+    "S4": 20,
+    "S4_teacher_only": 16,
+    "S4_with_human_correction": 20,
+    "S5": 0
+  },
+  "condition_stats": {
+    "S0": {
+      "question_ids": [],
+      "question_id_coverage": 0,
+      "sample_count": 0,
+      "teacher_counts": {},
+      "domain_counts": {},
+      "character_count": 0,
+      "average_answer_length": 0,
+      "teacher_composition": {},
+      "approximate_token_count": 0,
+      "token_count_kind": "approximate",
+      "human_corrected_count": 0,
+      "human_corrected_ratio": 0
+    },
+    "S1": {
+      "question_ids": [
+        "mock-01",
+        "mock-02",
+        "mock-03",
+        "mock-04",
+        "mock-05",
+        "mock-06",
+        "mock-07",
+        "mock-08",
+        "mock-09",
+        "mock-10",
+        "mock-11",
+        "mock-12",
+        "mock-13",
+        "mock-14",
+        "mock-15",
+        "mock-16",
+        "mock-17",
+        "mock-18",
+        "mock-19",
+        "mock-20"
+      ],
+      "question_id_coverage": 20,
+      "sample_count": 20,
+      "teacher_counts": {
+        "MockTeacherA": 20
+      },
+      "domain_counts": {
+        "math": 5,
+        "science": 4,
+        "STEM": 2,
+        "fact": 2,
+        "code": 3,
+        "logic": 2,
+        "instruction": 2
+      },
+      "character_count": 49,
+      "average_answer_length": 2.45,
+      "teacher_composition": {
+        "MockTeacherA": 1.0
+      },
+      "approximate_token_count": 23,
+      "token_count_kind": "approximate",
+      "human_corrected_count": 0,
+      "human_corrected_ratio": 0.0
+    },
+    "S2": {
+      "question_ids": [
+        "mock-01",
+        "mock-02",
+        "mock-03",
+        "mock-04",
+        "mock-05",
+        "mock-07",
+        "mock-08",
+        "mock-09",
+        "mock-10",
+        "mock-11",
+        "mock-12",
+        "mock-13",
+        "mock-14",
+        "mock-16",
+        "mock-17",
+        "mock-18",
+        "mock-19",
+        "mock-20"
+      ],
+      "question_id_coverage": 18,
+      "sample_count": 18,
+      "teacher_counts": {
+        "MockTeacherB": 18
+      },
+      "domain_counts": {
+        "math": 5,
+        "science": 4,
+        "STEM": 2,
+        "code": 3,
+        "logic": 2,
+        "instruction": 2
+      },
+      "character_count": 55,
+      "average_answer_length": 3.0555555555555554,
+      "teacher_composition": {
+        "MockTeacherB": 1.0
+      },
+      "approximate_token_count": 22,
+      "token_count_kind": "approximate",
+      "human_corrected_count": 0,
+      "human_corrected_ratio": 0.0
+    },
+    "S3a": {
+      "question_ids": [
+        "mock-01",
+        "mock-02",
+        "mock-03",
+        "mock-04",
+        "mock-05",
+        "mock-06",
+        "mock-07",
+        "mock-08",
+        "mock-09",
+        "mock-10",
+        "mock-11",
+        "mock-12",
+        "mock-13",
+        "mock-14",
+        "mock-15",
+        "mock-16",
+        "mock-17",
+        "mock-18",
+        "mock-19",
+        "mock-20"
+      ],
+      "question_id_coverage": 20,
+      "sample_count": 38,
+      "teacher_counts": {
+        "MockTeacherA": 20,
+        "MockTeacherB": 18
+      },
+      "domain_counts": {
+        "math": 10,
+        "science": 8,
+        "STEM": 4,
+        "fact": 2,
+        "code": 6,
+        "logic": 4,
+        "instruction": 4
+      },
+      "character_count": 104,
+      "average_answer_length": 2.736842105263158,
+      "teacher_composition": {
+        "MockTeacherA": 0.5263157894736842,
+        "MockTeacherB": 0.47368421052631576
+      },
+      "approximate_token_count": 45,
+      "token_count_kind": "approximate",
+      "human_corrected_count": 0,
+      "human_corrected_ratio": 0.0
+    },
+    "S3b": {
+      "question_ids": [
+        "mock-01",
+        "mock-02",
+        "mock-03",
+        "mock-04",
+        "mock-05",
+        "mock-06",
+        "mock-07",
+        "mock-08",
+        "mock-09",
+        "mock-10",
+        "mock-11",
+        "mock-12",
+        "mock-13",
+        "mock-14",
+        "mock-15",
+        "mock-16",
+        "mock-17",
+        "mock-18",
+        "mock-19",
+        "mock-20"
+      ],
+      "question_id_coverage": 20,
+      "sample_count": 20,
+      "teacher_counts": {
+        "MockTeacherA": 11,
+        "MockTeacherB": 9
+      },
+      "domain_counts": {
+        "math": 5,
+        "science": 4,
+        "STEM": 2,
+        "fact": 2,
+        "code": 3,
+        "logic": 2,
+        "instruction": 2
+      },
+      "character_count": 57,
+      "average_answer_length": 2.85,
+      "teacher_composition": {
+        "MockTeacherA": 0.55,
+        "MockTeacherB": 0.45
+      },
+      "approximate_token_count": 24,
+      "token_count_kind": "approximate",
+      "human_corrected_count": 0,
+      "human_corrected_ratio": 0.0
+    },
+    "S3_matched": {
+      "question_ids": [
+        "mock-01",
+        "mock-02",
+        "mock-03",
+        "mock-04",
+        "mock-05",
+        "mock-06",
+        "mock-07",
+        "mock-10",
+        "mock-11",
+        "mock-12",
+        "mock-13",
+        "mock-14",
+        "mock-15",
+        "mock-16",
+        "mock-19",
+        "mock-20"
+      ],
+      "question_id_coverage": 16,
+      "sample_count": 16,
+      "teacher_counts": {
+        "MockTeacherA": 8,
+        "MockTeacherB": 8
+      },
+      "domain_counts": {
+        "math": 5,
+        "science": 4,
+        "STEM": 2,
+        "fact": 2,
+        "code": 3
+      },
+      "character_count": 37,
+      "average_answer_length": 2.3125,
+      "teacher_composition": {
+        "MockTeacherA": 0.5,
+        "MockTeacherB": 0.5
+      },
+      "approximate_token_count": 18,
+      "token_count_kind": "approximate",
+      "human_corrected_count": 0,
+      "human_corrected_ratio": 0.0
+    },
+    "S4": {
+      "question_ids": [
+        "mock-01",
+        "mock-02",
+        "mock-03",
+        "mock-04",
+        "mock-05",
+        "mock-06",
+        "mock-07",
+        "mock-08",
+        "mock-09",
+        "mock-10",
+        "mock-11",
+        "mock-12",
+        "mock-13",
+        "mock-14",
+        "mock-15",
+        "mock-16",
+        "mock-17",
+        "mock-18",
+        "mock-19",
+        "mock-20"
+      ],
+      "question_id_coverage": 20,
+      "sample_count": 20,
+      "teacher_counts": {
+        "MockTeacherA": 14,
+        "MockTeacherB": 2,
+        "HumanReviewer": 4
+      },
+      "domain_counts": {
+        "math": 5,
+        "science": 4,
+        "STEM": 2,
+        "fact": 2,
+        "code": 3,
+        "logic": 2,
+        "instruction": 2
+      },
+      "character_count": 46,
+      "average_answer_length": 2.3,
+      "teacher_composition": {
+        "MockTeacherA": 0.7,
+        "MockTeacherB": 0.1,
+        "HumanReviewer": 0.2
+      },
+      "approximate_token_count": 23,
+      "token_count_kind": "approximate",
+      "human_corrected_count": 4,
+      "human_corrected_ratio": 0.2
+    },
+    "S4_teacher_only": {
+      "question_ids": [
+        "mock-01",
+        "mock-02",
+        "mock-03",
+        "mock-04",
+        "mock-05",
+        "mock-06",
+        "mock-07",
+        "mock-10",
+        "mock-11",
+        "mock-12",
+        "mock-13",
+        "mock-14",
+        "mock-15",
+        "mock-16",
+        "mock-19",
+        "mock-20"
+      ],
+      "question_id_coverage": 16,
+      "sample_count": 16,
+      "teacher_counts": {
+        "MockTeacherA": 14,
+        "MockTeacherB": 2
+      },
+      "domain_counts": {
+        "math": 5,
+        "science": 4,
+        "STEM": 2,
+        "fact": 2,
+        "code": 3
+      },
+      "character_count": 33,
+      "average_answer_length": 2.0625,
+      "teacher_composition": {
+        "MockTeacherA": 0.875,
+        "MockTeacherB": 0.125
+      },
+      "approximate_token_count": 17,
+      "token_count_kind": "approximate",
+      "human_corrected_count": 0,
+      "human_corrected_ratio": 0.0
+    },
+    "S4_with_human_correction": {
+      "question_ids": [
+        "mock-01",
+        "mock-02",
+        "mock-03",
+        "mock-04",
+        "mock-05",
+        "mock-06",
+        "mock-07",
+        "mock-08",
+        "mock-09",
+        "mock-10",
+        "mock-11",
+        "mock-12",
+        "mock-13",
+        "mock-14",
+        "mock-15",
+        "mock-16",
+        "mock-17",
+        "mock-18",
+        "mock-19",
+        "mock-20"
+      ],
+      "question_id_coverage": 20,
+      "sample_count": 20,
+      "teacher_counts": {
+        "MockTeacherA": 14,
+        "MockTeacherB": 2,
+        "HumanReviewer": 4
+      },
+      "domain_counts": {
+        "math": 5,
+        "science": 4,
+        "STEM": 2,
+        "fact": 2,
+        "code": 3,
+        "logic": 2,
+        "instruction": 2
+      },
+      "character_count": 46,
+      "average_answer_length": 2.3,
+      "teacher_composition": {
+        "MockTeacherA": 0.7,
+        "MockTeacherB": 0.1,
+        "HumanReviewer": 0.2
+      },
+      "approximate_token_count": 23,
+      "token_count_kind": "approximate",
+      "human_corrected_count": 4,
+      "human_corrected_ratio": 0.2
+    },
+    "S5": {
+      "question_ids": [],
+      "question_id_coverage": 0,
+      "sample_count": 0,
+      "teacher_counts": {},
+      "domain_counts": {},
+      "character_count": 0,
+      "average_answer_length": 0,
+      "teacher_composition": {},
+      "approximate_token_count": 0,
+      "token_count_kind": "approximate",
+      "human_corrected_count": 0,
+      "human_corrected_ratio": 0
+    }
+  },
+  "selection_metadata": {
+    "rule": "alternating_sorted_question_id_no_quality_signal",
+    "random_used": false,
+    "seed": null,
+    "selections": [
+      {
+        "question_id": "mock-01",
+        "preferred_teacher": "MockTeacherA",
+        "selected_teacher": "MockTeacherA",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-02",
+        "preferred_teacher": "MockTeacherB",
+        "selected_teacher": "MockTeacherB",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-03",
+        "preferred_teacher": "MockTeacherA",
+        "selected_teacher": "MockTeacherA",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-04",
+        "preferred_teacher": "MockTeacherB",
+        "selected_teacher": "MockTeacherB",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-05",
+        "preferred_teacher": "MockTeacherA",
+        "selected_teacher": "MockTeacherA",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-06",
+        "preferred_teacher": "MockTeacherB",
+        "selected_teacher": "MockTeacherA",
+        "fallback_used": true
+      },
+      {
+        "question_id": "mock-07",
+        "preferred_teacher": "MockTeacherA",
+        "selected_teacher": "MockTeacherA",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-08",
+        "preferred_teacher": "MockTeacherB",
+        "selected_teacher": "MockTeacherB",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-09",
+        "preferred_teacher": "MockTeacherA",
+        "selected_teacher": "MockTeacherA",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-10",
+        "preferred_teacher": "MockTeacherB",
+        "selected_teacher": "MockTeacherB",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-11",
+        "preferred_teacher": "MockTeacherA",
+        "selected_teacher": "MockTeacherA",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-12",
+        "preferred_teacher": "MockTeacherB",
+        "selected_teacher": "MockTeacherB",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-13",
+        "preferred_teacher": "MockTeacherA",
+        "selected_teacher": "MockTeacherA",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-14",
+        "preferred_teacher": "MockTeacherB",
+        "selected_teacher": "MockTeacherB",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-15",
+        "preferred_teacher": "MockTeacherA",
+        "selected_teacher": "MockTeacherA",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-16",
+        "preferred_teacher": "MockTeacherB",
+        "selected_teacher": "MockTeacherB",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-17",
+        "preferred_teacher": "MockTeacherA",
+        "selected_teacher": "MockTeacherA",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-18",
+        "preferred_teacher": "MockTeacherB",
+        "selected_teacher": "MockTeacherB",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-19",
+        "preferred_teacher": "MockTeacherA",
+        "selected_teacher": "MockTeacherA",
+        "fallback_used": false
+      },
+      {
+        "question_id": "mock-20",
+        "preferred_teacher": "MockTeacherB",
+        "selected_teacher": "MockTeacherB",
+        "fallback_used": false
+      }
+    ]
+  },
+  "condition_metadata": {
+    "S3_matched": {
+      "primary_comparison": true,
+      "reference_scope": "S4_teacher_only_question_ids_only",
+      "selection_rule": "balanced_count_then_alternating_sorted_question_id_no_quality_signal",
+      "selection_results": [
+        {
+          "question_id": "mock-01",
+          "preferred_teacher": "MockTeacherA",
+          "selected_teacher": "MockTeacherA",
+          "fallback_used": false
+        },
+        {
+          "question_id": "mock-02",
+          "preferred_teacher": "MockTeacherB",
+          "selected_teacher": "MockTeacherB",
+          "fallback_used": false
+        },
+        {
+          "question_id": "mock-03",
+          "preferred_teacher": "MockTeacherA",
+          "selected_teacher": "MockTeacherA",
+          "fallback_used": false
+        },
+        {
+          "question_id": "mock-04",
+          "preferred_teacher": "MockTeacherB",
+          "selected_teacher": "MockTeacherB",
+          "fallback_used": false
+        },
+        {
+          "question_id": "mock-05",
+          "preferred_teacher": "MockTeacherA",
+          "selected_teacher": "MockTeacherA",
+          "fallback_used": false
+        },
+        {
+          "question_id": "mock-06",
+          "preferred_teacher": "MockTeacherB",
+          "selected_teacher": "MockTeacherA",
+          "fallback_used": true
+        },
+        {
+          "question_id": "mock-07",
+          "preferred_teacher": "MockTeacherA",
+          "selected_teacher": "MockTeacherB",
+          "fallback_used": true
+        },
+        {
+          "question_id": "mock-10",
+          "preferred_teacher": "MockTeacherB",
+          "selected_teacher": "MockTeacherB",
+          "fallback_used": false
+        },
+        {
+          "question_id": "mock-11",
+          "preferred_teacher": "MockTeacherA",
+          "selected_teacher": "MockTeacherA",
+          "fallback_used": false
+        },
+        {
+          "question_id": "mock-12",
+          "preferred_teacher": "MockTeacherB",
+          "selected_teacher": "MockTeacherB",
+          "fallback_used": false
+        },
+        {
+          "question_id": "mock-13",
+          "preferred_teacher": "MockTeacherA",
+          "selected_teacher": "MockTeacherA",
+          "fallback_used": false
+        },
+        {
+          "question_id": "mock-14",
+          "preferred_teacher": "MockTeacherB",
+          "selected_teacher": "MockTeacherB",
+          "fallback_used": false
+        },
+        {
+          "question_id": "mock-15",
+          "preferred_teacher": "MockTeacherA",
+          "selected_teacher": "MockTeacherA",
+          "fallback_used": false
+        },
+        {
+          "question_id": "mock-16",
+          "preferred_teacher": "MockTeacherB",
+          "selected_teacher": "MockTeacherB",
+          "fallback_used": false
+        },
+        {
+          "question_id": "mock-19",
+          "preferred_teacher": "MockTeacherA",
+          "selected_teacher": "MockTeacherA",
+          "fallback_used": false
+        },
+        {
+          "question_id": "mock-20",
+          "preferred_teacher": "MockTeacherB",
+          "selected_teacher": "MockTeacherB",
+          "fallback_used": false
+        }
+      ],
+      "validation": "passed"
+    },
+    "S5": {
+      "status": "placeholder",
+      "reason": "verified korean_source input is required"
+    },
+    "S4": {
+      "human_correction_separated": true
+    }
+  },
+  "run_id": "20260809T160740Z_1d14291e"
+}

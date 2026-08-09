@@ -1,0 +1,20 @@
+[project]
+name = "compass-ai"
+version = "0.1.0"
+description = "CoMPaSS 집중탐구용 다중 교사 데이터 파이프라인"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/compass_ai"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
