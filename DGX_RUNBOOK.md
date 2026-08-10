@@ -1,13 +1,13 @@
 # ARGOS-v1 DGX 실행 Runbook
 
-아래 명령은 저장소 루트에서 실행한다. `RUN_ID`는 한 실험 동안 유지하며, 새 실험에서는 새 값을 쓴다. 서버 실행 명령은 DGX 확인 뒤 vLLM/SGLang/NIM 중 선택한다. 모든 Linux DGX 실행 블록은 첫 블록의 `set -euo pipefail`이 유지되는 같은 shell에서 실행한다. 한 단계라도 실패하면 다음 단계로 자동 진행하지 않고, 원인을 해결한 뒤 같은 `RUN_ID`로 실패한 단계부터 재개한다.
+아래 명령은 저장소 루트에서 실행한다. `RUN_ID`는 한 실험 동안 유지하며, 새 실험에서는 새 값을 쓴다. teacher 서버는 저장소의 vLLM launcher를 사용한다. 모든 Linux DGX 실행 블록은 첫 블록의 `set -euo pipefail`이 유지되는 같은 shell에서 실행한다. 한 단계라도 실패하면 다음 단계로 자동 진행하지 않고, 원인을 해결한 뒤 같은 `RUN_ID`로 실패한 단계부터 재개한다.
 
-현재 pre-DGX 작업트리는 이 Runbook 보완 후 사용자가 commit하고 `pre-dgx-argos-v1` tag로 고정한다. 현재 미커밋 상태 자체는 코드 오류가 아니다. 목요일에는 아래 확인이 모두 통과한 frozen 버전에서만 실행한다.
+기존 공개 tag `pre-dgx-argos-v1`은 이동하지 않는다. 이 최종 준비 변경은 사용자가 별도 commit 후 `pre-dgx-argos-v1-final` tag로 고정한다. 현재 미커밋 상태 자체는 코드 오류가 아니다. 목요일에는 아래 확인이 모두 통과한 frozen 버전에서만 실행한다.
 
 ```bash
 set -euo pipefail
 
-export EXPECTED_TAG="pre-dgx-argos-v1"
+export EXPECTED_TAG="pre-dgx-argos-v1-final"
 git rev-parse HEAD
 git status --short
 test -z "$(git status --short)" || { echo "ERROR: working tree is not clean" >&2; exit 1; }
@@ -25,20 +25,48 @@ uv run python -m compass_ai pre-dgx-final --root .
 
 ## Teacher A: GPT-OSS
 
-OpenAI-compatible localhost 서버를 별도 터미널에서 시작한 뒤 실행한다.
+Hugging Face 인증을 확인한다. `HF_TOKEN` 값 자체를 화면에 출력하거나 Git/config에 저장하지 않는다. 첫 번째 별도 터미널에서 기본값을 유지해 launcher를 실행한다. 모델은 별도로 미리 다운로드하지 않으며 vLLM/Hugging Face cache가 처리한다.
 
 ```bash
+set -euo pipefail
+hf auth whoami
+: "${HF_TOKEN:?export HF_TOKEN before launching the teacher server}"
+export GPT_OSS_MODEL_ID="${GPT_OSS_MODEL_ID:-openai/gpt-oss-120b}"
+export VLLM_PORT="${VLLM_PORT:-8000}"
+test "$VLLM_PORT" = "8000" || { echo "ERROR: frozen teacher configs require VLLM_PORT=8000" >&2; exit 1; }
+bash scripts/dgx/launch_gpt_oss_vllm.sh
+```
+
+서버가 준비될 때까지 기다린 뒤 두 번째 터미널에서 `/v1/models` 확인, 기존 `teacher-check` smoke, Pilot, Core-v2 순서로 실행한다. `teacher-check`가 실패하면 실제 teacher run으로 진행하지 않는다.
+
+```bash
+curl --fail --silent --show-error "http://127.0.0.1:${VLLM_PORT:-8000}/v1/models"
 uv run python -m compass_ai teacher-check --root . --config configs/teachers/gpt_oss_dgx.yaml --smoke --output-root "artifacts/dgx_runs/$RUN_ID/teachers/smoke"
 uv run python -m compass_ai run-pilot --root . --teacher gpt_oss --config configs/teachers/gpt_oss_dgx.yaml --output-root "artifacts/dgx_runs/$RUN_ID/teachers"
 uv run python -m compass_ai teacher-check --root . --config configs/teachers/gpt_oss_core_v2_dgx.yaml --questions data/questions/core_v2/train_questions.jsonl
 uv run python -m compass_ai run-teacher-dataset --root . --teacher gpt_oss --config configs/teachers/gpt_oss_core_v2_dgx.yaml --questions data/questions/core_v2/train_questions.jsonl --output-root "artifacts/dgx_runs/$RUN_ID/teachers"
 ```
 
-GPT 서버를 정상 종료하고 메모리 해제를 확인한 뒤 GLM 서버를 시작한다.
+GPT 서버를 `Ctrl+C`로 정상 종료하고 해당 vLLM 프로세스가 사라졌는지 확인한 뒤 GLM 서버를 시작한다. GPU 메모리 해제 여부는 DGX에서 확인하며, 해제되지 않았다면 GLM을 시작하지 않는다.
 
 ## Teacher B: GLM-4.5-Air
 
+첫 번째 터미널에서 실행한다. 실제 DGX에서 local 또는 quantized checkpoint가 필요하면 `GLM_MODEL_ID`만 바꾸며, API에 노출되는 frozen model name과 연구 코드는 변경하지 않는다. 기본값은 `zai-org/GLM-4.5-Air`다.
+
 ```bash
+set -euo pipefail
+hf auth whoami
+: "${HF_TOKEN:?export HF_TOKEN before launching the teacher server}"
+export GLM_MODEL_ID="${GLM_MODEL_ID:-zai-org/GLM-4.5-Air}"
+export VLLM_PORT="${VLLM_PORT:-8000}"
+test "$VLLM_PORT" = "8000" || { echo "ERROR: frozen teacher configs require VLLM_PORT=8000" >&2; exit 1; }
+bash scripts/dgx/launch_glm45_air_vllm.sh
+```
+
+서버가 준비될 때까지 기다린 뒤 두 번째 터미널에서 `/v1/models` 확인, smoke, Pilot, Core-v2 순서로 실행한다.
+
+```bash
+curl --fail --silent --show-error "http://127.0.0.1:${VLLM_PORT:-8000}/v1/models"
 uv run python -m compass_ai teacher-check --root . --config configs/teachers/glm45_air_dgx.yaml --smoke --output-root "artifacts/dgx_runs/$RUN_ID/teachers/smoke"
 uv run python -m compass_ai run-pilot --root . --teacher glm45_air --config configs/teachers/glm45_air_dgx.yaml --output-root "artifacts/dgx_runs/$RUN_ID/teachers"
 uv run python -m compass_ai teacher-check --root . --config configs/teachers/glm45_air_core_v2_dgx.yaml --questions data/questions/core_v2/train_questions.jsonl
