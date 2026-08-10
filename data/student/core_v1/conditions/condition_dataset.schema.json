@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Core-v1 verified condition sample",
+  "type": "object",
+  "required": [
+    "sample_id",
+    "source_question_id",
+    "prompt",
+    "target",
+    "source_teacher",
+    "verification_status",
+    "condition",
+    "provenance"
+  ],
+  "properties": {
+    "sample_id": {"type": "string"},
+    "source_question_id": {"type": "string", "pattern": "^CORE-(TR|VA)-"},
+    "prompt": {"type": "string"},
+    "target": {"type": "string"},
+    "source_teacher": {"type": ["string", "null"]},
+    "verification_status": {"enum": ["passed"]},
+    "condition": {"enum": ["S1", "S2", "S3a", "S3b", "S3_matched", "S4", "S4_teacher_only", "S4_with_human_correction", "S5"]},
+    "provenance": {"type": "object"}
+  },
+  "additionalProperties": true
+}

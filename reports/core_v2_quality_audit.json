@@ -1,0 +1,1230 @@
+{
+  "audit_id": "core-v2-quality-audit-v1",
+  "cross_split_related_skill_reviews": [
+    {
+      "decision": "same skill allowed; materially different constraints",
+      "left": "CORE2-TR-LOG-010",
+      "right": "CORE2-PE-LOG-006",
+      "shingle_similarity": 0.491803
+    }
+  ],
+  "dataset_checksum": "49e72cdcca2425d75080bf95428cb9d1ff8a9f53b016b5e7bcc409422a203fe2",
+  "dataset_version": "core-v2",
+  "exact_duplicate_groups": [],
+  "file_sha256": {
+    "private_eval_questions.jsonl": "566f9fd6ca5dca56e3820f602478a6d981be549f41a2a39580220fa59a797682",
+    "train_questions.jsonl": "22652b4f1e34e7f3ec9bbc0fa18c3114204e8dce4d6171b3a49967ead51f4715",
+    "validation_questions.jsonl": "2270651a8303e8b4770082492bf3176c9c7e04e8f93daa98e5f261224e1b1200"
+  },
+  "findings": [
+    {
+      "question_id": "CORE2-TR-MATH-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-005",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-006",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-007",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-008",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-009",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-010",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-011",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-012",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-013",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-014",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-015",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-016",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-017",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-018",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-019",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-020",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-021",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-022",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-023",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-MATH-024",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-005",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-006",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-007",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-008",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-009",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-010",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-011",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-012",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-013",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-014",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-015",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-016",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-017",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-018",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-019",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-020",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-021",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-022",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-023",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-CODE-024",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-005",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-006",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-007",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-008",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-009",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-010",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-011",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-012",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-013",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-014",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-015",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-016",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-017",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-018",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-019",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-020",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-021",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-022",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-023",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-SCI-024",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-005",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-006",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-007",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-008",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-009",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-010",
+      "reasons": [
+        "cross_split_related_skill_pair_but_constraints_are_distinct"
+      ],
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-011",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-012",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-013",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-014",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-015",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-016",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-017",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-018",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-019",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-020",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-021",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-022",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-023",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-LOG-024",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-005",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-006",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-007",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-008",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-009",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-010",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-011",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-012",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-013",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-014",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-015",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-016",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-017",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-018",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-019",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-020",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-021",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-022",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-023",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-TR-KOR-024",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-MATH-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-MATH-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-MATH-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-MATH-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-MATH-005",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-CODE-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-CODE-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-CODE-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-CODE-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-CODE-005",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-SCI-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-SCI-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-SCI-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-SCI-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-SCI-005",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-LOG-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-LOG-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-LOG-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-LOG-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-LOG-005",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-KOR-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-KOR-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-KOR-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-VA-KOR-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-MATH-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-MATH-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-MATH-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-MATH-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-MATH-005",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-MATH-006",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-MATH-007",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-MATH-008",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-MATH-009",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-MATH-010",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-CODE-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-CODE-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-CODE-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-CODE-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-CODE-005",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-CODE-006",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-CODE-007",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-CODE-008",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-CODE-009",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-CODE-010",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-SCI-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-SCI-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-SCI-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-SCI-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-SCI-005",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-SCI-006",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-SCI-007",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-SCI-008",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-SCI-009",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-SCI-010",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-LOG-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-LOG-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-LOG-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-LOG-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-LOG-005",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-LOG-006",
+      "reasons": [
+        "cross_split_related_skill_pair_but_constraints_are_distinct"
+      ],
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE2-PE-LOG-007",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-LOG-008",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-LOG-009",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-KOR-001",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-KOR-002",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-KOR-003",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-KOR-004",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-KOR-005",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-KOR-006",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-KOR-007",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-KOR-008",
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "question_id": "CORE2-PE-KOR-009",
+      "reasons": [],
+      "status": "PASS"
+    }
+  ],
+  "freeze_fail_reasons": {
+    "auto_ratio": false,
+    "cross_template": false,
+    "difficulty": false,
+    "domain": false,
+    "domain_count": false,
+    "exact_duplicates": false,
+    "method": false,
+    "normalized_duplicates": false,
+    "private_key": false,
+    "reference": false,
+    "split_count": false
+  },
+  "normalized_duplicate_groups": [],
+  "private_key_sha256": "5a7740526a1d86c5661e4f9908a6f5415d9f7a2b878da9c09dad60d15f9989a3",
+  "summary": {
+    "artificial_identifier_count": 0,
+    "auto_verifiable_count": 171,
+    "auto_verifiable_ratio": 0.890625,
+    "cross_split_related_skill_review_pairs": 1,
+    "cross_split_template_leakage_pairs": 0,
+    "difficulty_counts": {
+      "easy": 8,
+      "hard": 86,
+      "medium": 98
+    },
+    "difficulty_mismatch_count": 0,
+    "domain_counts": {
+      "coding": 39,
+      "korean": 37,
+      "logic": 38,
+      "math": 39,
+      "science": 39
+    },
+    "domain_error_count": 0,
+    "exact_duplicate_groups": 0,
+    "freeze_ready": true,
+    "near_duplicate_template_groups": 0,
+    "normalized_duplicate_groups": 0,
+    "pattern_bias_count": 0,
+    "question_count": 192,
+    "reference_error_count": 0,
+    "split_counts": {
+      "private_eval": 48,
+      "train": 120,
+      "validation": 24
+    },
+    "status_counts": {
+      "FAIL": 0,
+      "PASS": 190,
+      "REVIEW": 2
+    },
+    "task_type_counts": {
+      "acid_base_reasoning": 1,
+      "algorithm_trace": 3,
+      "angle_reasoning": 1,
+      "argument_analysis": 1,
+      "arithmetic_sequence": 1,
+      "array_transformation": 1,
+      "astronomy_sequence": 1,
+      "average_speed": 1,
+      "boolean_trace": 1,
+      "calendar_reasoning": 1,
+      "calorimetry": 1,
+      "cell_transport": 1,
+      "chemical_conservation": 1,
+      "circuit_analysis": 1,
+      "circuit_power": 1,
+      "circular_arrangement": 1,
+      "climate_reasoning": 1,
+      "closure_trace": 1,
+      "clue_truth": 1,
+      "code_deduction": 1,
+      "code_trace": 1,
+      "cohesion": 1,
+      "combinatorial_logic": 1,
+      "combinatorics": 1,
+      "comparison_logic": 1,
+      "complexity_analysis": 1,
+      "composite_geometry": 1,
+      "compound_growth": 1,
+      "comprehension_trace": 1,
+      "conditional_probability": 1,
+      "conditional_testing": 1,
+      "connector_selection": 1,
+      "constraint_enumeration": 1,
+      "coordinate_reasoning": 1,
+      "copy_semantics": 1,
+      "counterfactual": 1,
+      "counting": 1,
+      "data_interpretation": 1,
+      "data_structure_trace": 1,
+      "deduction": 1,
+      "density_buoyancy": 1,
+      "discourse_relation": 1,
+      "discrete_optimization": 1,
+      "dynamic_programming": 1,
+      "earthquake_waves": 1,
+      "ecosystem_energy": 1,
+      "electric_energy": 1,
+      "ellipsis_resolution": 1,
+      "energy_efficiency": 1,
+      "exception_trace": 1,
+      "experimental_design": 2,
+      "exponent_rules": 1,
+      "fallacy_detection": 1,
+      "fraction_equation": 1,
+      "function_composition": 1,
+      "function_state": 1,
+      "gas_law": 1,
+      "genetics_probability": 2,
+      "geometry_constraints": 1,
+      "grammar_analysis": 1,
+      "grammar_correction": 2,
+      "graph_interpretation": 1,
+      "graph_reasoning": 1,
+      "graph_traversal": 1,
+      "honorifics": 2,
+      "idiom_meaning": 1,
+      "inclusion_exclusion": 1,
+      "initialization_bug": 1,
+      "instruction_following": 1,
+      "integer_arithmetic": 1,
+      "invariant_reasoning": 1,
+      "inverse_proportion": 1,
+      "iteration_trace": 1,
+      "iterator_semantics": 1,
+      "lever_balance": 1,
+      "lexical_choice": 1,
+      "lexical_semantics": 1,
+      "linear_arrangement": 1,
+      "linear_system": 1,
+      "linear_system_context": 1,
+      "logic_grid": 1,
+      "logical_equivalence": 1,
+      "loop_boundary_repair": 1,
+      "mean_reasoning": 1,
+      "measurement_uncertainty": 1,
+      "mechanical_system": 1,
+      "memoization_trace": 1,
+      "method_call_bug": 1,
+      "mixture_reasoning": 1,
+      "modular_reasoning": 1,
+      "momentum_conservation": 1,
+      "morphology": 1,
+      "motion_analysis": 1,
+      "motion_safety": 1,
+      "multi_stage_probability": 1,
+      "mutation_bug_repair": 1,
+      "number_constraints": 1,
+      "object_trace": 1,
+      "optimization": 1,
+      "ordering_constraints": 1,
+      "particle_semantics": 1,
+      "path_counting": 2,
+      "pattern_inference": 1,
+      "percent_change": 1,
+      "phase_change_reasoning": 1,
+      "phonological_count": 1,
+      "phonology": 1,
+      "piecewise_cost": 1,
+      "piecewise_function": 1,
+      "pigeonhole": 1,
+      "polygon_angles": 1,
+      "population_estimation": 1,
+      "pragmatics": 1,
+      "pressure_reasoning": 1,
+      "probability": 1,
+      "propositional_logic": 1,
+      "proverb_meaning": 1,
+      "pseudocode_trace": 1,
+      "punctuation": 1,
+      "pythagorean_geometry": 1,
+      "quadratic_equation": 1,
+      "quadratic_vertex": 1,
+      "quantifier_logic": 1,
+      "queue_simulation": 2,
+      "quotation_conversion": 1,
+      "radioactive_decay": 1,
+      "ranking_constraints": 1,
+      "ratio_reasoning": 1,
+      "reading_comprehension": 1,
+      "reading_inference": 1,
+      "recursion_trace": 2,
+      "reference_resolution": 2,
+      "reference_semantics": 1,
+      "register_conversion": 1,
+      "relation_reasoning": 1,
+      "relative_speed": 1,
+      "representation_bug": 1,
+      "scale_reasoning": 1,
+      "scheduling": 2,
+      "scope_trace": 1,
+      "sensor_calibration": 1,
+      "sentence_ordering": 2,
+      "sequence_inference": 1,
+      "set_constraints": 1,
+      "set_operations": 1,
+      "set_reasoning": 1,
+      "social_choice": 1,
+      "solubility_reasoning": 1,
+      "solution_dilution": 1,
+      "sorting_semantics": 1,
+      "sorting_trace": 1,
+      "sound_reflection": 1,
+      "spacing": 1,
+      "spacing_semantics": 1,
+      "stack_validation": 1,
+      "state_reasoning": 1,
+      "statistics_reasoning": 1,
+      "stoichiometry": 2,
+      "string_parsing": 1,
+      "string_trace": 1,
+      "successive_operations": 1,
+      "summarization": 2,
+      "symbolic_constraints": 1,
+      "syntactic_ambiguity": 1,
+      "tense_reasoning": 1,
+      "test_design": 1,
+      "thermal_equilibrium": 1,
+      "three_speaker_truth": 1,
+      "topological_order": 1,
+      "two_person_truth": 1,
+      "two_speaker_truth": 1,
+      "unit_conversion": 1,
+      "venn_reasoning": 1,
+      "voice_conversion": 1,
+      "wave_relation": 1,
+      "weather_reasoning": 1,
+      "weighted_average": 1,
+      "work_rate": 1
+    },
+    "verification_method_counts": {
+      "calculation": 43,
+      "code_execution": 21,
+      "constraint_solver": 28,
+      "deterministic_calculation": 32,
+      "exact_match": 29,
+      "executable_tests": 5,
+      "programmatic_constraints": 13,
+      "rubric_review": 21
+    },
+    "verification_method_error_count": 0
+  },
+  "template_groups": []
+}

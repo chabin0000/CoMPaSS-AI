@@ -1,0 +1,43 @@
+{
+  "analysis": {
+    "mode": "synthetic_pipeline_validation",
+    "performance_claim": false,
+    "status": "complete"
+  },
+  "condition_counts": {
+    "S0": 0,
+    "S1": 120,
+    "S2": 120,
+    "S3_matched": 114,
+    "S3a": 240,
+    "S3b": 120,
+    "S4": 120,
+    "S4_teacher_only": 114,
+    "S4_with_human_correction": 120,
+    "S5": 125
+  },
+  "conflict_counts": {
+    "agree": 54,
+    "answer_conflict": 66
+  },
+  "core_integrity": "ready",
+  "dataset_checksum": "49e72cdcca2425d75080bf95428cb9d1ff8a9f53b016b5e7bcc409422a203fe2",
+  "finished_at": "2026-08-10T13:39:52.392369+00:00",
+  "manual_review_count": 17,
+  "matched_comparison": "PASS",
+  "mode": "synthetic_pipeline_validation",
+  "output_root": "C:\\Users\\sol2508\\AppData\\Local\\Temp\\compass-core-v2-rehearsal-b1bc290774a04a1f93141459105913d0",
+  "performance_claim": false,
+  "private_eval_leakage": "PASS",
+  "protocol_checksum": "a8d67d3e706838ace6d37c3058d7790fa77912976c101eb761106eb0febedd55",
+  "run_id": "compass-core-v2-rehearsal-b1bc290774a04a1f93141459105913d0",
+  "status": "complete",
+  "teacher_counts": {
+    "A": 120,
+    "B": 120
+  },
+  "tiny_training": {
+    "adapter_reload_verified": true,
+    "status": "complete"
+  }
+}

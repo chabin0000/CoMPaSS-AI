@@ -1,5 +1,7 @@
 # DGX Spark 실행 순서
 
+본실험용 복사·붙여넣기 명령과 실패별 재개 절차의 canonical 문서는 저장소 루트 `DGX_RUNBOOK.md`이다. 이 파일은 기존 pre-DGX 호환 경로로 유지한다.
+
 집 데스크톱: 개발·파일럿 준비 → `uv run python -m compass_ai pre-dgx-check --root .` → Git commit/push.
 
 게이밍 노트북: 저장소 clone/pull → 필요 시 같은 pre-DGX 검사 → 학교로 이동.

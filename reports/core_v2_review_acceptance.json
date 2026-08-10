@@ -1,0 +1,26 @@
+{
+  "acceptance_id": "core-v2-final-review-acceptance-v1",
+  "dataset_checksum": "49e72cdcca2425d75080bf95428cb9d1ff8a9f53b016b5e7bcc409422a203fe2",
+  "accepted_at": "2026-08-10T00:00:00+00:00",
+  "decision": "accepted_without_dataset_change",
+  "reviews": [
+    {
+      "question_id": "CORE2-TR-LOG-010",
+      "paired_question_id": "CORE2-PE-LOG-006",
+      "reference_answer": "PASS",
+      "verification_method": "PASS",
+      "actual_leakage": "PASS",
+      "difficulty": "PASS",
+      "acceptance_reason": "같은 격자 경로 능력을 다루지만, 장애물이 없는 2x2 기본 조합 문제와 장애물이 있는 3x2 제약 문제로 풀이 제약과 template family가 다르다. 동일 템플릿의 수치 치환이 아니다."
+    },
+    {
+      "question_id": "CORE2-PE-LOG-006",
+      "paired_question_id": "CORE2-TR-LOG-010",
+      "reference_answer": "PASS",
+      "verification_method": "PASS",
+      "actual_leakage": "PASS",
+      "difficulty": "PASS",
+      "acceptance_reason": "private_eval은 차단 좌표를 제외하는 추가 제약과 다단계 포함-배제 계산을 요구한다. train 문항의 문장·수치 치환형이 아니며 정답과 rubric은 비공개 경계를 유지한다."
+    }
+  ]
+}

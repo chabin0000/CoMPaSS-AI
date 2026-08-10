@@ -1,0 +1,12 @@
+{
+  "protocol_id": "argos-v1-private-eval-v1",
+  "status": "frozen_before_model_results",
+  "core_v1_dataset_checksum": "085fd56c60d4da157b768da8731ff9edb00381afe4aad3263e1563b5519dab7f",
+  "files": {
+    "comparison_template.csv": "ea42d60c002611d576114c8e97495fd4520f2bb0a06943ab7bd319561878186e",
+    "protocol.yaml": "a0bbb990a92a1a2bd25b2736abe6c151425469d27ef5396e4fa65944ddc7a39a",
+    "results_template.csv": "2206c9fa803f441083aa37f784778e8ee424e9ef031dcb7bf6c62e8c764e5435"
+  },
+  "snapshot_checksum": "8d89932576111b821485acdf9c71627ecd351dba651b09c6ad37344b2d442188",
+  "change_policy": "Any amendment after model results requires a new protocol_id and separate reporting."
+}

@@ -1,0 +1,2 @@
+comparison,left_condition,right_condition,left_overall,right_overall,difference,paired_n,discordant_left_correct,discordant_right_correct,exact_mcnemar_p,paired_bootstrap_ci_low,paired_bootstrap_ci_high
+primary,S4_teacher_only,S3_matched,,,S4_teacher_only-S3_matched,48,,,,,

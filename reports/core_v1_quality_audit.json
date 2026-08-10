@@ -1,0 +1,4157 @@
+{
+  "audit_id": "core-v1-quality-audit-20260810",
+  "core_files_unchanged_after_audit": {
+    "dataset_checksum": "085fd56c60d4da157b768da8731ff9edb00381afe4aad3263e1563b5519dab7f",
+    "file_sha256": {
+      "private_eval_questions.jsonl": "d39bf7b35b1d189ad717bb6f2f05b80303b601963816b09ca00f6da812105cdb",
+      "train_questions.jsonl": "41b37db3b66dfd27c21d6b016a1539984169c56d8f2fdac9e4477c3280d2532f",
+      "validation_questions.jsonl": "3e0646227da6469213678ca4889f3b296c41c86a9835d278720080562a66bb04"
+    }
+  },
+  "cross_split_suspect_pairs": [
+    {
+      "left": "CORE-TR-MATH-001",
+      "right": "CORE-VA-MATH-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-001",
+      "right": "CORE-PE-MATH-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-009",
+      "right": "CORE-VA-MATH-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-009",
+      "right": "CORE-PE-MATH-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-017",
+      "right": "CORE-VA-MATH-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-017",
+      "right": "CORE-PE-MATH-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-MATH-001",
+      "right": "CORE-PE-MATH-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-002",
+      "right": "CORE-VA-MATH-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-002",
+      "right": "CORE-PE-MATH-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-010",
+      "right": "CORE-VA-MATH-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-010",
+      "right": "CORE-PE-MATH-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-018",
+      "right": "CORE-VA-MATH-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-018",
+      "right": "CORE-PE-MATH-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-MATH-002",
+      "right": "CORE-PE-MATH-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-003",
+      "right": "CORE-VA-MATH-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-003",
+      "right": "CORE-PE-MATH-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-011",
+      "right": "CORE-VA-MATH-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-011",
+      "right": "CORE-PE-MATH-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-019",
+      "right": "CORE-VA-MATH-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-019",
+      "right": "CORE-PE-MATH-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-MATH-003",
+      "right": "CORE-PE-MATH-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-004",
+      "right": "CORE-VA-MATH-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-004",
+      "right": "CORE-PE-MATH-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-012",
+      "right": "CORE-VA-MATH-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-012",
+      "right": "CORE-PE-MATH-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-020",
+      "right": "CORE-VA-MATH-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-020",
+      "right": "CORE-PE-MATH-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-MATH-004",
+      "right": "CORE-PE-MATH-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-005",
+      "right": "CORE-VA-MATH-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-005",
+      "right": "CORE-PE-MATH-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-013",
+      "right": "CORE-VA-MATH-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-013",
+      "right": "CORE-PE-MATH-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-021",
+      "right": "CORE-VA-MATH-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-021",
+      "right": "CORE-PE-MATH-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-MATH-005",
+      "right": "CORE-PE-MATH-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-006",
+      "right": "CORE-PE-MATH-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-006",
+      "right": "CORE-PE-MATH-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-014",
+      "right": "CORE-PE-MATH-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-014",
+      "right": "CORE-PE-MATH-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-022",
+      "right": "CORE-PE-MATH-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-022",
+      "right": "CORE-PE-MATH-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-007",
+      "right": "CORE-PE-MATH-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-007",
+      "right": "CORE-PE-MATH-010",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-015",
+      "right": "CORE-PE-MATH-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-015",
+      "right": "CORE-PE-MATH-010",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-023",
+      "right": "CORE-PE-MATH-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-023",
+      "right": "CORE-PE-MATH-010",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-008",
+      "right": "CORE-PE-MATH-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-016",
+      "right": "CORE-PE-MATH-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-MATH-024",
+      "right": "CORE-PE-MATH-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-001",
+      "right": "CORE-VA-CODE-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-001",
+      "right": "CORE-PE-CODE-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-009",
+      "right": "CORE-VA-CODE-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-009",
+      "right": "CORE-PE-CODE-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-017",
+      "right": "CORE-VA-CODE-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-017",
+      "right": "CORE-PE-CODE-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-CODE-001",
+      "right": "CORE-PE-CODE-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-002",
+      "right": "CORE-VA-CODE-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-002",
+      "right": "CORE-PE-CODE-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-010",
+      "right": "CORE-VA-CODE-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-010",
+      "right": "CORE-PE-CODE-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-018",
+      "right": "CORE-VA-CODE-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-018",
+      "right": "CORE-PE-CODE-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-CODE-002",
+      "right": "CORE-PE-CODE-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-003",
+      "right": "CORE-VA-CODE-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-003",
+      "right": "CORE-PE-CODE-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-011",
+      "right": "CORE-VA-CODE-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-011",
+      "right": "CORE-PE-CODE-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-019",
+      "right": "CORE-VA-CODE-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-019",
+      "right": "CORE-PE-CODE-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-CODE-003",
+      "right": "CORE-PE-CODE-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-004",
+      "right": "CORE-VA-CODE-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-004",
+      "right": "CORE-PE-CODE-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-012",
+      "right": "CORE-VA-CODE-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-012",
+      "right": "CORE-PE-CODE-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-020",
+      "right": "CORE-VA-CODE-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-020",
+      "right": "CORE-PE-CODE-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-CODE-004",
+      "right": "CORE-PE-CODE-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-005",
+      "right": "CORE-VA-CODE-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-005",
+      "right": "CORE-PE-CODE-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-013",
+      "right": "CORE-VA-CODE-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-013",
+      "right": "CORE-PE-CODE-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-021",
+      "right": "CORE-VA-CODE-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-021",
+      "right": "CORE-PE-CODE-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-CODE-005",
+      "right": "CORE-PE-CODE-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-006",
+      "right": "CORE-PE-CODE-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-006",
+      "right": "CORE-PE-CODE-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-014",
+      "right": "CORE-PE-CODE-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-014",
+      "right": "CORE-PE-CODE-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-022",
+      "right": "CORE-PE-CODE-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-022",
+      "right": "CORE-PE-CODE-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-007",
+      "right": "CORE-PE-CODE-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-007",
+      "right": "CORE-PE-CODE-010",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-015",
+      "right": "CORE-PE-CODE-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-015",
+      "right": "CORE-PE-CODE-010",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-023",
+      "right": "CORE-PE-CODE-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-023",
+      "right": "CORE-PE-CODE-010",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-008",
+      "right": "CORE-PE-CODE-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-016",
+      "right": "CORE-PE-CODE-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-CODE-024",
+      "right": "CORE-PE-CODE-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-001",
+      "right": "CORE-VA-SCI-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-001",
+      "right": "CORE-PE-SCI-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-009",
+      "right": "CORE-VA-SCI-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-009",
+      "right": "CORE-PE-SCI-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-017",
+      "right": "CORE-VA-SCI-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-017",
+      "right": "CORE-PE-SCI-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-SCI-001",
+      "right": "CORE-PE-SCI-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-002",
+      "right": "CORE-VA-SCI-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-002",
+      "right": "CORE-PE-SCI-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-010",
+      "right": "CORE-VA-SCI-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-010",
+      "right": "CORE-PE-SCI-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-018",
+      "right": "CORE-VA-SCI-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-018",
+      "right": "CORE-PE-SCI-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-SCI-002",
+      "right": "CORE-PE-SCI-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-003",
+      "right": "CORE-VA-SCI-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-003",
+      "right": "CORE-PE-SCI-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-011",
+      "right": "CORE-VA-SCI-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-011",
+      "right": "CORE-PE-SCI-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-019",
+      "right": "CORE-VA-SCI-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-019",
+      "right": "CORE-PE-SCI-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-SCI-003",
+      "right": "CORE-PE-SCI-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-004",
+      "right": "CORE-VA-SCI-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-004",
+      "right": "CORE-PE-SCI-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-012",
+      "right": "CORE-VA-SCI-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-012",
+      "right": "CORE-PE-SCI-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-020",
+      "right": "CORE-VA-SCI-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-020",
+      "right": "CORE-PE-SCI-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-SCI-004",
+      "right": "CORE-PE-SCI-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-005",
+      "right": "CORE-VA-SCI-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-005",
+      "right": "CORE-PE-SCI-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-013",
+      "right": "CORE-VA-SCI-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-013",
+      "right": "CORE-PE-SCI-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-021",
+      "right": "CORE-VA-SCI-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-021",
+      "right": "CORE-PE-SCI-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-SCI-005",
+      "right": "CORE-PE-SCI-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-006",
+      "right": "CORE-PE-SCI-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-006",
+      "right": "CORE-PE-SCI-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-014",
+      "right": "CORE-PE-SCI-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-014",
+      "right": "CORE-PE-SCI-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-022",
+      "right": "CORE-PE-SCI-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-022",
+      "right": "CORE-PE-SCI-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-007",
+      "right": "CORE-PE-SCI-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-007",
+      "right": "CORE-PE-SCI-010",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-015",
+      "right": "CORE-PE-SCI-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-015",
+      "right": "CORE-PE-SCI-010",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-023",
+      "right": "CORE-PE-SCI-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-023",
+      "right": "CORE-PE-SCI-010",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-008",
+      "right": "CORE-PE-SCI-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-016",
+      "right": "CORE-PE-SCI-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-SCI-024",
+      "right": "CORE-PE-SCI-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-001",
+      "right": "CORE-VA-LOG-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-001",
+      "right": "CORE-PE-LOG-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-009",
+      "right": "CORE-VA-LOG-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-009",
+      "right": "CORE-PE-LOG-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-017",
+      "right": "CORE-VA-LOG-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-017",
+      "right": "CORE-PE-LOG-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-LOG-001",
+      "right": "CORE-PE-LOG-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-002",
+      "right": "CORE-VA-LOG-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-002",
+      "right": "CORE-PE-LOG-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-010",
+      "right": "CORE-VA-LOG-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-010",
+      "right": "CORE-PE-LOG-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-018",
+      "right": "CORE-VA-LOG-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-018",
+      "right": "CORE-PE-LOG-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-LOG-002",
+      "right": "CORE-PE-LOG-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-003",
+      "right": "CORE-VA-LOG-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-003",
+      "right": "CORE-PE-LOG-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-011",
+      "right": "CORE-VA-LOG-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-011",
+      "right": "CORE-PE-LOG-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-019",
+      "right": "CORE-VA-LOG-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-019",
+      "right": "CORE-PE-LOG-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-LOG-003",
+      "right": "CORE-PE-LOG-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-004",
+      "right": "CORE-VA-LOG-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-004",
+      "right": "CORE-PE-LOG-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-012",
+      "right": "CORE-VA-LOG-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-012",
+      "right": "CORE-PE-LOG-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-020",
+      "right": "CORE-VA-LOG-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-020",
+      "right": "CORE-PE-LOG-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-LOG-004",
+      "right": "CORE-PE-LOG-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-005",
+      "right": "CORE-VA-LOG-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-005",
+      "right": "CORE-PE-LOG-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-013",
+      "right": "CORE-VA-LOG-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-013",
+      "right": "CORE-PE-LOG-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-021",
+      "right": "CORE-VA-LOG-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-021",
+      "right": "CORE-PE-LOG-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-LOG-005",
+      "right": "CORE-PE-LOG-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-006",
+      "right": "CORE-PE-LOG-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-006",
+      "right": "CORE-PE-LOG-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-014",
+      "right": "CORE-PE-LOG-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-014",
+      "right": "CORE-PE-LOG-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-022",
+      "right": "CORE-PE-LOG-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-022",
+      "right": "CORE-PE-LOG-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-007",
+      "right": "CORE-PE-LOG-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-015",
+      "right": "CORE-PE-LOG-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-023",
+      "right": "CORE-PE-LOG-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-008",
+      "right": "CORE-PE-LOG-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-016",
+      "right": "CORE-PE-LOG-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-LOG-024",
+      "right": "CORE-PE-LOG-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-001",
+      "right": "CORE-VA-KOR-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-001",
+      "right": "CORE-PE-KOR-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-009",
+      "right": "CORE-VA-KOR-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-009",
+      "right": "CORE-PE-KOR-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-017",
+      "right": "CORE-VA-KOR-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-017",
+      "right": "CORE-PE-KOR-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-KOR-001",
+      "right": "CORE-PE-KOR-005",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-002",
+      "right": "CORE-VA-KOR-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-002",
+      "right": "CORE-PE-KOR-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-010",
+      "right": "CORE-VA-KOR-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-010",
+      "right": "CORE-PE-KOR-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-018",
+      "right": "CORE-VA-KOR-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-018",
+      "right": "CORE-PE-KOR-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-KOR-002",
+      "right": "CORE-PE-KOR-006",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-003",
+      "right": "CORE-VA-KOR-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-003",
+      "right": "CORE-PE-KOR-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-011",
+      "right": "CORE-VA-KOR-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-011",
+      "right": "CORE-PE-KOR-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-019",
+      "right": "CORE-VA-KOR-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-019",
+      "right": "CORE-PE-KOR-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-KOR-003",
+      "right": "CORE-PE-KOR-007",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-004",
+      "right": "CORE-VA-KOR-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-004",
+      "right": "CORE-PE-KOR-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-012",
+      "right": "CORE-VA-KOR-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-012",
+      "right": "CORE-PE-KOR-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-020",
+      "right": "CORE-VA-KOR-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-020",
+      "right": "CORE-PE-KOR-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-VA-KOR-004",
+      "right": "CORE-PE-KOR-008",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-005",
+      "right": "CORE-PE-KOR-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-005",
+      "right": "CORE-PE-KOR-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-013",
+      "right": "CORE-PE-KOR-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-013",
+      "right": "CORE-PE-KOR-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-021",
+      "right": "CORE-PE-KOR-001",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-021",
+      "right": "CORE-PE-KOR-009",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-006",
+      "right": "CORE-PE-KOR-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-014",
+      "right": "CORE-PE-KOR-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-022",
+      "right": "CORE-PE-KOR-002",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-007",
+      "right": "CORE-PE-KOR-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-015",
+      "right": "CORE-PE-KOR-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-023",
+      "right": "CORE-PE-KOR-003",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-008",
+      "right": "CORE-PE-KOR-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-016",
+      "right": "CORE-PE-KOR-004",
+      "template_similarity": 1.0
+    },
+    {
+      "left": "CORE-TR-KOR-024",
+      "right": "CORE-PE-KOR-004",
+      "template_similarity": 1.0
+    }
+  ],
+  "distributions": {
+    "private_eval": {
+      "difficulty": {
+        "easy": 15,
+        "hard": 18,
+        "medium": 15
+      },
+      "domain": {
+        "coding": 10,
+        "korean": 9,
+        "logic": 9,
+        "math": 10,
+        "science": 10
+      },
+      "task_type": {
+        "boolean_logic": 1,
+        "branch_trace": 2,
+        "circuits": 2,
+        "complexity": 1,
+        "constraint_logic": 2,
+        "coordinate_geometry": 2,
+        "density": 1,
+        "electricity": 1,
+        "energy": 1,
+        "geometry": 1,
+        "grammar": 2,
+        "honorific": 2,
+        "indexing": 2,
+        "kinematics": 1,
+        "linear_equation": 1,
+        "list_comprehension": 1,
+        "loop_trace": 1,
+        "meaning": 1,
+        "mechanics": 1,
+        "modus_tollens": 1,
+        "morphology": 1,
+        "number_theory": 1,
+        "ordering": 1,
+        "parity": 1,
+        "percentage": 1,
+        "probability": 2,
+        "propositional_logic": 1,
+        "python_trace": 1,
+        "representation": 1,
+        "sequence": 1,
+        "sequence_logic": 1,
+        "set_logic": 1,
+        "sorting": 1,
+        "syllogism": 1,
+        "thermodynamics": 1,
+        "vocabulary": 1,
+        "waves": 2,
+        "word_count": 1,
+        "word_problem": 1
+      },
+      "verification_method": {
+        "calculation": 10,
+        "exact_match": 26,
+        "rubric_review": 2,
+        "unit_calculation": 10
+      }
+    },
+    "train": {
+      "difficulty": {
+        "easy": 40,
+        "hard": 40,
+        "medium": 40
+      },
+      "domain": {
+        "coding": 24,
+        "korean": 24,
+        "logic": 24,
+        "math": 24,
+        "science": 24
+      },
+      "task_type": {
+        "boolean_logic": 3,
+        "branch_trace": 3,
+        "circuits": 3,
+        "complexity": 3,
+        "constraint_logic": 3,
+        "coordinate_geometry": 3,
+        "density": 3,
+        "electricity": 3,
+        "energy": 3,
+        "geometry": 3,
+        "grammar": 6,
+        "honorific": 3,
+        "indexing": 3,
+        "kinematics": 3,
+        "linear_equation": 3,
+        "list_comprehension": 3,
+        "loop_trace": 3,
+        "meaning": 3,
+        "mechanics": 3,
+        "modus_tollens": 3,
+        "morphology": 3,
+        "number_theory": 3,
+        "ordering": 3,
+        "parity": 3,
+        "percentage": 3,
+        "probability": 3,
+        "propositional_logic": 3,
+        "python_trace": 3,
+        "representation": 3,
+        "sequence": 3,
+        "sequence_logic": 3,
+        "set_logic": 3,
+        "sorting": 3,
+        "syllogism": 3,
+        "thermodynamics": 3,
+        "vocabulary": 3,
+        "waves": 3,
+        "word_count": 3,
+        "word_problem": 3
+      },
+      "verification_method": {
+        "calculation": 27,
+        "exact_match": 66,
+        "rubric_review": 3,
+        "unit_calculation": 24
+      }
+    },
+    "validation": {
+      "difficulty": {
+        "easy": 10,
+        "hard": 5,
+        "medium": 9
+      },
+      "domain": {
+        "coding": 5,
+        "korean": 4,
+        "logic": 5,
+        "math": 5,
+        "science": 5
+      },
+      "task_type": {
+        "complexity": 1,
+        "density": 1,
+        "electricity": 1,
+        "energy": 1,
+        "geometry": 1,
+        "grammar": 1,
+        "kinematics": 1,
+        "linear_equation": 1,
+        "list_comprehension": 1,
+        "loop_trace": 1,
+        "mechanics": 1,
+        "number_theory": 1,
+        "ordering": 1,
+        "percentage": 1,
+        "propositional_logic": 1,
+        "python_trace": 1,
+        "representation": 1,
+        "sequence": 1,
+        "sequence_logic": 1,
+        "set_logic": 1,
+        "sorting": 1,
+        "syllogism": 1,
+        "vocabulary": 1,
+        "word_count": 1
+      },
+      "verification_method": {
+        "calculation": 7,
+        "exact_match": 12,
+        "unit_calculation": 5
+      }
+    }
+  },
+  "exact_duplicate_groups": [],
+  "findings": [
+    {
+      "question_id": "CORE-TR-MATH-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-005",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-006",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-007",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-008",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-009",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-010",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-011",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-012",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-013",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-014",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-015",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-016",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-017",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-018",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-019",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-020",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-021",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-022",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-023",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-MATH-024",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-005",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-006",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-007",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-008",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-009",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-010",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-011",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-012",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-013",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-014",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-015",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-016",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-017",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-018",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-019",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-020",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-021",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-022",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-023",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-CODE-024",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-005",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-006",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-007",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-008",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-009",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-010",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-011",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-012",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-013",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-014",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-015",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-016",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-017",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-018",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-019",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-020",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-021",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-022",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-023",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-SCI-024",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-005",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-006",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-007",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-008",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-009",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-010",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-011",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-012",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-013",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-014",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-015",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-016",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-017",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-018",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-019",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-020",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-021",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-022",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-023",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-LOG-024",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-005",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 rubric_review를 자동 실행하지 못함",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: manual_rubric_reference_requires_blinded_review"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-006",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-007",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-008",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-009",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-010",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-011",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-012",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-013",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 현재 independent verifier가 rubric_review를 자동 실행하지 못함",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: manual_rubric_reference_requires_blinded_review"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-014",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-015",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-016",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-017",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-018",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-019",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-020",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-021",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 rubric_review를 자동 실행하지 못함",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: manual_rubric_reference_requires_blinded_review"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-022",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-023",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-TR-KOR-024",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "REVIEW: validation/private_eval과 동일 템플릿을 공유하는 train 문항",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "train",
+      "status": "REVIEW"
+    },
+    {
+      "question_id": "CORE-VA-MATH-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-MATH-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-MATH-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-MATH-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-MATH-005",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-CODE-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-CODE-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-CODE-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-CODE-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-CODE-005",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-SCI-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-SCI-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-SCI-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-SCI-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-SCI-005",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-LOG-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-LOG-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-LOG-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-LOG-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-LOG-005",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-KOR-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-KOR-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-KOR-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-VA-KOR-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "validation",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-MATH-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-MATH-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-MATH-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-MATH-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-MATH-005",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-MATH-006",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-MATH-007",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-MATH-008",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-MATH-009",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-MATH-010",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-CODE-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-CODE-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-CODE-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-CODE-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-CODE-005",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-CODE-006",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-CODE-007",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-CODE-008",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-CODE-009",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-CODE-010",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-SCI-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-SCI-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-SCI-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-SCI-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-SCI-005",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-SCI-006",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-SCI-007",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-SCI-008",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-SCI-009",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-SCI-010",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 unit_calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-LOG-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-LOG-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-LOG-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-LOG-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-LOG-005",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-LOG-006",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-LOG-007",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-LOG-008",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 현재 independent verifier가 calculation를 자동 실행하지 못함",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-LOG-009",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-KOR-001",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 현재 independent verifier가 rubric_review를 자동 실행하지 못함",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: manual_rubric_reference_requires_blinded_review"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-KOR-002",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-KOR-003",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-KOR-004",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-KOR-005",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-KOR-006",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-KOR-007",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=medium로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-KOR-008",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 1단계 문제인데 difficulty=hard로 순환 배정된 정황",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: 자동검증 가능하지만 반복 템플릿 패턴 암기 위험"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    },
+    {
+      "question_id": "CORE-PE-KOR-009",
+      "reasons": [
+        "REVIEW: 단일 단계·정형 문제로 ARGOS-v1 변별력이 지나치게 낮을 가능성",
+        "FAIL: train과 숫자/변수만 다른 동일 문제 템플릿",
+        "REVIEW: 현재 independent verifier가 rubric_review를 자동 실행하지 못함",
+        "REVIEW: 고유화 목적의 문항/사례 번호가 질문에 섞여 표현이 인위적임",
+        "REVIEW: manual_rubric_reference_requires_blinded_review"
+      ],
+      "split": "private_eval",
+      "status": "FAIL"
+    }
+  ],
+  "method": {
+    "difficulty_review": "single-step task treated as easy; non-easy labels flagged",
+    "exact_duplicate": "literal string equality",
+    "normalized_duplicate": "Unicode NFKC + casefold + whitespace collapse",
+    "reference_review": "stored answer SHA-256 plus task-specific independent recalculation; rubric items require human review",
+    "semantic_leakage": "template near-duplicate crossing split; no external embedding API",
+    "template_near_duplicate": "same domain/task_type after replacing all numeric literals"
+  },
+  "normalized_duplicate_groups": [],
+  "scope": {
+    "dataset_checksum": "085fd56c60d4da157b768da8731ff9edb00381afe4aad3263e1563b5519dab7f",
+    "dataset_version": "core-v1",
+    "question_count": 192
+  },
+  "summary": {
+    "artificial_identifier_phrase_count": 56,
+    "auto_template_memorization_risk_count": 187,
+    "cross_split_affected_all_items": 192,
+    "cross_split_affected_eval_items": 72,
+    "cross_split_suspect_pairs": 240,
+    "current_verifier_unsupported_count": 88,
+    "domain_label_error_count": 0,
+    "exact_duplicate_groups": 0,
+    "freeze_recommendation": "DO_NOT_FREEZE_AS_FINAL_EVALUATION",
+    "korean_artificial_identifier_phrase_count": 27,
+    "non_easy_label_review_count": 127,
+    "normalized_duplicate_groups": 0,
+    "overly_easy_review_count": 192,
+    "private_key_available_during_audit": true,
+    "reference_error_count": 0,
+    "reference_status_counts": {
+      "pass": 187,
+      "review": 5
+    },
+    "status_counts": {
+      "FAIL": 72,
+      "PASS": 0,
+      "REVIEW": 120
+    },
+    "template_near_duplicate_groups": 40,
+    "template_near_duplicate_pairs": 368,
+    "verification_method_semantic_mismatch_count": 0
+  },
+  "template_near_duplicate_groups": [
+    {
+      "question_ids": [
+        "CORE-TR-MATH-001",
+        "CORE-TR-MATH-009",
+        "CORE-TR-MATH-017",
+        "CORE-VA-MATH-001",
+        "CORE-PE-MATH-004"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-MATH-002",
+        "CORE-TR-MATH-010",
+        "CORE-TR-MATH-018",
+        "CORE-VA-MATH-002",
+        "CORE-PE-MATH-005"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-MATH-003",
+        "CORE-TR-MATH-011",
+        "CORE-TR-MATH-019",
+        "CORE-VA-MATH-003",
+        "CORE-PE-MATH-006"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-MATH-004",
+        "CORE-TR-MATH-012",
+        "CORE-TR-MATH-020",
+        "CORE-VA-MATH-004",
+        "CORE-PE-MATH-007"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-MATH-005",
+        "CORE-TR-MATH-013",
+        "CORE-TR-MATH-021",
+        "CORE-VA-MATH-005",
+        "CORE-PE-MATH-008"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-MATH-006",
+        "CORE-TR-MATH-014",
+        "CORE-TR-MATH-022",
+        "CORE-PE-MATH-001",
+        "CORE-PE-MATH-009"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-MATH-007",
+        "CORE-TR-MATH-015",
+        "CORE-TR-MATH-023",
+        "CORE-PE-MATH-002",
+        "CORE-PE-MATH-010"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-MATH-008",
+        "CORE-TR-MATH-016",
+        "CORE-TR-MATH-024",
+        "CORE-PE-MATH-003"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-CODE-001",
+        "CORE-TR-CODE-009",
+        "CORE-TR-CODE-017",
+        "CORE-VA-CODE-001",
+        "CORE-PE-CODE-004"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-CODE-002",
+        "CORE-TR-CODE-010",
+        "CORE-TR-CODE-018",
+        "CORE-VA-CODE-002",
+        "CORE-PE-CODE-005"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-CODE-003",
+        "CORE-TR-CODE-011",
+        "CORE-TR-CODE-019",
+        "CORE-VA-CODE-003",
+        "CORE-PE-CODE-006"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-CODE-004",
+        "CORE-TR-CODE-012",
+        "CORE-TR-CODE-020",
+        "CORE-VA-CODE-004",
+        "CORE-PE-CODE-007"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-CODE-005",
+        "CORE-TR-CODE-013",
+        "CORE-TR-CODE-021",
+        "CORE-VA-CODE-005",
+        "CORE-PE-CODE-008"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-CODE-006",
+        "CORE-TR-CODE-014",
+        "CORE-TR-CODE-022",
+        "CORE-PE-CODE-001",
+        "CORE-PE-CODE-009"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-CODE-007",
+        "CORE-TR-CODE-015",
+        "CORE-TR-CODE-023",
+        "CORE-PE-CODE-002",
+        "CORE-PE-CODE-010"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-CODE-008",
+        "CORE-TR-CODE-016",
+        "CORE-TR-CODE-024",
+        "CORE-PE-CODE-003"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-SCI-001",
+        "CORE-TR-SCI-009",
+        "CORE-TR-SCI-017",
+        "CORE-VA-SCI-001",
+        "CORE-PE-SCI-004"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-SCI-002",
+        "CORE-TR-SCI-010",
+        "CORE-TR-SCI-018",
+        "CORE-VA-SCI-002",
+        "CORE-PE-SCI-005"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-SCI-003",
+        "CORE-TR-SCI-011",
+        "CORE-TR-SCI-019",
+        "CORE-VA-SCI-003",
+        "CORE-PE-SCI-006"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-SCI-004",
+        "CORE-TR-SCI-012",
+        "CORE-TR-SCI-020",
+        "CORE-VA-SCI-004",
+        "CORE-PE-SCI-007"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-SCI-005",
+        "CORE-TR-SCI-013",
+        "CORE-TR-SCI-021",
+        "CORE-VA-SCI-005",
+        "CORE-PE-SCI-008"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-SCI-006",
+        "CORE-TR-SCI-014",
+        "CORE-TR-SCI-022",
+        "CORE-PE-SCI-001",
+        "CORE-PE-SCI-009"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-SCI-007",
+        "CORE-TR-SCI-015",
+        "CORE-TR-SCI-023",
+        "CORE-PE-SCI-002",
+        "CORE-PE-SCI-010"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-SCI-008",
+        "CORE-TR-SCI-016",
+        "CORE-TR-SCI-024",
+        "CORE-PE-SCI-003"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-LOG-001",
+        "CORE-TR-LOG-009",
+        "CORE-TR-LOG-017",
+        "CORE-VA-LOG-001",
+        "CORE-PE-LOG-004"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-LOG-002",
+        "CORE-TR-LOG-010",
+        "CORE-TR-LOG-018",
+        "CORE-VA-LOG-002",
+        "CORE-PE-LOG-005"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-LOG-003",
+        "CORE-TR-LOG-011",
+        "CORE-TR-LOG-019",
+        "CORE-VA-LOG-003",
+        "CORE-PE-LOG-006"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-LOG-004",
+        "CORE-TR-LOG-012",
+        "CORE-TR-LOG-020",
+        "CORE-VA-LOG-004",
+        "CORE-PE-LOG-007"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-LOG-005",
+        "CORE-TR-LOG-013",
+        "CORE-TR-LOG-021",
+        "CORE-VA-LOG-005",
+        "CORE-PE-LOG-008"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-LOG-006",
+        "CORE-TR-LOG-014",
+        "CORE-TR-LOG-022",
+        "CORE-PE-LOG-001",
+        "CORE-PE-LOG-009"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-LOG-007",
+        "CORE-TR-LOG-015",
+        "CORE-TR-LOG-023",
+        "CORE-PE-LOG-002"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-LOG-008",
+        "CORE-TR-LOG-016",
+        "CORE-TR-LOG-024",
+        "CORE-PE-LOG-003"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-KOR-001",
+        "CORE-TR-KOR-009",
+        "CORE-TR-KOR-017",
+        "CORE-VA-KOR-001",
+        "CORE-PE-KOR-005"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-KOR-002",
+        "CORE-TR-KOR-010",
+        "CORE-TR-KOR-018",
+        "CORE-VA-KOR-002",
+        "CORE-PE-KOR-006"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-KOR-003",
+        "CORE-TR-KOR-011",
+        "CORE-TR-KOR-019",
+        "CORE-VA-KOR-003",
+        "CORE-PE-KOR-007"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-KOR-004",
+        "CORE-TR-KOR-012",
+        "CORE-TR-KOR-020",
+        "CORE-VA-KOR-004",
+        "CORE-PE-KOR-008"
+      ],
+      "splits": [
+        "private_eval",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-KOR-005",
+        "CORE-TR-KOR-013",
+        "CORE-TR-KOR-021",
+        "CORE-PE-KOR-001",
+        "CORE-PE-KOR-009"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-KOR-006",
+        "CORE-TR-KOR-014",
+        "CORE-TR-KOR-022",
+        "CORE-PE-KOR-002"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-KOR-007",
+        "CORE-TR-KOR-015",
+        "CORE-TR-KOR-023",
+        "CORE-PE-KOR-003"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    },
+    {
+      "question_ids": [
+        "CORE-TR-KOR-008",
+        "CORE-TR-KOR-016",
+        "CORE-TR-KOR-024",
+        "CORE-PE-KOR-004"
+      ],
+      "splits": [
+        "private_eval",
+        "train"
+      ]
+    }
+  ]
+}

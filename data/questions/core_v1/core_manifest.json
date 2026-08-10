@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-08-10T11:46:33.635385+00:00",
+  "dataset_checksum": "085fd56c60d4da157b768da8731ff9edb00381afe4aad3263e1563b5519dab7f",
+  "dataset_name": "CoMPaSS-AI Core",
+  "dataset_version": "core-v1",
+  "file_sha256": {
+    "private_eval_questions.jsonl": "d39bf7b35b1d189ad717bb6f2f05b80303b601963816b09ca00f6da812105cdb",
+    "train_questions.jsonl": "41b37db3b66dfd27c21d6b016a1539984169c56d8f2fdac9e4477c3280d2532f",
+    "validation_questions.jsonl": "3e0646227da6469213678ca4889f3b296c41c86a9835d278720080562a66bb04"
+  },
+  "private_key_location": "artifacts/private (gitignored; transfer separately)",
+  "private_key_sha256": "b84b5ed1aecade09510caedb68a662d1e9c66880ffa49d61db305e1f726f8426",
+  "summary": {
+    "auto_verifiable_count": 187,
+    "domain_counts": {
+      "coding": 39,
+      "korean": 37,
+      "logic": 38,
+      "math": 39,
+      "science": 39
+    },
+    "question_count": 192,
+    "split_counts": {
+      "private_eval": 48,
+      "train": 120,
+      "validation": 24
+    }
+  }
+}

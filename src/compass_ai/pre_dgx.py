@@ -2,13 +2,14 @@
 
 from __future__ import annotations
 
+import json
 import subprocess
 import sys
 from pathlib import Path
 
 from .jsonl import read_jsonl
 from .leakage import assert_private_final_is_safe
-from .pilot import assess_pilot_questions, create_pilot_manifest, validate_pilot_questions, write_pilot_manifest
+from .pilot import assess_pilot_questions, create_pilot_manifest, validate_pilot_questions
 
 
 def pre_dgx_check(root: Path, run_tests: bool = True) -> dict:
@@ -33,9 +34,21 @@ def pre_dgx_check(root: Path, run_tests: bool = True) -> dict:
             result["warnings"].extend(report["warnings"])
             result["errors"].extend(report["errors"])
             if not report["errors"]:
-                manifest = create_pilot_manifest(pilot_file, records)
-                write_pilot_manifest(pilot_file.parent / "pilot_manifest.json", manifest)
-                result["manifest"] = manifest
+                manifest_path = pilot_file.parent / "pilot_manifest.json"
+                if not manifest_path.exists():
+                    result["errors"].append({"type": "pilot_manifest_missing"})
+                else:
+                    frozen_manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+                    current_manifest = create_pilot_manifest(pilot_file, records)
+                    stable_fields = set(current_manifest) - {"created_at"}
+                    mismatched = [
+                        field for field in sorted(stable_fields)
+                        if frozen_manifest.get(field) != current_manifest.get(field)
+                    ]
+                    if mismatched:
+                        result["errors"].append({"type": "pilot_manifest_mismatch", "fields": mismatched})
+                    else:
+                        result["manifest"] = frozen_manifest
         except Exception as error:
             result["errors"].append({"type": "pilot_validation", "message": str(error)})
     if run_tests:

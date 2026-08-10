@@ -3,7 +3,17 @@ name = "compass-ai"
 version = "0.1.0"
 description = "CoMPaSS 집중탐구용 다중 교사 데이터 파이프라인"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = ["pyyaml>=6.0"]
+
+[project.optional-dependencies]
+student = [
+  "accelerate>=1.0",
+  "peft>=0.13",
+  "tokenizers>=0.20",
+  "torch>=2.4,<3",
+  "transformers>=4.45,<5",
+]
+student-qlora = ["bitsandbytes>=0.45"]
 
 [dependency-groups]
 dev = ["pytest>=8.0"]

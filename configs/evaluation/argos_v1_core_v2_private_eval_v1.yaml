@@ -1,0 +1,71 @@
+protocol_id: argos-v1-core-v2-private-eval-v1
+status: frozen_before_model_results
+dataset:
+  name: CoMPaSS-AI Core
+  version: core-v2
+  dataset_checksum: 49e72cdcca2425d75080bf95428cb9d1ff8a9f53b016b5e7bcc409422a203fe2
+  split: private_eval
+  question_count: 48
+  questions_file: data/questions/core_v2/private_eval_questions.jsonl
+  questions_file_sha256: 566f9fd6ca5dca56e3820f602478a6d981be549f41a2a39580220fa59a797682
+  private_key_sha256: 5a7740526a1d86c5661e4f9908a6f5415d9f7a2b878da9c09dad60d15f9989a3
+  same_items_for_all_conditions: true
+conditions:
+  - S0
+  - S1
+  - S2
+  - S3a
+  - S3b
+  - S3_matched
+  - S4_teacher_only
+  - S4_with_human_correction
+  - S5
+decoding:
+  prompt_format: tokenizer_chat_template
+  do_sample: false
+  temperature: 0.0
+  top_p: 1.0
+  num_beams: 1
+  max_new_tokens: 512
+  seed: 20260810
+  identical_across_conditions: true
+scoring:
+  primary_metric: accuracy
+  denominator: all_48_private_eval_items
+  report_domain_accuracy: [math, coding, science, logic, korean]
+  exact_match_normalization: [unicode_nfkc, trim, collapse_whitespace, casefold_latin]
+  deterministic_calculation: independently_recomputed_value
+  code_execution: sandboxed_tests_or_exact_trace
+  constraint_solver: deterministic_constraint_checker
+  rubric_review: blinded_predeclared_rubric
+  numeric_tolerance_absolute: 1.0e-9
+  numeric_tolerance_relative: 1.0e-9
+invalid_and_unresolved:
+  empty_refusal_parse_failure_runtime_error: incorrect
+  missing_private_key_or_rubric: stop_evaluation_without_publishing_score
+  rubric_reviewer_disagreement: incorrect_in_primary_metric_and_report_as_unresolved
+  post_hoc_item_exclusion: forbidden
+error_categories:
+  - wrong_value
+  - reasoning_constraint_failure
+  - code_trace_error
+  - unit_error
+  - format_error
+  - refusal
+  - empty_answer
+  - runtime_error
+  - rubric_fail
+  - unresolved_review
+primary_comparison:
+  left: S4_teacher_only
+  right: S3_matched
+  delta: accuracy(S4_teacher_only) - accuracy(S3_matched)
+  positive_interpretation: independent_verification_condition_higher
+statistics:
+  primary_test: exact_mcnemar_on_paired_48_item_outcomes
+  interval: paired_bootstrap_95_percent_ci_for_accuracy_delta
+  domain_tests: descriptive_only_due_to_9_or_10_items_per_domain
+  significance_claim_without_predeclared_test: forbidden
+protocol_change_policy:
+  changes_after_any_model_result: forbidden
+  amendment_requires: [new_protocol_id, new_checksum, written_reason, results_reported_separately]

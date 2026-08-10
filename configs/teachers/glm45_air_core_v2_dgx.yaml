@@ -1,0 +1,24 @@
+teacher_name: glm45_air
+experiment_id: core-v2-train-glm45-air-dgx
+dataset_name: compass-ai-core
+dataset_version: core-v2
+dataset_checksum: "22652b4f1e34e7f3ec9bbc0fa18c3114204e8dce4d6171b3a49967ead51f4715"
+base_url: http://127.0.0.1:8000/v1
+model: zai-org/GLM-4.5-Air
+timeout_seconds: 600
+system_prompt: >-
+  질문의 요구사항을 정확히 따르고 검증 가능한 최종 답변만 한국어로 제시하라.
+  내부 추론 과정이나 숨겨진 사고 과정은 출력하지 마라.
+generation:
+  temperature: 0
+  top_p: 1
+  max_tokens: 512
+  seed: 7
+extra_body: {}
+model_metadata:
+  checkpoint: null
+  revision: null
+  quantization: null
+  inference_engine: null
+  server_config: {}
+  core_v2_dataset_checksum: "49e72cdcca2425d75080bf95428cb9d1ff8a9f53b016b5e7bcc409422a203fe2"

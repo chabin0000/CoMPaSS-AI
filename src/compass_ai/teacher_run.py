@@ -58,4 +58,18 @@ def comparison_readiness(gpt_path: Path, glm_path: Path, expected_dataset_checks
         errors.append("generation_config_mismatch")
     if len(gpt) != len(glm):
         errors.append("question_count_mismatch")
-    return {"status": "error" if errors else "ready", "errors": errors, "gpt_count": len(gpt), "glm_count": len(glm)}
+    metadata_recorded = all(
+        isinstance(row.get("metadata"), dict)
+        and bool(row["metadata"].get("full_config_checksum"))
+        and isinstance(row["metadata"].get("model_specific"), dict)
+        for row in [*gpt, *glm]
+    )
+    if not metadata_recorded:
+        errors.append("model_specific_metadata_missing")
+    return {
+        "status": "error" if errors else "ready",
+        "errors": errors,
+        "gpt_count": len(gpt),
+        "glm_count": len(glm),
+        "model_specific_settings_recorded": metadata_recorded,
+    }

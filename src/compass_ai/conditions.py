@@ -31,19 +31,23 @@ def assert_matched_comparison(s3_matched: list[dict], s4_teacher_only: list[dict
         raise MatchedComparisonError("domain distribution이 S4_teacher_only와 다릅니다")
 
 
-def build_conditions(questions: list[dict], records: list[dict], korean_source: list[dict] | None = None) -> dict[str, Any]:
+def build_conditions(
+    questions: list[dict], records: list[dict], korean_source: list[dict] | None = None,
+    teacher_models: tuple[str, str] = ("MockTeacherA", "MockTeacherB"),
+) -> dict[str, Any]:
     """S3a/S3b와 사람 보정 포함 여부가 다른 S4 조건을 함께 만든다."""
     grouped = _by_question(records)
-    s1 = [item for item in records if item["teacher_model"] == "MockTeacherA"]
-    s2 = [item for item in records if item["teacher_model"] == "MockTeacherB"]
-    teacher_candidates = [item for item in records if item["teacher_model"] in {"MockTeacherA", "MockTeacherB"}]
+    teacher_a, teacher_b = teacher_models
+    s1 = [item for item in records if item["teacher_model"] == teacher_a]
+    s2 = [item for item in records if item["teacher_model"] == teacher_b]
+    teacher_candidates = [item for item in records if item["teacher_model"] in set(teacher_models)]
     s3a = list(teacher_candidates)
     s3b, selections = [], []
     for index, question in enumerate(sorted(questions, key=lambda row: row["question_id"])):
-        candidates = sorted([item for item in grouped.get(question["question_id"], []) if item["teacher_model"] in {"MockTeacherA", "MockTeacherB"}], key=lambda item: item["teacher_model"])
+        candidates = sorted([item for item in grouped.get(question["question_id"], []) if item["teacher_model"] in set(teacher_models)], key=lambda item: item["teacher_model"])
         if candidates:
             # 답의 품질·검증 결과와 무관한 질문 ID 순서 기반 고정 규칙이다.
-            preferred = "MockTeacherA" if index % 2 == 0 else "MockTeacherB"
+            preferred = teacher_a if index % 2 == 0 else teacher_b
             selected = next((item for item in candidates if item["teacher_model"] == preferred), candidates[0])
             row = dict(selected)
             row["condition_selection"] = {"condition": "S3b", "rule": "alternating_sorted_question_id_no_quality_signal", "preferred_teacher": preferred, "fallback_used": selected["teacher_model"] != preferred}
@@ -55,13 +59,13 @@ def build_conditions(questions: list[dict], records: list[dict], korean_source: 
     s3_matched, matched_selections = [], []
     matched_counts = Counter()
     for index, question in enumerate(sorted((row for row in questions if row["question_id"] in matched_ids), key=lambda row: row["question_id"])):
-        candidates = sorted([item for item in grouped.get(question["question_id"], []) if item["teacher_model"] in {"MockTeacherA", "MockTeacherB"}], key=lambda item: item["teacher_model"])
+        candidates = sorted([item for item in grouped.get(question["question_id"], []) if item["teacher_model"] in set(teacher_models)], key=lambda item: item["teacher_model"])
         if not candidates:
             raise MatchedComparisonError(f"S3_matched 후보가 없는 question_id: {question['question_id']}")
         # 검증 결과가 아닌 이미 선택된 교사 수만 사용해 가능한 균형을 맞춘다.
         lowest = min(matched_counts[item["teacher_model"]] for item in candidates)
         eligible = [item for item in candidates if matched_counts[item["teacher_model"]] == lowest]
-        preferred = "MockTeacherA" if index % 2 == 0 else "MockTeacherB"
+        preferred = teacher_a if index % 2 == 0 else teacher_b
         selected = next((item for item in eligible if item["teacher_model"] == preferred), eligible[0])
         matched_counts[selected["teacher_model"]] += 1
         row = dict(selected)

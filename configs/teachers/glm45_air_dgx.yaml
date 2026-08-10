@@ -1,0 +1,28 @@
+teacher_name: glm45_air
+experiment_id: pilot-v1-glm45-air-dgx
+dataset_name: compass-ai-pilot
+dataset_version: pilot-v1
+dataset_checksum: "07cae48e5e5e0ca020fba3455beb33dd45128273fbf4b9c6ad2ce053fe983c92"
+
+# 첫 교사 서버를 종료한 뒤 같은 localhost 주소를 재사용해도 된다.
+base_url: http://127.0.0.1:8000/v1
+model: zai-org/GLM-4.5-Air
+timeout_seconds: 600
+
+system_prompt: >-
+  질문의 요구사항을 정확히 따르고, 검증 가능한 근거와 계산을 사용해 한국어로 최종 답변하라.
+  내부 추론 과정이나 숨겨진 사고 과정을 출력하지 말고 최종 답변만 제시하라.
+generation:
+  temperature: 0
+  top_p: 1
+  max_tokens: 512
+  seed: 7
+
+# 서버별 확장 필드가 실제로 필요할 때만 추가한다.
+extra_body: {}
+model_metadata:
+  checkpoint: null
+  revision: null
+  quantization: null
+  inference_engine: null
+  server_config: {}

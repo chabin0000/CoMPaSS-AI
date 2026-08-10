@@ -1,0 +1,58 @@
+{
+  "dataset_name": "CoMPaSS-AI Core",
+  "dataset_version": "core-v2",
+  "status": "frozen",
+  "created_at": "2026-08-10T12:49:20.542918+00:00",
+  "frozen_at": "2026-08-10T12:53:00+00:00",
+  "question_count": 192,
+  "split_counts": {
+    "train": 120,
+    "validation": 24,
+    "private_eval": 48
+  },
+  "domain_counts": {
+    "math": 39,
+    "coding": 39,
+    "science": 39,
+    "logic": 38,
+    "korean": 37
+  },
+  "difficulty_counts": {
+    "easy": 8,
+    "medium": 98,
+    "hard": 86
+  },
+  "auto_verifiable_count": 171,
+  "auto_verifiable_ratio": 0.890625,
+  "file_sha256": {
+    "train_questions.jsonl": "22652b4f1e34e7f3ec9bbc0fa18c3114204e8dce4d6171b3a49967ead51f4715",
+    "validation_questions.jsonl": "2270651a8303e8b4770082492bf3176c9c7e04e8f93daa98e5f261224e1b1200",
+    "private_eval_questions.jsonl": "566f9fd6ca5dca56e3820f602478a6d981be549f41a2a39580220fa59a797682"
+  },
+  "dataset_checksum": "49e72cdcca2425d75080bf95428cb9d1ff8a9f53b016b5e7bcc409422a203fe2",
+  "private_key_sha256": "5a7740526a1d86c5661e4f9908a6f5415d9f7a2b878da9c09dad60d15f9989a3",
+  "private_key_location": "artifacts/private (gitignored; transfer separately)",
+  "quality_audit": {
+    "path": "reports/core_v2_quality_audit.json",
+    "sha256": "bef71136cf1d35b2512b1080da13c7149773900d9374c8d22c1c2a404f09921a",
+    "pass": 190,
+    "review": 2,
+    "fail": 0,
+    "freeze_ready": true
+  },
+  "review_acceptance": {
+    "path": "reports/core_v2_review_acceptance.json",
+    "sha256": "14a97fd2c49c3e440e104d4c5f5771c0fcd411beb29be0f2eda6e752f83cb5cd",
+    "question_ids": [
+      "CORE2-TR-LOG-010",
+      "CORE2-PE-LOG-006"
+    ],
+    "decision": "accepted_without_dataset_change"
+  },
+  "evaluation_protocol": {
+    "protocol_id": "argos-v1-core-v2-private-eval-v1",
+    "manifest_path": "evaluation/protocols/argos_v1_core_v2_private_eval_v1/protocol_manifest.json",
+    "snapshot_checksum": "a8d67d3e706838ace6d37c3058d7790fa77912976c101eb761106eb0febedd55"
+  },
+  "supersedes_for_experiment": "core-v1 quality-audit failed draft; preserved unchanged"
+}

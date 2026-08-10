@@ -1,0 +1,44 @@
+# 모델/API 실행은 이 파일을 읽는 dgx-plan에서는 절대 시작되지 않는다.
+dataset_checksum: "07cae48e5e5e0ca020fba3455beb33dd45128273fbf4b9c6ad2ce053fe983c92"
+core_v2_dataset_checksum: "49e72cdcca2425d75080bf95428cb9d1ff8a9f53b016b5e7bcc409422a203fe2"
+core_v2_train_file_checksum: "22652b4f1e34e7f3ec9bbc0fa18c3114204e8dce4d6171b3a49967ead51f4715"
+evaluation_protocol_checksum: "a8d67d3e706838ace6d37c3058d7790fa77912976c101eb761106eb0febedd55"
+minimum_disk_free_gb: 80
+
+teacher_configs:
+  gpt_oss: configs/teachers/gpt_oss_dgx.yaml
+  glm45_air: configs/teachers/glm45_air_dgx.yaml
+  gpt_oss_core_v2: configs/teachers/gpt_oss_core_v2_dgx.yaml
+  glm45_air_core_v2: configs/teachers/glm45_air_core_v2_dgx.yaml
+
+teacher_runs:
+  gpt_oss: data/raw/teacher_runs/gpt_oss/pilot-v1-gpt-oss-dgx/responses.jsonl
+  glm45_air: data/raw/teacher_runs/glm45_air/pilot-v1-glm45-air-dgx/responses.jsonl
+
+# builder와 검증을 통과한 실제 학생 학습 데이터가 모두 있어야 training gate를 통과한다.
+verified_student_datasets:
+  - data/student/conditions/S1.jsonl
+  - data/student/conditions/S2.jsonl
+  - data/student/conditions/S3a.jsonl
+  - data/student/conditions/S3b.jsonl
+  - data/student/conditions/S3_matched.jsonl
+  - data/student/conditions/S4.jsonl
+  - data/student/conditions/S4_teacher_only.jsonl
+  - data/student/conditions/S4_with_human_correction.jsonl
+
+student_configs:
+  - configs/student/s0.yaml
+  - configs/student/s1.yaml
+  - configs/student/s2.yaml
+  - configs/student/s3a.yaml
+  - configs/student/s3b.yaml
+  - configs/student/s3_matched.yaml
+  - configs/student/s4.yaml
+  - configs/student/s4_teacher_only.yaml
+  - configs/student/s4_with_human_correction.yaml
+
+# S5는 1차 핵심 본실험 범위 밖이며 후속 확장 실험용 config/schema로 보존한다.
+deferred_verified_student_datasets:
+  - data/student/conditions/S5.jsonl
+deferred_student_configs:
+  - configs/student/s5.yaml
