@@ -1,0 +1,8 @@
+{
+  "at": 1793027322.7310658,
+  "completed": 720,
+  "responses_sha256": "d16c19390760381c1b7becb33aafc7e55bcf09236d3ed5661263d248d8e5cf30",
+  "seal_sha256": "3ddff2b67a795c47faec47efd45a934781ecf6fd9bc56bee2b87c4b581984a46",
+  "peak_vram_bytes": 5906078720,
+  "training_performed": false
+}

@@ -1,0 +1,27 @@
+{
+  "at": 1793025935.1852174,
+  "files": {
+    "author_review.LOCAL_ONLY.json": "3c741aa44b469b6b1b38a09902c8ae4d6fbe5abf692bbae13c735b13d14fb196",
+    "aux.keys.LOCAL_ONLY.jsonl": "50bec416fc33c218d30e6f0efa408d86c36fad52cb265fe8723e4b734992ae86",
+    "aux.questions.jsonl": "570590203a3e83a239c1ee50482318a8a2da3ce317e9554c87b5c2cfae261421",
+    "benchmark_sources.json": "3d20bc37e5c4591df38f9f75529c5b6a6d7dbf860fa7466005800bc349c1d6e2",
+    "cache_kobest_boolq.jsonl": "e6fb1bceab2e3e132119e7ce23d98c38e7700ce38bd0d00ec4f26c9a07d6b583",
+    "inference.questions.jsonl": "dc7b7b7201520ebd14fd256e35fbdcfa0210190b93fe9160beeca2e68872ef38",
+    "private.keys.LOCAL_ONLY.jsonl": "20df245ac8a23be87f68776b14beea1eecac577e76081c29f49e725281772832",
+    "private.questions.jsonl": "3f23714b73b555f1e756349cd50b4ccb00392a9d7c32e2d04b2b9fe5186282ba",
+    "protocol.json": "e87730e1db01bc446d9076e279ac3bb7ef199e730b3f78af397315cb9d81e852"
+  },
+  "base_model": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct",
+  "base_revision": "553ea250b9a5317231459279d5847d6cf955b9aa",
+  "adapter_files": {
+    "adapter_config.json": "72dc2d936c7919c43a775fc375a01a1782a8d2ea99191faa7341fea8dc9f9971",
+    "adapter_model.safetensors": "6df996c8b59ab7251ee78ce0539b5814eaf02a0b538df31afd8f4978463681a0",
+    "chat_template.jinja": "627e212836e41c6231988b4ae595a16ddfd7814d2c39fd7bf3105651f8bbeebd",
+    "README.md": "512df32d4abe1276ab351c14259c5d7092611d82c89ee250b277922b5afc969a",
+    "tokenizer.json": "a6443246229b2b036015a0a87f0b1171b2422627fd3bf89a4e17f3f031bb5532",
+    "tokenizer_config.json": "319c3dbfc0e3e65f9e269628d62cc3b95411d778b663ca016f46895b1b940037"
+  },
+  "predictions_exist": false,
+  "seal_type": "Local SHA256 manifest, no independent timestamp authority",
+  "test_author_is_reviewer": true
+}

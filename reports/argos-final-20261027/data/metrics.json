@@ -1,0 +1,212 @@
+[
+  {
+    "cohort": "gsm8k",
+    "model": "ARGOS",
+    "n": 40,
+    "complete": 40,
+    "semantic_correct": 6,
+    "unknown": 0,
+    "semantic_rate": 0.15,
+    "wilson95": [
+      0.07061187717320501,
+      0.29072324366489255
+    ],
+    "instruction": 2,
+    "joint": 2
+  },
+  {
+    "cohort": "gsm8k",
+    "model": "S0",
+    "n": 40,
+    "complete": 39,
+    "semantic_correct": 37,
+    "unknown": 1,
+    "semantic_rate": 0.925,
+    "wilson95": [
+      0.8013576647568991,
+      0.9741639742254112
+    ],
+    "instruction": 37,
+    "joint": 35
+  },
+  {
+    "cohort": "instruction",
+    "model": "ARGOS",
+    "n": 40,
+    "complete": 40,
+    "semantic_correct": 27,
+    "unknown": 0,
+    "semantic_rate": 0.675,
+    "wilson95": [
+      0.5201774618987811,
+      0.7991549776821703
+    ],
+    "instruction": 37,
+    "joint": 26
+  },
+  {
+    "cohort": "instruction",
+    "model": "S0",
+    "n": 40,
+    "complete": 40,
+    "semantic_correct": 3,
+    "unknown": 0,
+    "semantic_rate": 0.075,
+    "wilson95": [
+      0.025836025774588905,
+      0.19864233524310101
+    ],
+    "instruction": 8,
+    "joint": 2
+  },
+  {
+    "cohort": "klue_nli",
+    "model": "ARGOS",
+    "n": 40,
+    "complete": 40,
+    "semantic_correct": 36,
+    "unknown": 0,
+    "semantic_rate": 0.9,
+    "wilson95": [
+      0.7694822477247816,
+      0.9604204713173927
+    ],
+    "instruction": 40,
+    "joint": 36
+  },
+  {
+    "cohort": "klue_nli",
+    "model": "S0",
+    "n": 40,
+    "complete": 40,
+    "semantic_correct": 33,
+    "unknown": 0,
+    "semantic_rate": 0.825,
+    "wilson95": [
+      0.6805000966821273,
+      0.9125458625396392
+    ],
+    "instruction": 40,
+    "joint": 33
+  },
+  {
+    "cohort": "kobest_boolq",
+    "model": "ARGOS",
+    "n": 40,
+    "complete": 40,
+    "semantic_correct": 37,
+    "unknown": 0,
+    "semantic_rate": 0.925,
+    "wilson95": [
+      0.8013576647568991,
+      0.9741639742254112
+    ],
+    "instruction": 40,
+    "joint": 37
+  },
+  {
+    "cohort": "kobest_boolq",
+    "model": "S0",
+    "n": 40,
+    "complete": 40,
+    "semantic_correct": 36,
+    "unknown": 0,
+    "semantic_rate": 0.9,
+    "wilson95": [
+      0.7694822477247816,
+      0.9604204713173927
+    ],
+    "instruction": 40,
+    "joint": 36
+  },
+  {
+    "cohort": "math",
+    "model": "ARGOS",
+    "n": 80,
+    "complete": 80,
+    "semantic_correct": 37,
+    "unknown": 1,
+    "semantic_rate": 0.4625,
+    "wilson95": [
+      0.3574799356278552,
+      0.5709564240873091
+    ],
+    "instruction": 6,
+    "joint": 4
+  },
+  {
+    "cohort": "math",
+    "model": "S0",
+    "n": 80,
+    "complete": 79,
+    "semantic_correct": 68,
+    "unknown": 1,
+    "semantic_rate": 0.85,
+    "wilson95": [
+      0.7558677143867695,
+      0.9120595949383631
+    ],
+    "instruction": 21,
+    "joint": 17
+  },
+  {
+    "cohort": "premise",
+    "model": "ARGOS",
+    "n": 60,
+    "complete": 60,
+    "semantic_correct": 50,
+    "unknown": 0,
+    "semantic_rate": 0.8333333333333334,
+    "wilson95": [
+      0.7196838683638582,
+      0.9068682302080839
+    ],
+    "instruction": 0,
+    "joint": 0
+  },
+  {
+    "cohort": "premise",
+    "model": "S0",
+    "n": 60,
+    "complete": 60,
+    "semantic_correct": 55,
+    "unknown": 0,
+    "semantic_rate": 0.9166666666666666,
+    "wilson95": [
+      0.8193105798166592,
+      0.9638795433982684
+    ],
+    "instruction": 8,
+    "joint": 8
+  },
+  {
+    "cohort": "source_claims",
+    "model": "ARGOS",
+    "n": 60,
+    "complete": 60,
+    "semantic_correct": 60,
+    "unknown": 0,
+    "semantic_rate": 1.0,
+    "wilson95": [
+      0.9398281478579132,
+      0.9999999999999999
+    ],
+    "instruction": 59,
+    "joint": 59
+  },
+  {
+    "cohort": "source_claims",
+    "model": "S0",
+    "n": 60,
+    "complete": 60,
+    "semantic_correct": 53,
+    "unknown": 0,
+    "semantic_rate": 0.8833333333333333,
+    "wilson95": [
+      0.7782121197582949,
+      0.9423227935994386
+    ],
+    "instruction": 47,
+    "joint": 47
+  }
+]

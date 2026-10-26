@@ -1,0 +1,27 @@
+{
+  "at": 1792976721.4731858,
+  "training_weighted_records": {
+    "n": 7230,
+    "median_absolute_value": 18.0,
+    "noninteger": 2743,
+    "absolute_value_at_most_10": 2980,
+    "absolute_value_at_least_100": 2158,
+    "absolute_value_at_least_1000": 1066,
+    "median_numerator_digits": 2.0,
+    "median_denominator_digits": 1.0
+  },
+  "evaluation_numeric_items": {
+    "n": 80,
+    "median_absolute_value": 3314.0,
+    "noninteger": 38,
+    "absolute_value_at_most_10": 9,
+    "absolute_value_at_least_100": 54,
+    "absolute_value_at_least_1000": 46,
+    "median_numerator_digits": 4.0,
+    "median_denominator_digits": 1.0
+  },
+  "training_literal_1008": 0,
+  "training_repeats_across_teachers_included": true,
+  "scope": "Distribution of numeric target values only, not a measurement of mathematical difficulty or a causal explanation",
+  "training_source_sha256": "d7f99aa51fe3d80c35806d217ff145b0cb58a25a334783f015a889935d7cd75b"
+}

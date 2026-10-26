@@ -1,0 +1,562 @@
+[
+  {
+    "cohort": "gsm8k",
+    "family": "gsm8k",
+    "model": "ARGOS",
+    "n": 40,
+    "correct": 6,
+    "unknown": 0
+  },
+  {
+    "cohort": "gsm8k",
+    "family": "gsm8k",
+    "model": "S0",
+    "n": 40,
+    "correct": 37,
+    "unknown": 1
+  },
+  {
+    "cohort": "instruction",
+    "family": "instruction_0",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 7,
+    "unknown": 0
+  },
+  {
+    "cohort": "instruction",
+    "family": "instruction_0",
+    "model": "S0",
+    "n": 10,
+    "correct": 0,
+    "unknown": 0
+  },
+  {
+    "cohort": "instruction",
+    "family": "instruction_1",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 8,
+    "unknown": 0
+  },
+  {
+    "cohort": "instruction",
+    "family": "instruction_1",
+    "model": "S0",
+    "n": 10,
+    "correct": 0,
+    "unknown": 0
+  },
+  {
+    "cohort": "instruction",
+    "family": "instruction_2",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 9,
+    "unknown": 0
+  },
+  {
+    "cohort": "instruction",
+    "family": "instruction_2",
+    "model": "S0",
+    "n": 10,
+    "correct": 0,
+    "unknown": 0
+  },
+  {
+    "cohort": "instruction",
+    "family": "instruction_3",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 3,
+    "unknown": 0
+  },
+  {
+    "cohort": "instruction",
+    "family": "instruction_3",
+    "model": "S0",
+    "n": 10,
+    "correct": 3,
+    "unknown": 0
+  },
+  {
+    "cohort": "klue_nli",
+    "family": "klue_nli",
+    "model": "ARGOS",
+    "n": 40,
+    "correct": 36,
+    "unknown": 0
+  },
+  {
+    "cohort": "klue_nli",
+    "family": "klue_nli",
+    "model": "S0",
+    "n": 40,
+    "correct": 33,
+    "unknown": 0
+  },
+  {
+    "cohort": "kobest_boolq",
+    "family": "kobest_boolq",
+    "model": "ARGOS",
+    "n": 40,
+    "correct": 37,
+    "unknown": 0
+  },
+  {
+    "cohort": "kobest_boolq",
+    "family": "kobest_boolq",
+    "model": "S0",
+    "n": 40,
+    "correct": 36,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_00",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 5,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_00",
+    "model": "S0",
+    "n": 5,
+    "correct": 3,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_01",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 0,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_01",
+    "model": "S0",
+    "n": 5,
+    "correct": 5,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_02",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 4,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_02",
+    "model": "S0",
+    "n": 5,
+    "correct": 3,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_03",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 4,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_03",
+    "model": "S0",
+    "n": 5,
+    "correct": 4,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_04",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 0,
+    "unknown": 1
+  },
+  {
+    "cohort": "math",
+    "family": "math_04",
+    "model": "S0",
+    "n": 5,
+    "correct": 5,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_05",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 1,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_05",
+    "model": "S0",
+    "n": 5,
+    "correct": 4,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_06",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 0,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_06",
+    "model": "S0",
+    "n": 5,
+    "correct": 4,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_07",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 2,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_07",
+    "model": "S0",
+    "n": 5,
+    "correct": 3,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_08",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 4,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_08",
+    "model": "S0",
+    "n": 5,
+    "correct": 5,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_09",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 1,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_09",
+    "model": "S0",
+    "n": 5,
+    "correct": 5,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_10",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 4,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_10",
+    "model": "S0",
+    "n": 5,
+    "correct": 5,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_11",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 4,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_11",
+    "model": "S0",
+    "n": 5,
+    "correct": 4,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_12",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 2,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_12",
+    "model": "S0",
+    "n": 5,
+    "correct": 5,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_13",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 0,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_13",
+    "model": "S0",
+    "n": 5,
+    "correct": 4,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_14",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 3,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_14",
+    "model": "S0",
+    "n": 5,
+    "correct": 4,
+    "unknown": 1
+  },
+  {
+    "cohort": "math",
+    "family": "math_15",
+    "model": "ARGOS",
+    "n": 5,
+    "correct": 3,
+    "unknown": 0
+  },
+  {
+    "cohort": "math",
+    "family": "math_15",
+    "model": "S0",
+    "n": 5,
+    "correct": 5,
+    "unknown": 0
+  },
+  {
+    "cohort": "premise",
+    "family": "premise_0",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "premise",
+    "family": "premise_0",
+    "model": "S0",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "premise",
+    "family": "premise_1",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 5,
+    "unknown": 0
+  },
+  {
+    "cohort": "premise",
+    "family": "premise_1",
+    "model": "S0",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "premise",
+    "family": "premise_2",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 5,
+    "unknown": 0
+  },
+  {
+    "cohort": "premise",
+    "family": "premise_2",
+    "model": "S0",
+    "n": 10,
+    "correct": 5,
+    "unknown": 0
+  },
+  {
+    "cohort": "premise",
+    "family": "premise_3",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "premise",
+    "family": "premise_3",
+    "model": "S0",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "premise",
+    "family": "premise_4",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "premise",
+    "family": "premise_4",
+    "model": "S0",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "premise",
+    "family": "premise_5",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "premise",
+    "family": "premise_5",
+    "model": "S0",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "source_claims",
+    "family": "source_0",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "source_claims",
+    "family": "source_0",
+    "model": "S0",
+    "n": 10,
+    "correct": 5,
+    "unknown": 0
+  },
+  {
+    "cohort": "source_claims",
+    "family": "source_1",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "source_claims",
+    "family": "source_1",
+    "model": "S0",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "source_claims",
+    "family": "source_2",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "source_claims",
+    "family": "source_2",
+    "model": "S0",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "source_claims",
+    "family": "source_3",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "source_claims",
+    "family": "source_3",
+    "model": "S0",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "source_claims",
+    "family": "source_4",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "source_claims",
+    "family": "source_4",
+    "model": "S0",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "source_claims",
+    "family": "source_5",
+    "model": "ARGOS",
+    "n": 10,
+    "correct": 10,
+    "unknown": 0
+  },
+  {
+    "cohort": "source_claims",
+    "family": "source_5",
+    "model": "S0",
+    "n": 10,
+    "correct": 8,
+    "unknown": 0
+  }
+]

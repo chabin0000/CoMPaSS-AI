@@ -1,0 +1,38 @@
+[
+  {
+    "model": "S0",
+    "supported": 176,
+    "contradicted": 0,
+    "unsupported": 49,
+    "unresolved": 3,
+    "emitted_atomic_claims": 228,
+    "determinate_claims": 176,
+    "factual_error_rate": 0.0,
+    "unsupported_rate": 0.2149122807017544,
+    "responses_with_claims": 60,
+    "response_denominator": 60,
+    "required_facts_supported": 173,
+    "required_facts": 180,
+    "responses_with_unsupported": 13,
+    "reviewer": "one AI",
+    "scope": "Provided fictional records only; not open-world facts"
+  },
+  {
+    "model": "ARGOS",
+    "supported": 181,
+    "contradicted": 0,
+    "unsupported": 0,
+    "unresolved": 0,
+    "emitted_atomic_claims": 181,
+    "determinate_claims": 181,
+    "factual_error_rate": 0.0,
+    "unsupported_rate": 0.0,
+    "responses_with_claims": 60,
+    "response_denominator": 60,
+    "required_facts_supported": 180,
+    "required_facts": 180,
+    "responses_with_unsupported": 0,
+    "reviewer": "one AI",
+    "scope": "Provided fictional records only; not open-world facts"
+  }
+]

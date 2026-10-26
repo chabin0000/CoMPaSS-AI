@@ -1,0 +1,938 @@
+[
+  {
+    "regime": "original",
+    "variant": "S0-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 47,
+    "instruction": 4
+  },
+  {
+    "regime": "original",
+    "variant": "S0-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 28,
+    "semantic": 31,
+    "instruction": 41
+  },
+  {
+    "regime": "original",
+    "variant": "S0-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 9,
+    "semantic": 32,
+    "instruction": 11
+  },
+  {
+    "regime": "original",
+    "variant": "S0-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 26,
+    "semantic": 30,
+    "instruction": 28
+  },
+  {
+    "regime": "original",
+    "variant": "S1-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 95
+  },
+  {
+    "regime": "original",
+    "variant": "S1-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 33,
+    "semantic": 33,
+    "instruction": 47
+  },
+  {
+    "regime": "original",
+    "variant": "S1-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 19,
+    "semantic": 20,
+    "instruction": 45
+  },
+  {
+    "regime": "original",
+    "variant": "S1-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 37,
+    "semantic": 37,
+    "instruction": 40
+  },
+  {
+    "regime": "original",
+    "variant": "S2-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 89
+  },
+  {
+    "regime": "original",
+    "variant": "S2-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 35,
+    "semantic": 35,
+    "instruction": 48
+  },
+  {
+    "regime": "original",
+    "variant": "S2-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 22,
+    "semantic": 27,
+    "instruction": 40
+  },
+  {
+    "regime": "original",
+    "variant": "S2-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 38,
+    "semantic": 38,
+    "instruction": 40
+  },
+  {
+    "regime": "original",
+    "variant": "S3_matched-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 93
+  },
+  {
+    "regime": "original",
+    "variant": "S3_matched-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 34,
+    "semantic": 35,
+    "instruction": 46
+  },
+  {
+    "regime": "original",
+    "variant": "S3_matched-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 20,
+    "semantic": 21,
+    "instruction": 44
+  },
+  {
+    "regime": "original",
+    "variant": "S3_matched-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 38,
+    "semantic": 38,
+    "instruction": 40
+  },
+  {
+    "regime": "original",
+    "variant": "S3_matched-20261023",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 96
+  },
+  {
+    "regime": "original",
+    "variant": "S3_matched-20261023",
+    "domain": "facts",
+    "n": 50,
+    "passes": 32,
+    "semantic": 33,
+    "instruction": 48
+  },
+  {
+    "regime": "original",
+    "variant": "S3_matched-20261023",
+    "domain": "premise",
+    "n": 50,
+    "passes": 20,
+    "semantic": 20,
+    "instruction": 47
+  },
+  {
+    "regime": "original",
+    "variant": "S3_matched-20261023",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 38,
+    "semantic": 38,
+    "instruction": 40
+  },
+  {
+    "regime": "original",
+    "variant": "S3a-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 91
+  },
+  {
+    "regime": "original",
+    "variant": "S3a-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 33,
+    "semantic": 33,
+    "instruction": 50
+  },
+  {
+    "regime": "original",
+    "variant": "S3a-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 23,
+    "semantic": 26,
+    "instruction": 46
+  },
+  {
+    "regime": "original",
+    "variant": "S3a-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 37,
+    "semantic": 37,
+    "instruction": 39
+  },
+  {
+    "regime": "original",
+    "variant": "S4_full_verified-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 88
+  },
+  {
+    "regime": "original",
+    "variant": "S4_full_verified-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 32,
+    "semantic": 33,
+    "instruction": 49
+  },
+  {
+    "regime": "original",
+    "variant": "S4_full_verified-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 26,
+    "semantic": 26,
+    "instruction": 48
+  },
+  {
+    "regime": "original",
+    "variant": "S4_full_verified-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 36,
+    "semantic": 36,
+    "instruction": 40
+  },
+  {
+    "regime": "original",
+    "variant": "S4_teacher_only-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 1,
+    "semantic": 1,
+    "instruction": 94
+  },
+  {
+    "regime": "original",
+    "variant": "S4_teacher_only-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 35,
+    "semantic": 36,
+    "instruction": 47
+  },
+  {
+    "regime": "original",
+    "variant": "S4_teacher_only-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 15,
+    "semantic": 20,
+    "instruction": 33
+  },
+  {
+    "regime": "original",
+    "variant": "S4_teacher_only-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 38,
+    "semantic": 38,
+    "instruction": 40
+  },
+  {
+    "regime": "original",
+    "variant": "S4_teacher_only-20261023",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 92
+  },
+  {
+    "regime": "original",
+    "variant": "S4_teacher_only-20261023",
+    "domain": "facts",
+    "n": 50,
+    "passes": 31,
+    "semantic": 32,
+    "instruction": 48
+  },
+  {
+    "regime": "original",
+    "variant": "S4_teacher_only-20261023",
+    "domain": "premise",
+    "n": 50,
+    "passes": 20,
+    "semantic": 25,
+    "instruction": 39
+  },
+  {
+    "regime": "original",
+    "variant": "S4_teacher_only-20261023",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 36,
+    "semantic": 36,
+    "instruction": 40
+  },
+  {
+    "regime": "original",
+    "variant": "S5-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 93
+  },
+  {
+    "regime": "original",
+    "variant": "S5-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 36,
+    "semantic": 37,
+    "instruction": 49
+  },
+  {
+    "regime": "original",
+    "variant": "S5-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 24,
+    "semantic": 25,
+    "instruction": 44
+  },
+  {
+    "regime": "original",
+    "variant": "S5-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 37,
+    "semantic": 37,
+    "instruction": 40
+  },
+  {
+    "regime": "original",
+    "variant": "S5_general_control-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 1,
+    "semantic": 1,
+    "instruction": 93
+  },
+  {
+    "regime": "original",
+    "variant": "S5_general_control-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 35,
+    "semantic": 36,
+    "instruction": 47
+  },
+  {
+    "regime": "original",
+    "variant": "S5_general_control-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 26,
+    "semantic": 27,
+    "instruction": 48
+  },
+  {
+    "regime": "original",
+    "variant": "S5_general_control-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 37,
+    "semantic": 37,
+    "instruction": 40
+  },
+  {
+    "regime": "original",
+    "variant": "gpt_oss",
+    "domain": "stem",
+    "n": 100,
+    "passes": 63,
+    "semantic": 71,
+    "instruction": 85
+  },
+  {
+    "regime": "original",
+    "variant": "gpt_oss",
+    "domain": "facts",
+    "n": 50,
+    "passes": 47,
+    "semantic": 47,
+    "instruction": 50
+  },
+  {
+    "regime": "original",
+    "variant": "gpt_oss",
+    "domain": "premise",
+    "n": 50,
+    "passes": 43,
+    "semantic": 44,
+    "instruction": 49
+  },
+  {
+    "regime": "original",
+    "variant": "gpt_oss",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 29,
+    "semantic": 30,
+    "instruction": 38
+  },
+  {
+    "regime": "original",
+    "variant": "glm",
+    "domain": "stem",
+    "n": 100,
+    "passes": 81,
+    "semantic": 84,
+    "instruction": 84
+  },
+  {
+    "regime": "original",
+    "variant": "glm",
+    "domain": "facts",
+    "n": 50,
+    "passes": 45,
+    "semantic": 48,
+    "instruction": 46
+  },
+  {
+    "regime": "original",
+    "variant": "glm",
+    "domain": "premise",
+    "n": 50,
+    "passes": 42,
+    "semantic": 48,
+    "instruction": 44
+  },
+  {
+    "regime": "original",
+    "variant": "glm",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 36,
+    "semantic": 36,
+    "instruction": 40
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S0-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 50,
+    "instruction": 3
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S0-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 28,
+    "semantic": 31,
+    "instruction": 41
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S0-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 9,
+    "semantic": 32,
+    "instruction": 10
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S0-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 26,
+    "semantic": 30,
+    "instruction": 28
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S1-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 92
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S1-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 32,
+    "semantic": 33,
+    "instruction": 44
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S1-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 16,
+    "semantic": 21,
+    "instruction": 40
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S1-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 37,
+    "semantic": 37,
+    "instruction": 40
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S2-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 85
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S2-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 34,
+    "semantic": 35,
+    "instruction": 46
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S2-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 19,
+    "semantic": 28,
+    "instruction": 35
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S2-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 38,
+    "semantic": 38,
+    "instruction": 40
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S3_matched-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 91
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S3_matched-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 33,
+    "semantic": 35,
+    "instruction": 44
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S3_matched-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 14,
+    "semantic": 21,
+    "instruction": 37
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S3_matched-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 38,
+    "semantic": 38,
+    "instruction": 40
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S3_matched-20261023",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 94
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S3_matched-20261023",
+    "domain": "facts",
+    "n": 50,
+    "passes": 31,
+    "semantic": 33,
+    "instruction": 46
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S3_matched-20261023",
+    "domain": "premise",
+    "n": 50,
+    "passes": 15,
+    "semantic": 20,
+    "instruction": 40
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S3_matched-20261023",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 38,
+    "semantic": 38,
+    "instruction": 40
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S3a-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 91
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S3a-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 32,
+    "semantic": 33,
+    "instruction": 48
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S3a-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 19,
+    "semantic": 26,
+    "instruction": 42
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S3a-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 37,
+    "semantic": 37,
+    "instruction": 39
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S4_full_verified-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 79
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S4_full_verified-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 32,
+    "semantic": 33,
+    "instruction": 49
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S4_full_verified-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 24,
+    "semantic": 26,
+    "instruction": 44
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S4_full_verified-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 36,
+    "semantic": 36,
+    "instruction": 40
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S4_teacher_only-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 1,
+    "semantic": 1,
+    "instruction": 88
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S4_teacher_only-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 34,
+    "semantic": 36,
+    "instruction": 44
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S4_teacher_only-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 9,
+    "semantic": 20,
+    "instruction": 25
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S4_teacher_only-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 38,
+    "semantic": 38,
+    "instruction": 40
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S4_teacher_only-20261023",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 89
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S4_teacher_only-20261023",
+    "domain": "facts",
+    "n": 50,
+    "passes": 30,
+    "semantic": 32,
+    "instruction": 47
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S4_teacher_only-20261023",
+    "domain": "premise",
+    "n": 50,
+    "passes": 20,
+    "semantic": 26,
+    "instruction": 37
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S4_teacher_only-20261023",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 36,
+    "semantic": 36,
+    "instruction": 40
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S5-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 0,
+    "semantic": 0,
+    "instruction": 88
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S5-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 36,
+    "semantic": 37,
+    "instruction": 48
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S5-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 18,
+    "semantic": 25,
+    "instruction": 38
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S5-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 37,
+    "semantic": 37,
+    "instruction": 40
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S5_general_control-20261022",
+    "domain": "stem",
+    "n": 100,
+    "passes": 1,
+    "semantic": 1,
+    "instruction": 83
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S5_general_control-20261022",
+    "domain": "facts",
+    "n": 50,
+    "passes": 35,
+    "semantic": 36,
+    "instruction": 47
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S5_general_control-20261022",
+    "domain": "premise",
+    "n": 50,
+    "passes": 23,
+    "semantic": 28,
+    "instruction": 43
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "S5_general_control-20261022",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 37,
+    "semantic": 37,
+    "instruction": 40
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "gpt_oss",
+    "domain": "stem",
+    "n": 100,
+    "passes": 61,
+    "semantic": 72,
+    "instruction": 81
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "gpt_oss",
+    "domain": "facts",
+    "n": 50,
+    "passes": 47,
+    "semantic": 47,
+    "instruction": 49
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "gpt_oss",
+    "domain": "premise",
+    "n": 50,
+    "passes": 38,
+    "semantic": 39,
+    "instruction": 48
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "gpt_oss",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 31,
+    "semantic": 31,
+    "instruction": 39
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "glm",
+    "domain": "stem",
+    "n": 100,
+    "passes": 82,
+    "semantic": 86,
+    "instruction": 89
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "glm",
+    "domain": "facts",
+    "n": 50,
+    "passes": 48,
+    "semantic": 49,
+    "instruction": 49
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "glm",
+    "domain": "premise",
+    "n": 50,
+    "passes": 40,
+    "semantic": 47,
+    "instruction": 43
+  },
+  {
+    "regime": "extended_8192",
+    "variant": "glm",
+    "domain": "political_history_ir",
+    "n": 40,
+    "passes": 36,
+    "semantic": 36,
+    "instruction": 39
+  }
+]

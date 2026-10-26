@@ -1,0 +1,157 @@
+{
+  "created_at": 1793028738.025311,
+  "sources": [
+    {
+      "id": "E01",
+      "source": "research_runs/argos-plan-flex-20261025/report_work/reviewed_metrics_by_variant.json",
+      "source_sha256": "eaabf2b7ab1e65370e59beedb635aa0524a306e085070f0944cf5b9d334da430",
+      "public_file": "data/historical_metrics.json",
+      "public_sha256": "eaabf2b7ab1e65370e59beedb635aa0524a306e085070f0944cf5b9d334da430"
+    },
+    {
+      "id": "E02",
+      "source": "research_runs/argos-plan-flex-20261025/report_work/reviewed_comparisons.json",
+      "source_sha256": "7db713ddbc0502a7b199d28e70aea40ef15a66e045b8f8a357022b2dce530f1d",
+      "public_file": "data/historical_comparisons.json",
+      "public_sha256": "7db713ddbc0502a7b199d28e70aea40ef15a66e045b8f8a357022b2dce530f1d"
+    },
+    {
+      "id": "E03",
+      "source": "research_runs/argos-plan-flex-20261025/report_work/reviewed_private_domain_results.json",
+      "source_sha256": "76c2921601637bd0ac75d6336db2e6997f2269cfb4696cfc185596ae187e3bcd",
+      "public_file": "data/historical_domains.json",
+      "public_sha256": "76c2921601637bd0ac75d6336db2e6997f2269cfb4696cfc185596ae187e3bcd"
+    },
+    {
+      "id": "E04",
+      "source": "research_runs/argos-plan-flex-20261025/report_work/reviewed_explanation_quality.json",
+      "source_sha256": "547aff0afb4a73aafcac2f48d871b1dd3be989fd899cd31bd36e3dbc8140acd8",
+      "public_file": "data/historical_explanations.json",
+      "public_sha256": "547aff0afb4a73aafcac2f48d871b1dd3be989fd899cd31bd36e3dbc8140acd8"
+    },
+    {
+      "id": "E14",
+      "source": "research_runs/argos-plan-flex-20261025/report_work/final_report_narrative.json",
+      "source_sha256": "78844eb0b823fc6a3db0c42aad11a56608374f5179575d47c5b5adbd876bddde",
+      "public_file": "data/historical_execution_summary.json",
+      "public_sha256": "cc2f7339bc7992da5ea3f06db14f6d698ffdde800c22dcda6d4941cca34d5bbd"
+    },
+    {
+      "id": "E05",
+      "source": "research_runs/argos-diagnostics-20261026/training_tokenization_audit.json",
+      "source_sha256": "7ab1c59be12b6be19284d91c7fb6928f1312fa6f8bb48f4f65e92303cd400f92",
+      "public_file": "data/training_audit.json",
+      "public_sha256": "cbd8f2c6bed303b988a734982656a56769bb334e595ebb3b1d0434a2b6670edf"
+    },
+    {
+      "id": "E06",
+      "source": "research_runs/argos-teacher-math-format-repair-20261026/report_work/reviewed_followup_analysis.json",
+      "source_sha256": "199e45b40c7bbba01d16b49e33d02ff1cb114ff24bdf9fbfcf15c47fd17f5862",
+      "public_file": "data/followup_summary.json",
+      "public_sha256": "f628770c528e55307abc1c63e44f8f834c7dcc16d856c9429691bea0408816a9"
+    },
+    {
+      "id": "E07",
+      "source": "research_runs/argos-final-confirmatory-20261026/protocol.json",
+      "source_sha256": "e87730e1db01bc446d9076e279ac3bb7ef199e730b3f78af397315cb9d81e852",
+      "public_file": "data/confirmation_protocol.json",
+      "public_sha256": "e87730e1db01bc446d9076e279ac3bb7ef199e730b3f78af397315cb9d81e852"
+    },
+    {
+      "id": "E08",
+      "source": "research_runs/argos-final-confirmatory-20261026/SEALED.json",
+      "source_sha256": "3ddff2b67a795c47faec47efd45a934781ecf6fd9bc56bee2b87c4b581984a46",
+      "public_file": "data/confirmation_seal.json",
+      "public_sha256": "3ddff2b67a795c47faec47efd45a934781ecf6fd9bc56bee2b87c4b581984a46"
+    },
+    {
+      "id": "E09",
+      "source": "research_runs/argos-final-confirmatory-20261026/benchmark_sources.json",
+      "source_sha256": "3d20bc37e5c4591df38f9f75529c5b6a6d7dbf860fa7466005800bc349c1d6e2",
+      "public_file": "data/benchmark_sources.json",
+      "public_sha256": "3d20bc37e5c4591df38f9f75529c5b6a6d7dbf860fa7466005800bc349c1d6e2"
+    },
+    {
+      "id": "E10-metrics.json",
+      "source": "research_runs/argos-final-confirmatory-20261026/analysis/metrics.json",
+      "source_sha256": "4a72eccc216cf0a25b2d2d1ddfb3cda9a7aa4fd7a1998edfdef4ec3282e6fda3",
+      "public_file": "data/metrics.json",
+      "public_sha256": "4a72eccc216cf0a25b2d2d1ddfb3cda9a7aa4fd7a1998edfdef4ec3282e6fda3"
+    },
+    {
+      "id": "E10-family_metrics.json",
+      "source": "research_runs/argos-final-confirmatory-20261026/analysis/family_metrics.json",
+      "source_sha256": "714e36767e0a75efa161a216a0a7eca2dcdd4e62392496d2babf335ee47a04ae",
+      "public_file": "data/family_metrics.json",
+      "public_sha256": "714e36767e0a75efa161a216a0a7eca2dcdd4e62392496d2babf335ee47a04ae"
+    },
+    {
+      "id": "E10-pair_domains.json",
+      "source": "research_runs/argos-final-confirmatory-20261026/analysis/pair_domains.json",
+      "source_sha256": "0874180b8c0103b4f3d35b1348ec177d4fa7a047dc757eb8221b794fb8a276fd",
+      "public_file": "data/pair_domains.json",
+      "public_sha256": "0874180b8c0103b4f3d35b1348ec177d4fa7a047dc757eb8221b794fb8a276fd"
+    },
+    {
+      "id": "E10-comparisons.json",
+      "source": "research_runs/argos-final-confirmatory-20261026/analysis/comparisons.json",
+      "source_sha256": "2f5682b4648a6bfd0571d79e4b6d8755b98d41cd82da2b37463db6617c4b8131",
+      "public_file": "data/comparisons.json",
+      "public_sha256": "2f5682b4648a6bfd0571d79e4b6d8755b98d41cd82da2b37463db6617c4b8131"
+    },
+    {
+      "id": "E10-claim_metrics.json",
+      "source": "research_runs/argos-final-confirmatory-20261026/analysis/claim_metrics.json",
+      "source_sha256": "ce56b40949bec16578cbbcfaa785783d04c3fba8babe8ba1b870b1df3d31042b",
+      "public_file": "data/claim_metrics.json",
+      "public_sha256": "ce56b40949bec16578cbbcfaa785783d04c3fba8babe8ba1b870b1df3d31042b"
+    },
+    {
+      "id": "E10-qualitative.json",
+      "source": "research_runs/argos-final-confirmatory-20261026/analysis/qualitative.json",
+      "source_sha256": "c95f9d50da6396cad86c8eb762e3c9b89a71612b8f12b88ea6bd04343904d1f4",
+      "public_file": "data/qualitative.json",
+      "public_sha256": "c95f9d50da6396cad86c8eb762e3c9b89a71612b8f12b88ea6bd04343904d1f4"
+    },
+    {
+      "id": "E10-per_item_scores.csv",
+      "source": "research_runs/argos-final-confirmatory-20261026/analysis/per_item_scores.csv",
+      "source_sha256": "3264dc5b256b47ff3dbe353ecabf91ad644f4494cd6ecf71fd4fd06278ddcdac",
+      "public_file": "data/per_item_scores.csv",
+      "public_sha256": "3264dc5b256b47ff3dbe353ecabf91ad644f4494cd6ecf71fd4fd06278ddcdac"
+    },
+    {
+      "id": "E10-analysis_receipt.json",
+      "source": "research_runs/argos-final-confirmatory-20261026/analysis/analysis_receipt.json",
+      "source_sha256": "264e15ba34307744487e64a160c5c9d3f8df38ba4de97845ce9481314bcc54d3",
+      "public_file": "data/analysis_receipt.json",
+      "public_sha256": "264e15ba34307744487e64a160c5c9d3f8df38ba4de97845ce9481314bcc54d3"
+    },
+    {
+      "id": "E11",
+      "source": "research_runs/argos-final-confirmatory-20261026/inference/runtime.json",
+      "source_sha256": "cad40fad8581727842ce85dbad567a226f50b3da50ccfad9dacc9f9f1ce8d6fe",
+      "public_file": "data/runtime.json",
+      "public_sha256": "cad40fad8581727842ce85dbad567a226f50b3da50ccfad9dacc9f9f1ce8d6fe"
+    },
+    {
+      "id": "E12",
+      "source": "research_runs/argos-final-confirmatory-20261026/inference/DONE.json",
+      "source_sha256": "734fba02f21526c53eb1f4aace413c35a4dd6d3ae7eec9e5778f355116cec190",
+      "public_file": "data/inference_completion.json",
+      "public_sha256": "734fba02f21526c53eb1f4aace413c35a4dd6d3ae7eec9e5778f355116cec190"
+    },
+    {
+      "id": "E13",
+      "source": "research_runs/argos-final-confirmatory-20261026/blind_review/REVIEWS_CLOSED.json",
+      "source_sha256": "2b528bdc446c5481922c47858bfd99536cf6b912b82ad67370beed24eb5d7c6f",
+      "public_file": "data/review_closure.json",
+      "public_sha256": "2b528bdc446c5481922c47858bfd99536cf6b912b82ad67370beed24eb5d7c6f"
+    }
+  ],
+  "private_questions_published": false,
+  "private_keys_published": false,
+  "weights_published": false,
+  "credentials_published": false,
+  "old_inputs_modified": false
+}

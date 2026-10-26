@@ -1,0 +1,6 @@
+# Report rendering only. Inference uses the separately recorded CUDA environment.
+reportlab>=4.0,<5
+matplotlib==3.11.2
+numpy==2.3.5
+Pillow==12.3.0
+pypdf>=6,<7

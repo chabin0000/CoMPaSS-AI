@@ -1,0 +1,119 @@
+[
+  {
+    "cohort": "gsm8k",
+    "n": 40,
+    "delta_pp": -77.5,
+    "item_bootstrap95_pp": [
+      -90.0,
+      -65.0
+    ],
+    "family_bootstrap95_pp": null,
+    "families": 1,
+    "wins": 0,
+    "losses": 31,
+    "mcnemar_exact": 9.313225746154785e-10,
+    "exploratory_multiple_comparisons": true
+  },
+  {
+    "cohort": "instruction",
+    "n": 40,
+    "delta_pp": 60.0,
+    "item_bootstrap95_pp": [
+      40.0,
+      77.5
+    ],
+    "family_bootstrap95_pp": [
+      20.0,
+      85.0
+    ],
+    "families": 4,
+    "wins": 27,
+    "losses": 3,
+    "mcnemar_exact": 8.430331945419312e-06,
+    "exploratory_multiple_comparisons": true
+  },
+  {
+    "cohort": "klue_nli",
+    "n": 40,
+    "delta_pp": 7.5,
+    "item_bootstrap95_pp": [
+      -5.0,
+      20.0
+    ],
+    "family_bootstrap95_pp": null,
+    "families": 1,
+    "wins": 5,
+    "losses": 2,
+    "mcnemar_exact": 0.453125,
+    "exploratory_multiple_comparisons": true
+  },
+  {
+    "cohort": "kobest_boolq",
+    "n": 40,
+    "delta_pp": 2.5,
+    "item_bootstrap95_pp": [
+      0.0,
+      7.5
+    ],
+    "family_bootstrap95_pp": null,
+    "families": 1,
+    "wins": 1,
+    "losses": 0,
+    "mcnemar_exact": 1,
+    "exploratory_multiple_comparisons": true
+  },
+  {
+    "cohort": "math",
+    "n": 80,
+    "delta_pp": -38.75,
+    "item_bootstrap95_pp": [
+      -52.5,
+      -25.0
+    ],
+    "family_bootstrap95_pp": [
+      -58.75,
+      -18.75
+    ],
+    "families": 16,
+    "wins": 6,
+    "losses": 37,
+    "mcnemar_exact": 1.636124125070637e-06,
+    "exploratory_multiple_comparisons": true
+  },
+  {
+    "cohort": "premise",
+    "n": 60,
+    "delta_pp": -8.333333333333332,
+    "item_bootstrap95_pp": [
+      -16.666666666666664,
+      -1.6666666666666667
+    ],
+    "family_bootstrap95_pp": [
+      -25.0,
+      0.0
+    ],
+    "families": 6,
+    "wins": 0,
+    "losses": 5,
+    "mcnemar_exact": 0.0625,
+    "exploratory_multiple_comparisons": true
+  },
+  {
+    "cohort": "source_claims",
+    "n": 60,
+    "delta_pp": 11.666666666666666,
+    "item_bootstrap95_pp": [
+      5.0,
+      20.0
+    ],
+    "family_bootstrap95_pp": [
+      0.0,
+      28.333333333333332
+    ],
+    "families": 6,
+    "wins": 7,
+    "losses": 0,
+    "mcnemar_exact": 0.015625,
+    "exploratory_multiple_comparisons": true
+  }
+]

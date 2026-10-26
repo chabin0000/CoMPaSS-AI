@@ -1,0 +1,34 @@
+[
+  {
+    "cohort": "source_claims",
+    "model": "S0",
+    "wins": 1,
+    "losses": 6,
+    "ties": 13,
+    "n": 20
+  },
+  {
+    "cohort": "source_claims",
+    "model": "ARGOS",
+    "wins": 6,
+    "losses": 1,
+    "ties": 13,
+    "n": 20
+  },
+  {
+    "cohort": "premise",
+    "model": "S0",
+    "wins": 19,
+    "losses": 0,
+    "ties": 1,
+    "n": 20
+  },
+  {
+    "cohort": "premise",
+    "model": "ARGOS",
+    "wins": 0,
+    "losses": 19,
+    "ties": 1,
+    "n": 20
+  }
+]

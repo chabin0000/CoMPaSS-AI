@@ -1,0 +1,19 @@
+{
+  "at": 1793026097.79126,
+  "seal_sha256": "3ddff2b67a795c47faec47efd45a934781ecf6fd9bc56bee2b87c4b581984a46",
+  "runner_sha256": "f97951f909c715e4e3007d6b3d0a5e80ee8ceb5a6bdf43928de3792e9685d45f",
+  "base_code_sha256": "717d183af5a476300e1518d43db22bf5c6ae93090a7f24c9c4d9eb9404f01e9c",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "vram_bytes": 8518041600,
+  "quantized_layers": 224,
+  "quantization": "NF4",
+  "compute_dtype": "BF16",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "transformers": "5.1.0",
+    "peft": "0.19.1",
+    "bitsandbytes": "0.50.2"
+  },
+  "no_training": true,
+  "base_revision": "553ea250b9a5317231459279d5847d6cf955b9aa"
+}

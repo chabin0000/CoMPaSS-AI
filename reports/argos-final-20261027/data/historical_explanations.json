@@ -1,0 +1,442 @@
+[
+  {
+    "regime": "original",
+    "model": "S0",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 80,
+    "supporting": 80,
+    "instruction": 16,
+    "naturalness_mean": 4.6625,
+    "fact_errors": 91,
+    "fact_denominator": 240,
+    "fact_rate": 0.37916666666666665,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 22,
+      "eligible_negative_cases": 26,
+      "rate": 0.8461538461538461,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "original",
+    "model": "S1",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 78,
+    "supporting": 77,
+    "instruction": 68,
+    "naturalness_mean": 4.538461538461538,
+    "fact_errors": 150,
+    "fact_denominator": 240,
+    "fact_rate": 0.625,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 15,
+      "eligible_negative_cases": 26,
+      "rate": 0.5769230769230769,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "original",
+    "model": "S2",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 78,
+    "supporting": 69,
+    "instruction": 61,
+    "naturalness_mean": 4.705128205128205,
+    "fact_errors": 140,
+    "fact_denominator": 240,
+    "fact_rate": 0.5833333333333334,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 13,
+      "eligible_negative_cases": 26,
+      "rate": 0.5,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "original",
+    "model": "S3_matched",
+    "seeds": 2,
+    "requested": 160,
+    "rated": 153,
+    "supporting": 147,
+    "instruction": 136,
+    "naturalness_mean": 4.673202614379085,
+    "fact_errors": 295,
+    "fact_denominator": 480,
+    "fact_rate": 0.6145833333333334,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 25,
+      "eligible_negative_cases": 52,
+      "rate": 0.4807692307692308,
+      "resolved_cases": 52
+    }
+  },
+  {
+    "regime": "original",
+    "model": "S3a",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 74,
+    "supporting": 74,
+    "instruction": 68,
+    "naturalness_mean": 4.337837837837838,
+    "fact_errors": 143,
+    "fact_denominator": 239,
+    "fact_rate": 0.5983263598326359,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 15,
+      "eligible_negative_cases": 26,
+      "rate": 0.5769230769230769,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "original",
+    "model": "S4_full_verified",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 78,
+    "supporting": 77,
+    "instruction": 69,
+    "naturalness_mean": 4.551282051282051,
+    "fact_errors": 143,
+    "fact_denominator": 240,
+    "fact_rate": 0.5958333333333333,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 15,
+      "eligible_negative_cases": 26,
+      "rate": 0.5769230769230769,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "original",
+    "model": "S4_teacher_only",
+    "seeds": 2,
+    "requested": 160,
+    "rated": 157,
+    "supporting": 135,
+    "instruction": 118,
+    "naturalness_mean": 4.694267515923567,
+    "fact_errors": 289,
+    "fact_denominator": 480,
+    "fact_rate": 0.6020833333333333,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 22,
+      "eligible_negative_cases": 52,
+      "rate": 0.4230769230769231,
+      "resolved_cases": 52
+    }
+  },
+  {
+    "regime": "original",
+    "model": "S5",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 79,
+    "supporting": 75,
+    "instruction": 68,
+    "naturalness_mean": 4.6835443037974684,
+    "fact_errors": 141,
+    "fact_denominator": 240,
+    "fact_rate": 0.5875,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 11,
+      "eligible_negative_cases": 26,
+      "rate": 0.4230769230769231,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "original",
+    "model": "S5_general_control",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 79,
+    "supporting": 77,
+    "instruction": 71,
+    "naturalness_mean": 4.7215189873417724,
+    "fact_errors": 139,
+    "fact_denominator": 240,
+    "fact_rate": 0.5791666666666667,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 15,
+      "eligible_negative_cases": 26,
+      "rate": 0.5769230769230769,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "original",
+    "model": "glm",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 70,
+    "supporting": 70,
+    "instruction": 66,
+    "naturalness_mean": 4.8428571428571425,
+    "fact_errors": 11,
+    "fact_denominator": 227,
+    "fact_rate": 0.048458149779735685,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 25,
+      "eligible_negative_cases": 26,
+      "rate": 0.9615384615384616,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "original",
+    "model": "gpt_oss",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 71,
+    "supporting": 71,
+    "instruction": 67,
+    "naturalness_mean": 4.746478873239437,
+    "fact_errors": 44,
+    "fact_denominator": 238,
+    "fact_rate": 0.18487394957983194,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 24,
+      "eligible_negative_cases": 26,
+      "rate": 0.9230769230769231,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "extended_8192",
+    "model": "S0",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 80,
+    "supporting": 76,
+    "instruction": 14,
+    "naturalness_mean": 4.4875,
+    "fact_errors": 93,
+    "fact_denominator": 239,
+    "fact_rate": 0.3891213389121339,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 22,
+      "eligible_negative_cases": 26,
+      "rate": 0.8461538461538461,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "extended_8192",
+    "model": "S1",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 77,
+    "supporting": 68,
+    "instruction": 57,
+    "naturalness_mean": 4.454545454545454,
+    "fact_errors": 149,
+    "fact_denominator": 240,
+    "fact_rate": 0.6208333333333333,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 13,
+      "eligible_negative_cases": 26,
+      "rate": 0.5,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "extended_8192",
+    "model": "S2",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 76,
+    "supporting": 59,
+    "instruction": 50,
+    "naturalness_mean": 4.7368421052631575,
+    "fact_errors": 139,
+    "fact_denominator": 240,
+    "fact_rate": 0.5791666666666667,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 11,
+      "eligible_negative_cases": 26,
+      "rate": 0.4230769230769231,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "extended_8192",
+    "model": "S3_matched",
+    "seeds": 2,
+    "requested": 160,
+    "rated": 152,
+    "supporting": 125,
+    "instruction": 114,
+    "naturalness_mean": 4.598684210526316,
+    "fact_errors": 295,
+    "fact_denominator": 480,
+    "fact_rate": 0.6145833333333334,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 14,
+      "eligible_negative_cases": 52,
+      "rate": 0.2692307692307692,
+      "resolved_cases": 52
+    }
+  },
+  {
+    "regime": "extended_8192",
+    "model": "S3a",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 72,
+    "supporting": 70,
+    "instruction": 62,
+    "naturalness_mean": 4.291666666666667,
+    "fact_errors": 141,
+    "fact_denominator": 237,
+    "fact_rate": 0.5949367088607594,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 15,
+      "eligible_negative_cases": 26,
+      "rate": 0.5769230769230769,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "extended_8192",
+    "model": "S4_full_verified",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 75,
+    "supporting": 62,
+    "instruction": 56,
+    "naturalness_mean": 4.666666666666667,
+    "fact_errors": 140,
+    "fact_denominator": 237,
+    "fact_rate": 0.5907172995780591,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 13,
+      "eligible_negative_cases": 26,
+      "rate": 0.5,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "extended_8192",
+    "model": "S4_teacher_only",
+    "seeds": 2,
+    "requested": 160,
+    "rated": 156,
+    "supporting": 115,
+    "instruction": 95,
+    "naturalness_mean": 4.57051282051282,
+    "fact_errors": 287,
+    "fact_denominator": 479,
+    "fact_rate": 0.5991649269311065,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 16,
+      "eligible_negative_cases": 52,
+      "rate": 0.3076923076923077,
+      "resolved_cases": 52
+    }
+  },
+  {
+    "regime": "extended_8192",
+    "model": "S5",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 78,
+    "supporting": 64,
+    "instruction": 56,
+    "naturalness_mean": 4.589743589743589,
+    "fact_errors": 141,
+    "fact_denominator": 240,
+    "fact_rate": 0.5875,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 5,
+      "eligible_negative_cases": 26,
+      "rate": 0.19230769230769232,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "extended_8192",
+    "model": "S5_general_control",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 78,
+    "supporting": 61,
+    "instruction": 56,
+    "naturalness_mean": 4.67948717948718,
+    "fact_errors": 137,
+    "fact_denominator": 239,
+    "fact_rate": 0.5732217573221757,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 12,
+      "eligible_negative_cases": 26,
+      "rate": 0.46153846153846156,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "extended_8192",
+    "model": "glm",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 76,
+    "supporting": 73,
+    "instruction": 69,
+    "naturalness_mean": 4.868421052631579,
+    "fact_errors": 15,
+    "fact_denominator": 233,
+    "fact_rate": 0.06437768240343347,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 22,
+      "eligible_negative_cases": 26,
+      "rate": 0.8461538461538461,
+      "resolved_cases": 26
+    }
+  },
+  {
+    "regime": "extended_8192",
+    "model": "gpt_oss",
+    "seeds": 1,
+    "requested": 80,
+    "rated": 66,
+    "supporting": 64,
+    "instruction": 61,
+    "naturalness_mean": 4.651515151515151,
+    "fact_errors": 48,
+    "fact_denominator": 239,
+    "fact_rate": 0.200836820083682,
+    "premise_detection": {
+      "definition": "Frozen premise-domain questions with a negative reference conclusion. Requires a correct conclusion and explanation; unresolved cases are not successes.",
+      "detected": 19,
+      "eligible_negative_cases": 26,
+      "rate": 0.7307692307692307,
+      "resolved_cases": 26
+    }
+  }
+]

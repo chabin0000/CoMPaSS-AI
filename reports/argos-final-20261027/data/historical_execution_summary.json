@@ -1,0 +1,22 @@
+{
+  "source": "research_runs/argos-plan-flex-20261025/report_work/final_report_narrative.json",
+  "source_sha256": "78844eb0b823fc6a3db0c42aad11a56608374f5179575d47c5b5adbd876bddde",
+  "local_collected_responses": 20126,
+  "pre_freeze_exclusions": 22,
+  "raw_responses": 20104,
+  "raw_questions": 10133,
+  "verified_responses": 14903,
+  "verified_questions": 7974,
+  "verification_failed": 1228,
+  "review_pending": 3973,
+  "matched_questions": 7779,
+  "training_runs": 10,
+  "cloud_gpu": "RTX A5000 24GB",
+  "observed_peak_mib": 16219,
+  "gpu_sample_energy_wh": 1342.56,
+  "phase_elapsed_hours_approx": 18.23,
+  "phase_rate_usd_per_hour": 0.27,
+  "phase_estimated_compute_usd_approx": 4.92,
+  "phase_balance_decrease_usd_approx": 5.95,
+  "scope": "Selected documented historical phase totals; not a new measurement and not total project billing"
+}

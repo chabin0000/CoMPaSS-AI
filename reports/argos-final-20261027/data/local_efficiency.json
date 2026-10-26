@@ -1,0 +1,24 @@
+[
+  {
+    "model": "S0",
+    "requests": 360,
+    "generation_seconds": 955.9359999998996,
+    "latency_median": 1.5394999999989523,
+    "latency_p95": 8.547000000005937,
+    "output_tokens": 35671,
+    "token_per_generation_second": 37.31525959897289,
+    "incomplete": 2,
+    "scope": "serial local generation calls including incomplete; excludes model loading and input tokenization; no TTFT instrumentation"
+  },
+  {
+    "model": "ARGOS",
+    "requests": 360,
+    "generation_seconds": 262.97900000012305,
+    "latency_median": 0.23500000000058208,
+    "latency_p95": 2.5469999999913853,
+    "output_tokens": 5980,
+    "token_per_generation_second": 22.73945828373065,
+    "incomplete": 0,
+    "scope": "serial local generation calls including incomplete; excludes model loading and input tokenization; no TTFT instrumentation"
+  }
+]

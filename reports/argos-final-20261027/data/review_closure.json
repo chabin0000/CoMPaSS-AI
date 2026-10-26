@@ -1,0 +1,20 @@
+{
+  "at": 1793028153.487491,
+  "reviewer": "one active Codex AI; exact serving backend not independently attested",
+  "human_reviewers": 0,
+  "independent_reviewer_count": 1,
+  "counts": {
+    "source": 120,
+    "numeric": 85,
+    "pair": 40
+  },
+  "judgment_sha256": {
+    "source_judgments.LOCAL_ONLY.json": "44a08120940e93a3cb5f5f0239351ee62d7bb39bbd74c53d44cffa61ff2f9f77",
+    "numeric_judgments.LOCAL_ONLY.json": "9489b5734a056167745e6123b098f8d484f8c156f1009af96cfeded360f0e75c",
+    "pair_judgments.LOCAL_ONLY.json": "035e90d94d05ef18121c0df2e61b982012d498d91ed3198166cdf8219215b803"
+  },
+  "identity_map_opened_before_closure": false,
+  "label_extraction_unresolved": 0,
+  "structural_scoring_note": "Numeric literal final marker plus preceding nonempty explanation; premise exactly label plus one reason sentence. Operational details finalized before identity decoding, after responses were available; not external preregistration.",
+  "known_item_quality_issue": "Some source prompts have mechanically joined Korean particles such as 지역를; semantics retained. No post-seal edits."
+}

@@ -1,0 +1,40 @@
+{
+  "at": 1793025935.042818,
+  "protocol_version": "confirmatory-1",
+  "private_items": 240,
+  "public_auxiliary_items": 120,
+  "models": [
+    "S0",
+    "ARGOS_S5_general_control_20261022"
+  ],
+  "model_choice_fixed_before_new_outputs": true,
+  "training_performed": false,
+  "math_retraining_decision": "Do not repeat failed recovery; close as negative result",
+  "runtime": "Local RTX5060Ti 8GB Windows NF4 BF16, batch1; all quantized layers CUDA; fail if not NF4",
+  "inference": {
+    "do_sample": false,
+    "seed": 20261026,
+    "max_new_tokens": 512,
+    "max_time_seconds": 180
+  },
+  "primary": "Per-domain semantic correctness; report strict instruction compliance separately; no composite",
+  "factual_metric": "Atomic verifiable claims in source_claims responses only; contradictions / supported+contradicted; unsupported and unresolved separate; no-claim coverage reported",
+  "subjective_review": "All source_claims responses; prespecified 40 blinded pairs (20 source_claims and20 premise); single AI reviewer, no human kappa",
+  "statistics": "Wilson per-rate95; paired item bootstrap10000 and family-cluster sensitivity; no seed-replication or teacher-superiority claim",
+  "scope_amendments": [
+    "New procedural private test with new items, not independent human authorship or distribution",
+    "Private source facts are fictional records; not open-world factual knowledge",
+    "Two frozen models only; no teacher rerun",
+    "KLUE-NLI KoBEST-BoolQ GSM8K each40 sampled custom-prompt auxiliaries, not full benchmark scores",
+    "MMLU-Pro GPQA CMMLU not executed; removed from this closure scope"
+  ],
+  "evaluation_after_seal_only": true,
+  "public_artifacts_exclude": [
+    "private prompts",
+    "private keys",
+    "private authoring seed and code",
+    "model weights",
+    "credentials",
+    "raw licensed dataset files"
+  ]
+}
