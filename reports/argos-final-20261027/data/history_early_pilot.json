@@ -1,0 +1,258 @@
+{
+  "evidence_tier": "Archived tool output that read original artifacts; not a new run or current access to the external drive",
+  "source_session_id": "01a0012a-ecd5-7f92-ab46-24ebfe648343",
+  "source_session_sha256": "61f3e1af0d500321f6de496dc7221beb6e97361cfd8abd03c783e01fb0550467",
+  "source_records": {
+    "2613": {
+      "timestamp": "2026-08-15T05:11:08.109Z",
+      "record_sha256": "ae0fada5ed9b7ded2a2cb6f66a99e619429933408ba5c60fc6fb92911c938e10"
+    },
+    "2694": {
+      "timestamp": "2026-08-15T05:14:25.111Z",
+      "record_sha256": "97baf581cfa9c34b6277d2ef163dbcae4232d36d70f0455786edce33fc44ef8c"
+    }
+  },
+  "original_external_drive_available_now": false,
+  "teacher_model": "openai/gpt-oss-20b",
+  "teacher_generation": {
+    "max_tokens": 1536,
+    "seed": 7,
+    "temperature": 0,
+    "top_p": 1
+  },
+  "teacher_runtime_metadata": {
+    "checkpoint": "openai/gpt-oss-20b",
+    "inference_engine": null,
+    "quantization": null,
+    "revision": null,
+    "server_config": {}
+  },
+  "teacher_collection": {
+    "pilot_questions_total": 60,
+    "responses_collected": 50,
+    "responses_not_collected": 10,
+    "collection_coverage": 0.8333333333333334,
+    "passed": 30,
+    "failed": 20,
+    "unresolved": 0,
+    "accuracy_on_collected_responses": 0.6,
+    "domains": {
+      "coding": {
+        "passed": 3,
+        "failed": 1,
+        "total": 4,
+        "accuracy": 0.75
+      },
+      "common_sense": {
+        "passed": 8,
+        "failed": 2,
+        "total": 10,
+        "accuracy": 0.8
+      },
+      "instruction_following": {
+        "passed": 6,
+        "failed": 2,
+        "total": 8,
+        "accuracy": 0.75
+      },
+      "korean_language": {
+        "passed": 3,
+        "failed": 5,
+        "total": 8,
+        "accuracy": 0.375
+      },
+      "politics_china": {
+        "passed": 0,
+        "failed": 6,
+        "total": 6,
+        "accuracy": 0.0
+      },
+      "politics_control": {
+        "passed": 0,
+        "failed": 2,
+        "total": 2,
+        "accuracy": 0.0
+      },
+      "premise_detection": {
+        "passed": 6,
+        "failed": 2,
+        "total": 8,
+        "accuracy": 0.75
+      },
+      "stem": {
+        "passed": 4,
+        "failed": 0,
+        "total": 4,
+        "accuracy": 1.0
+      }
+    }
+  },
+  "training_config": {
+    "base_model": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct",
+    "model_revision": "553ea250b9a5317231459279d5847d6cf955b9aa",
+    "batch_size": 1,
+    "epochs": 2,
+    "expected_sample_count": 30,
+    "gradient_accumulation_steps": 4,
+    "learning_rate": 0.0002,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "lora_rank": 16,
+    "max_sequence_length": 768,
+    "max_steps": 15,
+    "seed": 20260815,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "out_proj"
+    ]
+  },
+  "training": {
+    "status": "complete",
+    "actual_quantization_mode": "4bit",
+    "adapter_reload_verified": true,
+    "quantization_fallback_reason": null,
+    "gpu": "NVIDIA GeForce RTX 5060 Ti",
+    "global_step": 15,
+    "epoch": 1.9333333333333333,
+    "final_log": {
+      "epoch": 1.9333333333333333,
+      "step": 15,
+      "total_flos": 738566793805824.0,
+      "train_loss": 1.0832603096961975,
+      "train_runtime": 428.9092,
+      "train_samples_per_second": 0.14,
+      "train_steps_per_second": 0.035
+    }
+  },
+  "evaluation": {
+    "evaluation_count": 20,
+    "base_correct": 8,
+    "argos_correct": 12,
+    "base_accuracy": 0.4,
+    "argos_accuracy": 0.6,
+    "paired_counts": {
+      "argos_only_correct": 4,
+      "base_only_correct": 0,
+      "both_correct": 8,
+      "both_wrong": 8
+    },
+    "mcnemar_exact": {
+      "argos_only_correct": 4,
+      "base_only_correct": 0,
+      "discordant_pairs": 4,
+      "interpretation": "auxiliary only; n=20 is small",
+      "two_sided_exact_p_value": 0.125
+    },
+    "base_diagnostics": {
+      "average_output_tokens": 94.2,
+      "degenerate_repetition": 0,
+      "format_violation": 4,
+      "refusal": 0,
+      "truncation": 3
+    },
+    "argos_diagnostics": {
+      "average_output_tokens": 51.3,
+      "degenerate_repetition": 0,
+      "format_violation": 3,
+      "refusal": 0,
+      "truncation": 0
+    },
+    "frozen_dataset_sha256": "490c49f9967160108a8091c32b06c786097a3ab442770a4e5f488d672ef55132",
+    "adapter_unchanged": true,
+    "generation_config_identical": true,
+    "reference_leakage_count": 0,
+    "status": "COMPLETE"
+  },
+  "evaluation_config": {
+    "max_new_tokens": 256,
+    "model_revision": "553ea250b9a5317231459279d5847d6cf955b9aa",
+    "compute_dtype": "bfloat16",
+    "do_sample": false,
+    "quantization": "4bit",
+    "quantization_type": "nf4"
+  },
+  "domain_results": [
+    {
+      "argos_accuracy": 0.75,
+      "argos_correct": 3,
+      "base_accuracy": 0.75,
+      "base_correct": 3,
+      "difference": 0.0,
+      "domain": "common_sense",
+      "total": 4
+    },
+    {
+      "argos_accuracy": 0.6666666666666666,
+      "argos_correct": 2,
+      "base_accuracy": 0.6666666666666666,
+      "base_correct": 2,
+      "difference": 0.0,
+      "domain": "instruction_following",
+      "total": 3
+    },
+    {
+      "argos_accuracy": 0.3333333333333333,
+      "argos_correct": 1,
+      "base_accuracy": 0.0,
+      "base_correct": 0,
+      "difference": 0.3333333333333333,
+      "domain": "korean_language",
+      "total": 3
+    },
+    {
+      "argos_accuracy": 0.5,
+      "argos_correct": 2,
+      "base_accuracy": 0.0,
+      "base_correct": 0,
+      "difference": 0.5,
+      "domain": "stem",
+      "total": 4
+    },
+    {
+      "argos_accuracy": 1.0,
+      "argos_correct": 3,
+      "base_accuracy": 0.6666666666666666,
+      "base_correct": 2,
+      "difference": 0.3333333333333333,
+      "domain": "coding",
+      "total": 3
+    },
+    {
+      "argos_accuracy": 0.3333333333333333,
+      "argos_correct": 1,
+      "base_accuracy": 0.3333333333333333,
+      "base_correct": 1,
+      "difference": 0.0,
+      "domain": "premise_detection",
+      "total": 3
+    }
+  ],
+  "original_validation_checks": {
+    "adapter_application_correct": true,
+    "adapter_reload_verified": true,
+    "adapter_unchanged": true,
+    "argos_pass_12": true,
+    "base_pass_8": true,
+    "frozen_checksum_matches": true,
+    "generation_conditions_identical": true,
+    "paired_counts_match": true,
+    "paired_counts_sum_20": true,
+    "question_count_20": true,
+    "question_order_matches": true,
+    "reference_leakage_zero": true,
+    "strict_4bit_no_fallback": true,
+    "training_complete": true,
+    "training_count_30": true
+  },
+  "source_artifact_hashes": {
+    "evaluation_run": "f0819ec96c774eea5091592ecade6e845d115576fce34debca3057473f0b805f",
+    "manifest": "efa74948eb3bba022961202e42d791c85a64249f939132e2c53d01ff2b0f1abf",
+    "paired": "c0b089b7bea482586561989a39e70bd9f327ad9ad3e8883709004a133d27b784",
+    "questions": "490c49f9967160108a8091c32b06c786097a3ab442770a4e5f488d672ef55132",
+    "summary": "ba7eec92a0333c531a8967ba8c75a3d165e7b94e4dc545f1ac25fadfa72e4ae4",
+    "training_data": "99fbe4fbb87ec77a2259ab2a31dca6b6bb60dca1175b25bb0f2cae5f4c4ddb1f",
+    "training_run": "1166e806b744a1b18ed1f6131616ebfffb54914620a0a306ab441cf6d9519641"
+  }
+}

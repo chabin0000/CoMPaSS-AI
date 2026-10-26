@@ -1,36 +1,57 @@
-# CoMPaSS-AI
+# CoMPaSS-AI · ARGOS
 
-다중 교사 지식 통합과 독립 검증을 통해 한국형 학생 AI를 연구하기 위한 재현 가능한 데이터 파이프라인이다.
+서로 다른 교사 언어모델의 답변을 검증하고 EXAONE 학생 모델에 학습시킨 연구입니다. **실제 본실험은 임대한 RTX A5000 24GB에서 진행했습니다.** DGX Spark는 초기 구상과 초기 교사 수집 단계에 해당합니다.
 
-현재 ARGOS-v1은 Mock E2E뿐 아니라 OpenAI-compatible 실제 teacher API, teacher별 중단·재개, 독립 검증과 수동 검토, frozen Core-v2 데이터·평가 프로토콜, EXAONE 학생 LoRA·QLoRA 학습 및 평가 파이프라인, DGX 실행 Runbook까지 pre-DGX 준비가 완료된 상태다. 단, 실제 대형 teacher 추론과 ARGOS-v1 본학습·본평가는 아직 DGX에서 수행하지 않았으므로 현재 결과를 실제 모델 성능으로 해석할 수 없다.
+**[최종 연구 보고서 읽기](reports/argos-final-20261027/REPORT_KO.md)** · **[PDF 다운로드](reports/argos-final-20261027/CoMPaSS_ARGOS_final_report_20261027.pdf)** · [집계 데이터와 근거](reports/argos-final-20261027/data/)
 
-## 실행
+## 무엇을 만들었나
+
+학생 기반 모델은 EXAONE-3.5-7.8B-Instruct이며, 10월 본실험의 교사는 gpt-oss-20B와 GLM-4.7-Flash입니다. 같은 기반 모델에서 학습 조건별로 독립 어댑터 10개를 만들었습니다. 열 단계를 연속 학습하거나 열 모델을 합친 구조가 아닙니다. 최종 동결 대상은 `S5_general_control-20261022`입니다.
+
+| 시기 | 실제 진행 내용 |
+| --- | --- |
+| 2026년 8월 | DGX 실행 계획과 검증 파이프라인 정리. gpt-oss-20B 교사 응답 50개 중 PASS30으로 로컬 ARGOS-Pilot 학습 |
+| 10월 22~23일 | RunPod A40 48GB를 실제 임대해 교사 프로파일·검증률·학습 시간을 측정 |
+| 10월 23~24일 | RTX A5000 24GB로 수집을 이전하고 기존 응답을 복구. 로컬 통합 입력 20,126개에서 22개를 제외해 본실험 원본 20,104개 동결 |
+| 10월 25~26일 | A5000 24GB에서 학생 학습 10회와 기반·학생·교사 총 13조건 평가 |
+| 10월 26일 | 수학 보충과 후속 체크포인트 5개 진단. 회복 기준을 충족하는 후보를 찾지 못해 기존 선택 모델 유지 |
+| 10월 26일 밤~27일 | 모델 동결 후 새 비공개 240문항과 공개 보조 120문항으로 로컬 최종 확인. 두 모델의 실제 응답 720개 분석 |
+
+8월 초기 Pilot의 신규 20문항 정답은 기반 8개에서 Pilot 12개로 증가했습니다. 보존된 당시 도구 출력에서 복원한 소규모 결과이며, 정확 McNemar 검정은 p=0.125입니다. 10월 최종 모델의 성과와 합산하지 않습니다.
+
+## 최종 결과
+
+**최종 ARGOS는 제공 자료 충실성과 공백 정규화 후 전체 응답 일치율이 높아졌지만 수학 능력이 크게 저하됐습니다. 전반적인 성능 향상이나 교사 모델 초과는 확인하지 못했습니다.**
+
+| 새 동결 평가 | 기반 EXAONE S0 | 최종 ARGOS |
+| --- | --- | --- |
+| 수학 내용 정답 | 68/80 | 37/80 |
+| 제공 자료의 요청 사실 충족 | 53/60 | 60/60 |
+| 전제 판단의 결론 정답 | 55/60 | 50/60 |
+| 공백 정규화 후 전체 응답 일치 | 3/40 | 27/40 |
+| KLUE NLI 표본 | 33/40 | 36/40 |
+| KoBEST BoolQ 표본 | 36/40 | 37/40 |
+| GSM8K 표본 | 37/40 | 6/40 |
+
+각 행의 과제와 채점 기준이 다르므로 하나의 종합 지능 점수로 합치지 않습니다. 공개 벤치마크는 각각 40문항의 보조 표본이며 공식 전체 벤치마크 결과가 아닙니다.
+
+교사와 함께 실행한 **기존 확장 240문항**에서는 내용·지시 동시 통과가 ARGOS 96개, gpt-oss-20B 177개, GLM-4.7-Flash 206개였습니다. 이 기존 평가는 모델 선정에도 사용했습니다. 교사들은 새 240문항에 재평가하지 않았으므로 새 시험에서의 교사 대비 우열을 주장하지 않습니다.
+
+기록으로 확인되는 독립적인 사람 검수 완료 인원은 0명입니다. 응답 판정은 단일 AI로 수행했으며, 사람 2명 검수와 독립 평가자 일치도를 완료했다고 표기하지 않습니다. 보고서는 기존 ChatGPT 프로젝트 대화에서 Pro → xhigh → Pro로 세 차례 의견을 주고받으며 수정했습니다. [합의 과정](reports/argos-final-20261027/AI_REVIEW_CONSENSUS_KO.md)은 문항별 독립 이중 채점과 구분합니다.
+
+## 공개 자료와 재현 범위
+
+- [보고서 묶음과 실행 안내](reports/argos-final-20261027/README.md): PDF·Markdown·HTML·도표·집계표.
+- [근거 파일 해시 목록](reports/argos-final-20261027/evidence_manifest.json): 평가 집계와 개발 이력의 출처.
+- [보고서 재생성 코드](scripts/argos_build_final_report.py): 공개 집계 파일로 문서와 그림을 재생성.
+- [신규 평가 분석 코드](scripts/argos_confirmatory_analysis.py)와 [검증 사례](tests/test_argos_confirmatory_analysis.py).
+- [기존 DGX 실행 계획](DGX_RUNBOOK.md)과 [설계 결정 기록](docs/design_decisions.md): 과거 프로토콜을 보존한 자료이며 최종 본실험 장비를 뜻하지 않습니다.
+
+새 봉인 평가의 질문·정답·생성 시드, 모델 가중치와 서비스 자격증명은 포함하지 않습니다. 공개 자료만으로 집계와 보고서를 재생성할 수 있지만 비공개 평가의 전체 모델 추론을 재실행할 수는 없습니다. Git 이력의 Core-v1·Core-v2 준비 자료 중 `private_eval` 이름을 가진 파일은 저장소 공개와 함께 공개 자료가 되며, 이후 비공개 시험으로 재사용할 수 없습니다.
 
 ```powershell
-cd C:\CoMPaSS-AI
-uv sync --dev
-uv run pytest -q
-uv run python -m compass_ai system-check --root .
-uv run python -m compass_ai mock-e2e --root .
-uv run python -m compass_ai validate --file data/questions/mock_questions.jsonl
-uv run python -m compass_ai leakage-check --root .
-uv run python -m compass_ai pre-dgx-check --root .
+python -m pip install -r requirements/argos-confirmatory-report.txt
+python scripts/argos_build_final_report.py --root reports/argos-final-20261027
 ```
 
-## 구조
-
-- `data/questions/`: Pilot-v1 및 frozen Core-v2 질문, `data/raw/`: 교사별 원본 응답, `data/verified/`: 독립 검증 결과
-- `data/conditions/`: 학습 조건, `evaluation/protocols/`: frozen 평가 프로토콜, `evaluation/private_final/`: 비공개 평가 보호 경계
-- `src/compass_ai/`: Mock/실제 teacher API, 독립 검증, 조건 구성, student LoRA·QLoRA, 평가·분석, 누출 검사와 CLI
-- `logs/`: 실행마다 생성되는 재현성 로그(추적 제외), `reports/`: 요약 결과
-- `docs/`: 실험 프로토콜과 DGX 실행 지침
-
-## 결과 위치
-
-`mock-e2e` 후 `data/raw/`, `data/merged/mock_merged.jsonl`, `data/verified/mock_verified.jsonl`, 조건 데이터, `reports/mock_summary.json`, `logs/<run_id>/`가 생성된다. S5는 ARGOS-v1 핵심 본실험에서 실행하지 않는 후속 확장용 placeholder이며 실험 결과가 아니다.
-
-주실험용 파일은 `data/conditions/S3_matched.jsonl`과 `S4_teacher_only.jsonl`이다. E2E는 두 파일의 question_id 집합·표본 수·영역 분포가 다르면 실패한다.
-
-## DGX 본실험
-
-DGX에서는 frozen Git tag를 확인한 뒤 GPT-OSS와 GLM을 순차 실행하고, 독립 검증·수동 검토, S0~S4 학생 학습, private 평가, 결과 분석과 외부 artifact 백업을 수행한다. 환경변수, 정확한 실행 순서, 중단·재개 및 manual review 형식은 [`DGX_RUNBOOK.md`](DGX_RUNBOOK.md)를 따른다. GPU/CUDA/bf16, bitsandbytes 4bit, 실제 endpoint, EXAONE runtime과 모델 로딩 성능은 DGX 실행 전까지 미확인 상태다.
+Windows에서는 맑은 고딕을 기본으로 사용합니다. 다른 환경에서는 `--font`와 `--bold-font`에 한국어 TTF 경로를 지정합니다. 모델과 원 데이터의 이용 조건은 각 배포자의 조건을 따릅니다.

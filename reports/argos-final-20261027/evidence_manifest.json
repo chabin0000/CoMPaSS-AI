@@ -147,6 +147,54 @@
       "source_sha256": "2b528bdc446c5481922c47858bfd99536cf6b912b82ad67370beed24eb5d7c6f",
       "public_file": "data/review_closure.json",
       "public_sha256": "2b528bdc446c5481922c47858bfd99536cf6b912b82ad67370beed24eb5d7c6f"
+    },
+    {
+      "id": "H01",
+      "source": "Historical reconstruction; see source_records and history_sources.json",
+      "public_file": "data/history_early_pilot.json",
+      "public_sha256": "c2c6392c83c0eae504100411f29b06f81003da54e30554c42f2c61132d8aa1d1"
+    },
+    {
+      "id": "H02",
+      "source": "Historical reconstruction; see source_records and history_sources.json",
+      "public_file": "data/history_cloud_transition.json",
+      "public_sha256": "2410157ff9e291387d1dddeaa52529fae5d423b65d11da62bc043a57176f1b83"
+    },
+    {
+      "id": "H03",
+      "source": "Historical reconstruction; see source_records and history_sources.json",
+      "public_file": "data/history_a40_pilot.json",
+      "public_sha256": "41b9633775b58978524dbb7af86149fdeac59a50c671759c3245c1c26b392157"
+    },
+    {
+      "id": "H04",
+      "source": "Historical reconstruction; see source_records and history_sources.json",
+      "public_file": "data/history_timeline.json",
+      "public_sha256": "1c4611b6a0976f016ab20fd31af8db3a5402f93850ebec503e50cf2074f8ab3d"
+    },
+    {
+      "id": "H05",
+      "source": "Historical reconstruction; see source_records and history_sources.json",
+      "public_file": "data/history_sources.json",
+      "public_sha256": "d6e46d8d1010c8e2b6569f717b14d497104cbfaf55aadc270bfc0fbe6aedd7fc"
+    },
+    {
+      "id": "H06",
+      "source": "Historical reconstruction; see source_records and history_sources.json",
+      "public_file": "data/history_training_runs.json",
+      "public_sha256": "ef9c823d6786520209ebc7ba6c84ffc3ca677c818a521ec0b05c1ca6af20eea4"
+    },
+    {
+      "id": "H07",
+      "source": "Source records are individually hashed inside the public aggregate",
+      "public_file": "data/method_clarifications.json",
+      "public_sha256": "733951ea18582e285ecc4da4bcd867937f635d1af705340cf714bbda8935a0ea"
+    },
+    {
+      "id": "H08",
+      "source": "User-authorized project conversation; only new discussion receipts, no old chat transcript",
+      "public_file": "data/methodological_dialogue.json",
+      "public_sha256": "8c3a3967926e820ed40bd40a34ec9ac574c3bcac7b8aa80315e65448d8e32e14"
     }
   ],
   "private_questions_published": false,

@@ -1,0 +1,39 @@
+{
+  "initial_48gb": {
+    "completed_responses_at_stop": 7480,
+    "earlier_local_backup": 3936,
+    "recovered_local_responses": 7480,
+    "reason": "time_or_spend_bound",
+    "pending": 12500,
+    "failed": 20
+  },
+  "resume_24gb": {
+    "gpu": "NVIDIA RTX A5000",
+    "gpu_usd_per_hour": 0.27,
+    "cost_guard_usd_per_hour": 0.31,
+    "max_hours": 30,
+    "max_usd": 9.3,
+    "physical_vram_mib": 24564,
+    "observed_vram_mib": 18451,
+    "prior_completed_responses": 7480,
+    "question_and_model_config_changed": false,
+    "hardware_changed": true,
+    "actual_24gb_inference_verified": true
+  },
+  "later_reconciliation": {
+    "remote_main_successes": 19923,
+    "local_main_successes": 19839,
+    "remote_successes_unrecovered": 84,
+    "main_generation_failures": 77,
+    "supplement_cloud_questions": 144,
+    "supplement_cloud_successes": 287,
+    "supplement_cloud_failures": 1,
+    "supplement_gpt_successes": 143,
+    "supplement_glm_successes": 144,
+    "local_available_merged": 20126,
+    "pre_freeze_excluded": 22,
+    "raw_final_training": 20104,
+    "original_local_replay_responses_preserved": 101
+  },
+  "cost_scope": "Historical quotes and per-phase rates; not present-day prices, total invoices or additive project total"
+}

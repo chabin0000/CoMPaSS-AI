@@ -1,17 +1,27 @@
 {
-  "at": 1793028811.3082325,
-  "pdf_pages": 25,
-  "pdf_sha256": "0e52168a651bb71883a3761b299829d6a6015ea5975aeb90162ca5caac9da362",
+  "at": 1793035440.8990326,
+  "pdf_pages": 39,
+  "pdf_sha256": "1a10fc0092969838374f09f659e37ed5d00c48bcffdf1ad73c8aa0f5ab14646b",
   "all_pages_rendered": true,
-  "visual_review": "All pages as contact sheets; final table of contents and pages11,13,17,24 inspected at full rendered resolution.",
+  "visual_review": "All 39 pages reviewed in contact sheets; full-resolution checks of contents, results, history, conclusion and consensus pages. After missing minus glyph correction, all 39 pages were rendered again; only pages 10, 16 and 28 changed and all three were inspected at full resolution.",
   "page_bounds_violations": [],
+  "missing_pdf_glyphs": 0,
+  "negative_interval_text_verified": true,
   "sealed_files_verified": 9,
   "raw_model_responses": 720,
   "public_score_rows": 720,
   "aggregate_groups_recalculated": 14,
-  "source_manifest_hashes_verified": 21,
+  "source_manifest_hashes_verified": 29,
   "closed_judgment_hashes_verified": 3,
   "scoring_tests_passed": 13,
-  "humans": 0,
-  "private_test_prompts_published": false
+  "scoring_test_status": "Prior report run; scoring and inference implementation unchanged in this revision. Aggregates and evidence hashes recalculated for this revision.",
+  "web_project_review_rounds": [
+    "Pro",
+    "Extra High (xhigh)",
+    "Pro"
+  ],
+  "web_review_status": "Final supplied-evidence interpretation agreed; consultation is not an independent item rerating or local-file audit.",
+  "formal_human_reviewers": 0,
+  "private_test_prompts_published": false,
+  "final_render_matches_reviewed_pages": 39
 }

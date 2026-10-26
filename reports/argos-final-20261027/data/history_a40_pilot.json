@@ -1,0 +1,149 @@
+{
+  "scope": "Prospective hardware-profile selection on same 150 preseal pilot questions; automatic key checks, not human approvals or final performance. Configs differ by teacher and remain in separate immutable cohorts.",
+  "gpt_oss": {
+    "approved_main_training_samples": 0,
+    "by_task": {
+      "code": {
+        "failed": 3,
+        "passed": 27
+      },
+      "explanation": {
+        "needs_review": 30
+      },
+      "facts": {
+        "failed": 1,
+        "passed": 29
+      },
+      "premise": {
+        "failed": 3,
+        "passed": 27
+      },
+      "stem": {
+        "failed": 4,
+        "needs_review": 1,
+        "passed": 25
+      }
+    },
+    "completed": 150,
+    "elapsed_generation_seconds": 108.47640313801821,
+    "input_tokens": 34667,
+    "load_seconds": 4.0323722989996895,
+    "measured_response_window_seconds": 107.57496619224548,
+    "median_final_ttft_seconds": 1.3322971609595697,
+    "median_question_latency_seconds": 1.4689264514890965,
+    "median_ttft_seconds": 0.30983826151350513,
+    "mode": "actual_preseal_pilot",
+    "output_tokens_including_thinking": 16719,
+    "reasoning_tokens": null,
+    "requested": 150,
+    "requested_sampling_temperature": 0,
+    "response_window_basis": "earliest persisted request start to latest persisted response end; excludes model load",
+    "verification": {
+      "failed": 11,
+      "needs_review": 31,
+      "passed": 108
+    },
+    "verification_reasons": {
+      "answer_mismatch": 4,
+      "independent_answer_key": 56,
+      "independent_numeric_key": 52,
+      "manual_evidence_review_required:manual_rubric": 30,
+      "numeric_mismatch": 7,
+      "numeric_output_format": 1
+    }
+  },
+  "glm": {
+    "approved_main_training_samples": 0,
+    "by_task": {
+      "code": {
+        "failed": 4,
+        "passed": 26
+      },
+      "explanation": {
+        "needs_review": 30
+      },
+      "facts": {
+        "needs_review": 1,
+        "passed": 29
+      },
+      "premise": {
+        "passed": 30
+      },
+      "stem": {
+        "failed": 1,
+        "passed": 29
+      }
+    },
+    "completed": 150,
+    "elapsed_generation_seconds": 1024.0412007519626,
+    "input_tokens": 30439,
+    "load_seconds": 4.272421223053243,
+    "measured_response_window_seconds": 1018.0509722232819,
+    "median_final_ttft_seconds": 14.494545583991567,
+    "median_question_latency_seconds": 14.70332400748157,
+    "median_ttft_seconds": 0.4089534485246986,
+    "mode": "actual_preseal_pilot",
+    "output_tokens_including_thinking": 150361,
+    "reasoning_tokens": null,
+    "requested": 150,
+    "requested_sampling_temperature": 1.0,
+    "response_window_basis": "earliest persisted request start to latest persisted response end; excludes model load",
+    "verification": {
+      "failed": 5,
+      "needs_review": 31,
+      "passed": 114
+    },
+    "verification_reasons": {
+      "independent_answer_key": 59,
+      "independent_numeric_key": 55,
+      "manual_evidence_review_required:manual_rubric": 30,
+      "noncanonical_label_requires_review": 1,
+      "numeric_mismatch": 5
+    }
+  },
+  "paired_verdict_matrix": [
+    {
+      "gpt_oss": "failed",
+      "glm": "failed",
+      "questions": 1
+    },
+    {
+      "gpt_oss": "failed",
+      "glm": "passed",
+      "questions": 10
+    },
+    {
+      "gpt_oss": "needs_review",
+      "glm": "needs_review",
+      "questions": 30
+    },
+    {
+      "gpt_oss": "needs_review",
+      "glm": "passed",
+      "questions": 1
+    },
+    {
+      "gpt_oss": "passed",
+      "glm": "failed",
+      "questions": 4
+    },
+    {
+      "gpt_oss": "passed",
+      "glm": "needs_review",
+      "questions": 1
+    },
+    {
+      "gpt_oss": "passed",
+      "glm": "passed",
+      "questions": 103
+    }
+  ],
+  "questions_with_at_least_one_automatic_pass": 119,
+  "approved_main_training_samples": 0,
+  "main_study_teacher_responses": 0,
+  "main_study_student_steps": 0,
+  "final_evaluations": 0,
+  "all_completed_raw_across_repeated_cohorts": 758,
+  "unique_question_ids": 150,
+  "all_cohorts_are_configuration_exploration": true
+}

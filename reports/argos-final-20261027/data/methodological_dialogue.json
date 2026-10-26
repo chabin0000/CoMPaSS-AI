@@ -1,0 +1,37 @@
+{
+  "scope": "Methodological and editorial discussion, not independent local-file audit or item rerating",
+  "project": "compass ai",
+  "conversation_title": "아르고스 학습 방식 확인",
+  "modes_verified_in_ui": [
+    "Pro",
+    "Extra High",
+    "Pro"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "mode": "Pro",
+      "prompt_sha256": "b78e69204915ffc550a9410c79d6b98cc5114f9f411441bddc2443551b67a125",
+      "reply_capture_sha256": "db65a98a0914a64dc9470195a6f03f01234747a224dcea22c54a73719ab78394"
+    },
+    {
+      "round": 2,
+      "mode": "Extra High",
+      "prompt_sha256": "b5372e9f4f63f6caba25736b1fc3b926a878b1d8770252244761bb18567eb838",
+      "reply_capture_sha256": "952267d42f45f0d2bbe23a5f12a17243014e1c6ea9bf6dfe2a6ef8d331358354"
+    },
+    {
+      "round": 3,
+      "mode": "Pro",
+      "prompt_sha256": "666e45634e9be1ae3ae4b2fee859ff69a716a20357cc014ea05966c68b5f489d",
+      "reply_capture_sha256": "41e4b80b4ca42f780b165a4fabf1a10de27cd93998638aceb74a886b26f7646c"
+    }
+  ],
+  "convergence": "No remaining material numerical or interpretive disagreement conditional on supplied evidence; final wording corrections incorporated",
+  "new_model_training_or_inference": false,
+  "item_reviewer_count_unchanged": 1,
+  "human_reviewers_new_evaluation": 0,
+  "independent_human_review_completion_documented": 0,
+  "full_prior_conversation_published": false,
+  "agreed_conclusion_capture_sha256": "66da46eae2e6ef65130d00b5ae946615f9662855fb4d711ff3557a5930e8e4b9"
+}

@@ -2,3 +2,5 @@ argos_confirmatory_inference.py -text
 argos_confirmatory_analysis.py -text
 argos_build_final_report.py -text
 argos_report_content.py -text
+argos_report_history.py -text
+argos_report_conclusion.py -text

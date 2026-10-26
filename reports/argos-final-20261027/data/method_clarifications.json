@@ -1,0 +1,76 @@
+{
+  "excluded_before_freeze": {
+    "question_count": 11,
+    "question_reason_counts": {
+      "analysis-only opinion": 10,
+      "ambiguous question with potential heldout legislative-role overlap": 1
+    },
+    "response_count": 22,
+    "separate_from_verification_failures": true
+  },
+  "timeline_kst": {
+    "author_check": "2026-10-26T23:45:29.828378+09:00",
+    "seal": "2026-10-26T23:45:35.185217+09:00",
+    "first_response_completed": "2026-10-26T23:48:26.208877+09:00",
+    "all_responses_completed": "2026-10-27T00:08:42.731066+09:00",
+    "blind_packet_preparation": "2026-10-27T00:09:19.130972+09:00",
+    "judgments_closed": "2026-10-27T00:22:33.487491+09:00"
+  },
+  "evaluation_design": {
+    "early_frozen": [
+      "model identity",
+      "questions and keys",
+      "generation ceiling",
+      "per-domain reporting without composite",
+      "Wilson and paired item bootstrap plus family sensitivity",
+      "20 source and20 premise pair sample sizes"
+    ],
+    "later_operational_details": "Detailed output-format scoring rules finalized after outputs were available but before identity decoding",
+    "external_preregistration": false,
+    "exact_prior_prompt_duplicates": 0,
+    "prior_prompt_fields_scanned": 234403,
+    "semantic_family_independence_claim": false,
+    "heldout_family_generalization_established": false
+  },
+  "exact_output_definition": "Strip outer whitespace; remove internal U+0020 spaces from prediction and key; compare full strings. Internal newlines and punctuation remain.",
+  "unknown_definition": "Retain in the full denominator; not a confirmed success. Math: one S0 incomplete generation and one ARGOS conflicting final-answer case.",
+  "blind_pairs": {
+    "cohorts": {
+      "source_claims": 20,
+      "premise": 20
+    },
+    "selection": "Lowest SHA256(pair-sample-ID) per cohort; independent of response quality",
+    "position_order": "Pseudorandomly shuffled; model mapping opened only after judgment closure",
+    "human_reviewers": 0,
+    "independent_item_reviewer_count": 1,
+    "reviewer": "One active Codex AI; serving backend not independently attested"
+  },
+  "human_review_scope": "New evaluation: zero human reviewers. Historical user informal prior inspection was self-reported without item-level attestation; it is not counted as completed independent human review.",
+  "target_length_scope": "Actual assistant training targets: raw-full S3a n20104 versus verified-full S4 n14903. Different question populations. Extracted final answers, not full raw teacher reasoning. Final S5_general_control adds500 general QA examples.",
+  "source_records": [
+    {
+      "path": "research_runs/argos-plan-flex-20261025/frozen/question_dispositions.json",
+      "sha256": "2c57c549e417170db773ff7005a30ee222ac8e98cd7313fe2d989b6f5dd6a129"
+    },
+    {
+      "path": "research_runs/argos-plan-flex-20261025/report_input_inventory.json",
+      "sha256": "286b0e0c1a4a6adef646b5cd1495291ffe77ca72d53c2ec26866b693165e1cb8"
+    },
+    {
+      "path": "research_runs/argos-final-confirmatory-20261026/author_review.LOCAL_ONLY.json",
+      "sha256": "3c741aa44b469b6b1b38a09902c8ae4d6fbe5abf692bbae13c735b13d14fb196"
+    },
+    {
+      "path": "research_runs/argos-final-confirmatory-20261026/protocol.json",
+      "sha256": "e87730e1db01bc446d9076e279ac3bb7ef199e730b3f78af397315cb9d81e852"
+    },
+    {
+      "path": "research_runs/argos-final-confirmatory-20261026/SEALED.json",
+      "sha256": "3ddff2b67a795c47faec47efd45a934781ecf6fd9bc56bee2b87c4b581984a46"
+    },
+    {
+      "path": "research_runs/argos-final-confirmatory-20261026/blind_review/preparation.json",
+      "sha256": "ae156a8a86cfdde83911844e02cbe6628ba059bbb29a7de1f28ddd5627018384"
+    }
+  ]
+}

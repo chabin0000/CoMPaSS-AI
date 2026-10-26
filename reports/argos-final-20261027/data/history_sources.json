@@ -1,0 +1,74 @@
+{
+  "as_of": "2026-10-27 Asia/Seoul",
+  "source_files": [
+    {
+      "path": "docs/design_decisions.md",
+      "sha256": "67f6c88652c874fc6fee60d301a4abb065fb4d673eb1475df15b92208ea7d9f3"
+    },
+    {
+      "path": "docs/experiment_protocol.md",
+      "sha256": "796c716a2171a63352e23c9b522c9f4bd88031e0111703741759c86f04a69bbd"
+    },
+    {
+      "path": "DGX_RUNBOOK.md",
+      "sha256": "96f58de2583e04cd672d45c4c48fe53233227ab5dfe40648561bbec614be8451"
+    },
+    {
+      "path": "configs/dgx/argos_v1.yaml",
+      "sha256": "bd46188dec00db3eb40c5627bd8df1becb582d244e48dad7a59a2f8e69cda179"
+    },
+    {
+      "path": "reports/argos_original_source_archive.json",
+      "sha256": "8b16a6b9d96e50826dc10d075d7bfd0a71d48229738ec98f382157a193319fb5"
+    },
+    {
+      "path": "reports/argos_historical_preservation_execution.json",
+      "sha256": "00973068110f488acff2b55f7ee42a32d0e1d0c53b85caf94c113385bb4a2589"
+    },
+    {
+      "path": "reports/argos_low_cost_status_20261022.md",
+      "sha256": "b984d11769e9691b1e621e1950f6eb990840ad2f01c992afc264e98c49344882"
+    },
+    {
+      "path": "reports/argos_actual_research_20261023.md",
+      "sha256": "81b33a184700962a4fed6cf115997a7888dc29995280b73f688586e7069b8e28"
+    },
+    {
+      "path": "reports/argos_actual_pilot_20261023.json",
+      "sha256": "41b9633775b58978524dbb7af86149fdeac59a50c671759c3245c1c26b392157"
+    },
+    {
+      "path": "reports/argos_plan_reaudit_20261024.md",
+      "sha256": "c25d79f45d9e44446f73ae11e54bd4e481a834585423bfcb44c7ea4aca1ece1f"
+    },
+    {
+      "path": "research_runs/argos-main-20261023/stopped_run_status.json",
+      "sha256": "b636c83e2d9f51275f817cd5db4134579a0c3ef5f0274c77d6d09c9a1916cd7d"
+    },
+    {
+      "path": "research_runs/argos-main-20261023/resume_24gb_status.json",
+      "sha256": "5f706cf68600b3183f7805c1d29c6caf756c50cf730917cefae3313577fa83e1"
+    },
+    {
+      "path": "research_runs/argos-cloud24-r2-20261024/completion.json",
+      "sha256": "c8646df848e69cc476ff3a36e38b0ba29fd13bb4bc4c29de30318a69ce1d2b73"
+    },
+    {
+      "path": "research_runs/argos-cloud24-r2-20261024/user_completion_verification.json",
+      "sha256": "d68b824ced8304ab6aea701dd92da501a3150f75b09f856ea17a79ca59588c45"
+    }
+  ],
+  "legacy_private_named_files_in_git": [
+    "data/questions/core_v1/private_eval_questions.jsonl",
+    "data/questions/core_v2/private_eval_questions.jsonl"
+  ],
+  "publication_effect": "Legacy Core preparation files become public with repository visibility; not the new240 sealed set and not eligible for future private testing",
+  "source_hierarchy": [
+    "preserved execution records",
+    "archived tool outputs reading historical artifacts",
+    "contemporaneous design documents",
+    "conversation summaries only for navigation"
+  ],
+  "older_plan_docx_sha256": "7ba040f58662692b24a1779e46e31cada0255224b5a5e604e5877bb08146e4f3",
+  "cloud_plan_docx_sha256": "86954f0b54aa9ce4b482c1e572a02768e1af81608c3244a2326c2a77c94ad252"
+}
