@@ -1,0 +1,13 @@
+{
+  "projects": {},
+  "targets": {
+    "planning-with-ai-f5bb7": {
+      "hosting": {
+        "argos": [
+          "compass-argos-research-2026"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
