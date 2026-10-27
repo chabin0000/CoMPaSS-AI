@@ -1,0 +1,80 @@
+{
+  "at": 1793080767.287167,
+  "tables": {
+    "S0": {
+      "document": 68,
+      "gsm8k": 35,
+      "kobest_boolq": 36,
+      "kobest_corrected": 37,
+      "explanations_unreviewed": 0,
+      "reviewed_valid_explanations": 42,
+      "valid_explanations": 42
+    },
+    "R6-040": {
+      "document": 46,
+      "gsm8k": 34,
+      "kobest_boolq": 36,
+      "kobest_corrected": 37,
+      "explanations_unreviewed": 0,
+      "reviewed_valid_explanations": 23,
+      "valid_explanations": 23,
+      "gate_passes": {
+        "document": false,
+        "gsm8k": false,
+        "kobest_boolq": true,
+        "kobest_corrected": true,
+        "valid_explanations": false
+      }
+    },
+    "R6-080": {
+      "document": 57,
+      "gsm8k": 31,
+      "kobest_boolq": 36,
+      "kobest_corrected": 37,
+      "explanations_unreviewed": 0,
+      "reviewed_valid_explanations": 45,
+      "valid_explanations": 45,
+      "gate_passes": {
+        "document": false,
+        "gsm8k": false,
+        "kobest_boolq": true,
+        "kobest_corrected": true,
+        "valid_explanations": true
+      }
+    },
+    "R6-120": {
+      "document": 55,
+      "gsm8k": 34,
+      "kobest_boolq": 36,
+      "kobest_corrected": 37,
+      "explanations_unreviewed": 0,
+      "reviewed_valid_explanations": 44,
+      "valid_explanations": 44,
+      "gate_passes": {
+        "document": false,
+        "gsm8k": false,
+        "kobest_boolq": true,
+        "kobest_corrected": true,
+        "valid_explanations": true
+      }
+    }
+  },
+  "thresholds": {
+    "document": 73,
+    "gsm8k": 35,
+    "kobest_boolq": 36,
+    "kobest_corrected": 37,
+    "valid_explanations": 42
+  },
+  "eligible": [],
+  "selected": null,
+  "selected_weights_sha256": null,
+  "protocol_sha256": "43aa8a8117077fcda6526bf1df7865d0bb3bf08335fed0c0917d0d74abbd668b",
+  "review_sha256": "cf68874cc1b1b482706bdca0af0c48d28a4180b237ed7a6e17a055503aa89976",
+  "resolved_sha256": "22b39aa6ce02280e104cab49779e2465443463fb530b3d84e2f5705dd2eca9b3",
+  "no_more_training": true,
+  "final_allowed": false,
+  "human_reviewers": 0,
+  "website_ChatGPT_used": false,
+  "old_study_gates_not_changed": true
+}

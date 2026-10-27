@@ -1,0 +1,15 @@
+{
+  "at": 1793077490.8572412,
+  "scores": {
+    "document": 68,
+    "gsm8k": 35,
+    "kobest_boolq": 36,
+    "valid_explanations": 42
+  },
+  "kobest_corrected": 37,
+  "unchanged_document_responses_reused": 96,
+  "new_AI_nonmatch_reviews": 11,
+  "human_reviewers": 0,
+  "review_sha256": "1587ee262834d2d02c7e58a72edb5849dd37259005adeaaacf7e205386d9be0b",
+  "scope": "Exact-repeat document responses reuse prior content/rationale judgments; not a new independent review. All public nonmatches reviewed in this round."
+}

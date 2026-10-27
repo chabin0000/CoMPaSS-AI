@@ -1,0 +1,121 @@
+{
+  "at": 1793044284.3583,
+  "version": "3.1",
+  "observed_Pro_response_duration": "2m39s",
+  "source": "existing compass ai project conversation",
+  "operational_rule": "Explicit claim-specific attribution must be supported by that source. A heading introducing a combined calculation does not assert exclusive origin of all inputs. Correct derivations with omitted source coverage remain explanation-valid; explicit wrong attribution fails.",
+  "thresholds_changed": false,
+  "semantic_answers_changed": false,
+  "reviewed_cases": {
+    "calibration-review-0013": {
+      "expected_packet_sha256": "07804a828003251ec1d6e4f1589d5695b74ff947b98b202600154f684e074fa7",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0055": {
+      "expected_packet_sha256": "a8946813b73040b0a0954a9583950888e39ef8265971d8f10d87c081775b7190",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0063": {
+      "expected_packet_sha256": "110f6da6a1610add26c1277c3ceaba00f98749831b3aab22ccdf057a20bc3bd3",
+      "assessment": "Document2 explicitly labels the record dates as effective dates; the temporal inference is supported even without citing Document1."
+    },
+    "calibration-review-0069": {
+      "expected_packet_sha256": "1b207e46e10ccf1560f2eb6fe5891fcb64e16106254657e52ec8d282129d0fdb",
+      "assessment": "Tax-included claim explicitly points to Document2, which does not support it; explanation remains invalid."
+    },
+    "calibration-review-0072": {
+      "expected_packet_sha256": "c6632273b849b4a70d0a6eb87bdf2ab1f099644f18b839a53316b744318000d0",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0124": {
+      "expected_packet_sha256": "e574011eba9fad21a5dc2de4917ee2a1533b65ebd0721f058bd92f1d03dfa4f2",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0156": {
+      "expected_packet_sha256": "8e3fbe9cce226c0b6b1fac78f5b88875743d4493459e80319fba35dcf520f18b",
+      "assessment": "Document2 explicitly labels the record dates as effective dates; the temporal inference is supported even without citing Document1.",
+      "rationale_override": true
+    },
+    "calibration-review-0166": {
+      "expected_packet_sha256": "211e2646f1fa12a060832818d8bec143913ea446f174abe2654767758ba42f8b",
+      "assessment": "Document2 explicitly labels the record dates as effective dates; the temporal inference is supported even without citing Document1."
+    },
+    "calibration-review-0168": {
+      "expected_packet_sha256": "5a8dedcda20b2977a57f3bd4121c773d83778cc4d5b37cda9c18f726b66981d9",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0179": {
+      "expected_packet_sha256": "4ad023aff5d527f4f905f4dff8403b6aa9300a96e97de3bb058cb9a68955d591",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0199": {
+      "expected_packet_sha256": "6344db8a65dff263f028c4a4cd519b67f99f1bc99a4aa449e45b43658e294493",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0206": {
+      "expected_packet_sha256": "db1f96191716db869be9cc0e0e7dbd494023033da6cef87f0471d516f515f7a8",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0239": {
+      "expected_packet_sha256": "51167bda8b4b195b47a610661467a5018f47a100d54ca7f2014d26643c54dfed",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0281": {
+      "expected_packet_sha256": "ff60666bbad8ffca00351918a6e15d45cedec94513bf54b499ea8d4eab7252e9",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0293": {
+      "expected_packet_sha256": "019c84035c43063d2f174007cf0d9170f51ca1844346d20131b1e12b2a39b1b0",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0302": {
+      "expected_packet_sha256": "880cd92274b4d3a711ea3f5532aa3ac5c729cc57d944a7a4d06b1f3b182eb09e",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0303": {
+      "expected_packet_sha256": "cc0e744d13b121d35b5a968ebb9c8c0b3a31a1afd13b2b7a3cd77f500d1e550a",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0315": {
+      "expected_packet_sha256": "ea5cfa19c6448c009967f8eb74017670dea17c44e89f3f0a6dfc394a82062e16",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0329": {
+      "expected_packet_sha256": "28eaed521f774894fbf00e521e608291800319e35c2996b77b4300c9ea9846b7",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0337": {
+      "expected_packet_sha256": "938dc1bf1d58669e7b24936ddce127283a858cbcc0180291cf1b0397ec9957dd",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0348": {
+      "expected_packet_sha256": "310fff91724cdb2920777fd1b01115e9da83ede2f869a551bc94328c5925409e",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0367": {
+      "expected_packet_sha256": "f08cc041692398c94f6fff24969895a5d1752f5b6335595db2e6bde34896c1a6",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0373": {
+      "expected_packet_sha256": "1e582e897eabdabf2c8d7d2ff95ebb56fff737f28c5f3120eab7bb68d61e1455",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0378": {
+      "expected_packet_sha256": "bc6a47d99d4eb6721ca195c409aa2e68c11ad1976cc0ee182cc02e169ada7138",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0161": {
+      "expected_packet_sha256": "c71f0f051d075a028d27cc55d75344b84ab48c285cf06de71026b42ff493dde0",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0216": {
+      "expected_packet_sha256": "f8f6fa19b30514d52488baa422ccff8dbce4b71b9d2be827bf4013f68ea34aa6",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    },
+    "calibration-review-0326": {
+      "expected_packet_sha256": "15e4a5327d3910018f43806d901348e921a6b185334287bc035ac529ccfef76b",
+      "assessment": "A source heading on a valid combined calculation does not claim every operand came from that source. Missing source coverage is separate from explanation correctness; preserve any existing substantive reasoning-error judgment."
+    }
+  },
+  "human_reviewers": 0
+}

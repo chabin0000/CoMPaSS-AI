@@ -1,0 +1,11 @@
+{
+  "at": 1793043083.1203434,
+  "basis": "Observed Pro response2m37s in existing compass ai conversation",
+  "requested_answer_correctness": "Grade the requested value/name. Wrong auxiliary claims do not erase a correct requested label but invalidate the supporting explanation; never call the whole response correct.",
+  "rationale_validity": "No material false rules, arithmetic, temporal claims or conclusion link. Explicit wrong-source attribution also fails. Mere conclusion repetition fails; concise core criteria plus filter result may pass.",
+  "citations": "Accuracy and coverage distinguished. Partial cross-source citation is allowed only when the cited source supports the claim it is attached to and full coverage was not requested; explicit wrong attribution is not an omission.",
+  "training_change": "Intersection explanations state all three criteria and the qualified set/count; general retention targets place cited evidence before final answer. This is before any training and does not change sealed inputs or keys.",
+  "human_reviewers": 0,
+  "not_preregistered": true,
+  "old_decisions_preserved": true
+}

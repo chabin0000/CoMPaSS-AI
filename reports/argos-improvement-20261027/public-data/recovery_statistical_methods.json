@@ -1,0 +1,15 @@
+{
+  "at": 1793076973.9859931,
+  "family_method": "Exact one-sided sign flips of paired family-level sums; 16 fixed designed families. Two teacher comparisons adjusted together by Holm.",
+  "bootstrap": "10000 paired family-cluster resamples, seed82717, 2.5 and97.5 percentile bounds",
+  "teacher_superiority": "Both Holm adjusted family sign-flip p<0.05 and both paired family-bootstrap lower bounds>0, on document final200 only.",
+  "retention": "Report observed paired counts and conservative exact discordant-marginal Bonferroni lower bound on difference. At n40, identical outcomes cannot prove the5pp noninferiority margin; do not describe a point-estimate tie as proved preservation.",
+  "repeated_seed": "Not performed under one-additional-run authorization; no seed-stability claim.",
+  "selection": "Exposed development only; selected model frozen before any final inference, no reselection.",
+  "sources_sha256": {
+    "paired_statistics.py": "6de2df9a791ea18a21bda92517b2cfcdebab5c33eec085eb9207c3f3b9896f0f",
+    "review_selection.py": "a97a084c2ea77dabe17f186c089839f74d0fd367dea901f4c9f3cf9317639916",
+    "protocol.json": "43aa8a8117077fcda6526bf1df7865d0bb3bf08335fed0c0917d0d74abbd668b"
+  },
+  "human_reviewers": 0
+}

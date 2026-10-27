@@ -1,0 +1,104 @@
+{
+  "rows": [
+    {
+      "model": "R6-040",
+      "cohort": "document",
+      "n": 96,
+      "model_correct": 46,
+      "base_correct": 68,
+      "model_only": 4,
+      "base_only": 26,
+      "mean_tokens": 90.125,
+      "mean_latency_seconds": 4.5468826625862375
+    },
+    {
+      "model": "R6-040",
+      "cohort": "gsm8k",
+      "n": 40,
+      "model_correct": 34,
+      "base_correct": 35,
+      "model_only": 1,
+      "base_only": 2,
+      "mean_tokens": 122.4,
+      "mean_latency_seconds": 5.908126813621493
+    },
+    {
+      "model": "R6-040",
+      "cohort": "kobest_boolq",
+      "n": 40,
+      "model_correct": 36,
+      "base_correct": 36,
+      "model_only": 0,
+      "base_only": 0,
+      "mean_tokens": 2.375,
+      "mean_latency_seconds": 0.15643220252532047
+    },
+    {
+      "model": "R6-080",
+      "cohort": "document",
+      "n": 96,
+      "model_correct": 57,
+      "base_correct": 68,
+      "model_only": 7,
+      "base_only": 18,
+      "mean_tokens": 98.30208333333333,
+      "mean_latency_seconds": 4.898357383706752
+    },
+    {
+      "model": "R6-080",
+      "cohort": "gsm8k",
+      "n": 40,
+      "model_correct": 31,
+      "base_correct": 35,
+      "model_only": 3,
+      "base_only": 7,
+      "mean_tokens": 104.9,
+      "mean_latency_seconds": 5.314636525441893
+    },
+    {
+      "model": "R6-080",
+      "cohort": "kobest_boolq",
+      "n": 40,
+      "model_correct": 36,
+      "base_correct": 36,
+      "model_only": 0,
+      "base_only": 0,
+      "mean_tokens": 2.375,
+      "mean_latency_seconds": 0.1571625403506914
+    },
+    {
+      "model": "R6-120",
+      "cohort": "document",
+      "n": 96,
+      "model_correct": 55,
+      "base_correct": 68,
+      "model_only": 8,
+      "base_only": 21,
+      "mean_tokens": 105.39583333333333,
+      "mean_latency_seconds": 5.419219854251423
+    },
+    {
+      "model": "R6-120",
+      "cohort": "gsm8k",
+      "n": 40,
+      "model_correct": 34,
+      "base_correct": 35,
+      "model_only": 4,
+      "base_only": 5,
+      "mean_tokens": 98.2,
+      "mean_latency_seconds": 4.974168095155619
+    },
+    {
+      "model": "R6-120",
+      "cohort": "kobest_boolq",
+      "n": 40,
+      "model_correct": 36,
+      "base_correct": 36,
+      "model_only": 0,
+      "base_only": 0,
+      "mean_tokens": 2.375,
+      "mean_latency_seconds": 0.15734477344958578
+    }
+  ],
+  "inferential_claim": false
+}

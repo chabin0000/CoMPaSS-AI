@@ -1,0 +1,39 @@
+{
+  "at": 1793075392.077282,
+  "sha256": "63ea7617def08b4374fd336b29d08b61de5b61d8f102f896c6b83bcfaa3806ca",
+  "unique_rows": 960,
+  "schedule_rows": 960,
+  "steps_per_epoch": 120,
+  "supervised_tokens": 98092,
+  "max_length": 1191,
+  "prompt_mask_verified": 960,
+  "EOS_verified": 960,
+  "truncations": 0,
+  "padding_repeats": 0,
+  "by_source": {
+    "GSM8K_official_train_arithmetic_annotation_checked": {
+      "rows": 240,
+      "supervised_tokens": 22073
+    },
+    "existing_train_questions_detailed_verified_solutions": {
+      "rows": 600,
+      "supervised_tokens": 69591
+    },
+    "prior_reviewed_SQuAD_train": {
+      "rows": 120,
+      "supervised_tokens": 6428
+    }
+  },
+  "gsm8k": {
+    "dataset": "openai/gsm8k",
+    "revision": "740312add88f781978c0658806c59bc2815b9866",
+    "split": "train",
+    "cache_sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+    "arithmetic_annotation_checks": 747,
+    "skipped_before_240": 22,
+    "semantic_teacher_review": false
+  },
+  "general_source_sha256": "d7f99aa51fe3d80c35806d217ff145b0cb58a25a334783f015a889935d7cd75b",
+  "old_domain_answer_keys_recomputed": 600,
+  "supervision_semantics": "Detailed intermediate steps; all numerical final answers recomputed. Not human reviewed."
+}

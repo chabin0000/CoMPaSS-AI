@@ -1,0 +1,21 @@
+{
+  "at": 1793080767.3832219,
+  "new_training_runs": 1,
+  "optimizer_steps": 120,
+  "development_and_diagnostic_responses": {
+    "diagnostic-adapter-strength": 224,
+    "recovery-baseline-S0": 176,
+    "R6-development-040": 176,
+    "R6-development-080": 176,
+    "R6-development-120": 176
+  },
+  "final_responses": {},
+  "selected": null,
+  "selection_sha256": "245107984c7928df91506d6e2b03d8ea20d162daf273608ec82ab256477bf81a",
+  "no_further_training": true,
+  "no_further_selection": true,
+  "all_sealed_files_match": true,
+  "report_finalization_pending": true,
+  "human_reviewers": 0,
+  "website_ChatGPT_used_this_round": false
+}

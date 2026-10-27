@@ -1,0 +1,18 @@
+{
+  "at": 1793075392.1232872,
+  "document_count": 200,
+  "matched_operations": 160,
+  "new_compositions": 40,
+  "public_retention": 80,
+  "public_retention_reused_unopened_previous_seal": true,
+  "files": {
+    "final.keys.jsonl": "b74594441f295d5f5ec0ee77e51fe8294b0e4a3dc1f2c93cce40df0faccaa5a5",
+    "final.questions.jsonl": "33d33ccefea9542dd3d226649f6570256e99905e55d69973851baf915c463229",
+    "retention_final.keys.jsonl": "27c37f9cffb2490194ba029ef63c2d44339f2feec4372708afc2e79627b8c5b7",
+    "retention_final.questions.jsonl": "539fcd91e958eb726d0044dc85d41c458df9f1c0a009ab032046f5d50e373816"
+  },
+  "independent_timestamp_authority": false,
+  "human_reviewers": 0,
+  "keys_validated_before_training": true,
+  "exact_question_duplicates_with_known_domain": 0
+}

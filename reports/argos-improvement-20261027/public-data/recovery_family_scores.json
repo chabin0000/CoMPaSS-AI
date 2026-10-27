@@ -1,0 +1,150 @@
+{
+  "rows": [
+    {
+      "family": "capacity",
+      "n": 8,
+      "S0": 6,
+      "R6-040": 7,
+      "R6-080": 6,
+      "R6-120": 7,
+      "ARGOS_old": 4,
+      "B4-075": 5,
+      "gpt_oss": 8,
+      "glm": 8
+    },
+    {
+      "family": "duration",
+      "n": 8,
+      "S0": 2,
+      "R6-040": 2,
+      "R6-080": 2,
+      "R6-120": 1,
+      "ARGOS_old": 0,
+      "B4-075": 0,
+      "gpt_oss": 8,
+      "glm": 6
+    },
+    {
+      "family": "eligibility",
+      "n": 8,
+      "S0": 7,
+      "R6-040": 7,
+      "R6-080": 8,
+      "R6-120": 7,
+      "ARGOS_old": 6,
+      "B4-075": 8,
+      "gpt_oss": 8,
+      "glm": 8
+    },
+    {
+      "family": "exchange",
+      "n": 8,
+      "S0": 0,
+      "R6-040": 0,
+      "R6-080": 0,
+      "R6-120": 1,
+      "ARGOS_old": 0,
+      "B4-075": 2,
+      "gpt_oss": 5,
+      "glm": 1
+    },
+    {
+      "family": "intersection",
+      "n": 8,
+      "S0": 7,
+      "R6-040": 1,
+      "R6-080": 6,
+      "R6-120": 5,
+      "ARGOS_old": 1,
+      "B4-075": 4,
+      "gpt_oss": 8,
+      "glm": 8
+    },
+    {
+      "family": "inventory",
+      "n": 8,
+      "S0": 7,
+      "R6-040": 1,
+      "R6-080": 3,
+      "R6-120": 3,
+      "ARGOS_old": 3,
+      "B4-075": 5,
+      "gpt_oss": 8,
+      "glm": 8
+    },
+    {
+      "family": "invoice",
+      "n": 8,
+      "S0": 7,
+      "R6-040": 2,
+      "R6-080": 7,
+      "R6-120": 7,
+      "ARGOS_old": 0,
+      "B4-075": 1,
+      "gpt_oss": 8,
+      "glm": 8
+    },
+    {
+      "family": "latest",
+      "n": 8,
+      "S0": 4,
+      "R6-040": 3,
+      "R6-080": 3,
+      "R6-120": 3,
+      "ARGOS_old": 5,
+      "B4-075": 8,
+      "gpt_oss": 8,
+      "glm": 7
+    },
+    {
+      "family": "offer",
+      "n": 8,
+      "S0": 6,
+      "R6-040": 7,
+      "R6-080": 7,
+      "R6-120": 8,
+      "ARGOS_old": 7,
+      "B4-075": 8,
+      "gpt_oss": 8,
+      "glm": 8
+    },
+    {
+      "family": "tier",
+      "n": 8,
+      "S0": 8,
+      "R6-040": 7,
+      "R6-080": 6,
+      "R6-120": 8,
+      "ARGOS_old": 1,
+      "B4-075": 4,
+      "gpt_oss": 8,
+      "glm": 8
+    },
+    {
+      "family": "unknown",
+      "n": 8,
+      "S0": 8,
+      "R6-040": 8,
+      "R6-080": 8,
+      "R6-120": 5,
+      "ARGOS_old": 8,
+      "B4-075": 8,
+      "gpt_oss": 8,
+      "glm": 8
+    },
+    {
+      "family": "weighted",
+      "n": 8,
+      "S0": 6,
+      "R6-040": 1,
+      "R6-080": 1,
+      "R6-120": 0,
+      "ARGOS_old": 0,
+      "B4-075": 0,
+      "gpt_oss": 8,
+      "glm": 8
+    }
+  ],
+  "denominator_each_family": 8,
+  "scope": "Exposed development data; historical teacher runs, not new final evaluation."
+}

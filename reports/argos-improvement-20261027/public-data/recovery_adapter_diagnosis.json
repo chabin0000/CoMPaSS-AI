@@ -1,0 +1,279 @@
+{
+  "at": 1793076627.3504713,
+  "table": {
+    "0": {
+      "document": {
+        "n": 24,
+        "correct": 16,
+        "incomplete": 0,
+        "unparsed": 0
+      },
+      "gsm8k": {
+        "n": 16,
+        "correct": 10,
+        "incomplete": 0,
+        "unparsed": 0
+      },
+      "kobest_boolq": {
+        "n": 16,
+        "correct": 15,
+        "incomplete": 0,
+        "unparsed": 0,
+        "corrected_correct": 16
+      }
+    },
+    "0.25": {
+      "document": {
+        "n": 24,
+        "correct": 13,
+        "incomplete": 0,
+        "unparsed": 1
+      },
+      "gsm8k": {
+        "n": 16,
+        "correct": 13,
+        "incomplete": 0,
+        "unparsed": 0
+      },
+      "kobest_boolq": {
+        "n": 16,
+        "correct": 15,
+        "incomplete": 0,
+        "unparsed": 0,
+        "corrected_correct": 16
+      }
+    },
+    "0.5": {
+      "document": {
+        "n": 24,
+        "correct": 17,
+        "incomplete": 0,
+        "unparsed": 0
+      },
+      "gsm8k": {
+        "n": 16,
+        "correct": 14,
+        "incomplete": 0,
+        "unparsed": 0
+      },
+      "kobest_boolq": {
+        "n": 16,
+        "correct": 15,
+        "incomplete": 0,
+        "unparsed": 0,
+        "corrected_correct": 16
+      }
+    },
+    "1": {
+      "document": {
+        "n": 24,
+        "correct": 10,
+        "incomplete": 0,
+        "unparsed": 0
+      },
+      "gsm8k": {
+        "n": 16,
+        "correct": 13,
+        "incomplete": 0,
+        "unparsed": 0
+      },
+      "kobest_boolq": {
+        "n": 16,
+        "correct": 15,
+        "incomplete": 0,
+        "unparsed": 0,
+        "corrected_correct": 16
+      }
+    }
+  },
+  "loss_audit": {
+    "at": 1793075708.2921877,
+    "model_loss": 3.3348007202148438,
+    "manual_shifted_CE": 3.3348007202148438,
+    "absolute_difference": 0.0,
+    "supervised_tokens": 34,
+    "prompt_masked": true,
+    "EOS_supervised": true,
+    "scope": "One actual GPU forward with model loss compared to manual token-normalized CE; not a full optimizer audit."
+  },
+  "manual_unparsed_review_pending": false,
+  "training_started": false,
+  "scope": "Same questions, same prompt and same loaded quantized base. Scale0 disables the adapter. Differences identify the effect of applying this adapter, not a unique data or optimizer cause. No dose setting is selected as the new model.",
+  "semantic_table": [
+    {
+      "scale": 0,
+      "cohort": "document",
+      "n": 24,
+      "correct": 21,
+      "automatic_correct": 16,
+      "mean_generated_tokens": 173
+    },
+    {
+      "scale": 0,
+      "cohort": "gsm8k",
+      "n": 16,
+      "correct": 12,
+      "automatic_correct": 10,
+      "mean_generated_tokens": 157.5
+    },
+    {
+      "scale": 0,
+      "cohort": "kobest_boolq",
+      "n": 16,
+      "correct": 15,
+      "automatic_correct": 15,
+      "mean_generated_tokens": 2.375
+    },
+    {
+      "scale": 0.25,
+      "cohort": "document",
+      "n": 24,
+      "correct": 16,
+      "automatic_correct": 13,
+      "mean_generated_tokens": 153.125
+    },
+    {
+      "scale": 0.25,
+      "cohort": "gsm8k",
+      "n": 16,
+      "correct": 13,
+      "automatic_correct": 13,
+      "mean_generated_tokens": 158.4375
+    },
+    {
+      "scale": 0.25,
+      "cohort": "kobest_boolq",
+      "n": 16,
+      "correct": 15,
+      "automatic_correct": 15,
+      "mean_generated_tokens": 2.375
+    },
+    {
+      "scale": 0.5,
+      "cohort": "document",
+      "n": 24,
+      "correct": 17,
+      "automatic_correct": 17,
+      "mean_generated_tokens": 83.66666666666667
+    },
+    {
+      "scale": 0.5,
+      "cohort": "gsm8k",
+      "n": 16,
+      "correct": 14,
+      "automatic_correct": 14,
+      "mean_generated_tokens": 127.875
+    },
+    {
+      "scale": 0.5,
+      "cohort": "kobest_boolq",
+      "n": 16,
+      "correct": 15,
+      "automatic_correct": 15,
+      "mean_generated_tokens": 2.375
+    },
+    {
+      "scale": 1,
+      "cohort": "document",
+      "n": 24,
+      "correct": 10,
+      "automatic_correct": 10,
+      "mean_generated_tokens": 50.375
+    },
+    {
+      "scale": 1,
+      "cohort": "gsm8k",
+      "n": 16,
+      "correct": 13,
+      "automatic_correct": 13,
+      "mean_generated_tokens": 97.375
+    },
+    {
+      "scale": 1,
+      "cohort": "kobest_boolq",
+      "n": 16,
+      "correct": 15,
+      "automatic_correct": 15,
+      "mean_generated_tokens": 2.375
+    }
+  ],
+  "paired_to_disabled": [
+    {
+      "scale": 0.25,
+      "cohort": "document",
+      "n": 24,
+      "model_only_correct": 0,
+      "base_only_correct": 5,
+      "net": -5
+    },
+    {
+      "scale": 0.25,
+      "cohort": "gsm8k",
+      "n": 16,
+      "model_only_correct": 2,
+      "base_only_correct": 1,
+      "net": 1
+    },
+    {
+      "scale": 0.25,
+      "cohort": "kobest_boolq",
+      "n": 16,
+      "model_only_correct": 0,
+      "base_only_correct": 0,
+      "net": 0
+    },
+    {
+      "scale": 0.5,
+      "cohort": "document",
+      "n": 24,
+      "model_only_correct": 1,
+      "base_only_correct": 5,
+      "net": -4
+    },
+    {
+      "scale": 0.5,
+      "cohort": "gsm8k",
+      "n": 16,
+      "model_only_correct": 2,
+      "base_only_correct": 0,
+      "net": 2
+    },
+    {
+      "scale": 0.5,
+      "cohort": "kobest_boolq",
+      "n": 16,
+      "model_only_correct": 0,
+      "base_only_correct": 0,
+      "net": 0
+    },
+    {
+      "scale": 1,
+      "cohort": "document",
+      "n": 24,
+      "model_only_correct": 0,
+      "base_only_correct": 11,
+      "net": -11
+    },
+    {
+      "scale": 1,
+      "cohort": "gsm8k",
+      "n": 16,
+      "model_only_correct": 2,
+      "base_only_correct": 1,
+      "net": 1
+    },
+    {
+      "scale": 1,
+      "cohort": "kobest_boolq",
+      "n": 16,
+      "model_only_correct": 0,
+      "base_only_correct": 0,
+      "net": 0
+    }
+  ],
+  "all_58_nonmatches_AI_reviewed": true,
+  "semantic_format_corrections": 10,
+  "review_sha256": "947a1dedaffab57dc66c15116d229997ebb50fbb56fe7b266e3ab6794af085f1",
+  "human_reviewers": 0,
+  "interpretation": "On the24document calibration cases, full old adapter10correct vs disabled21; half strength17recovers part of the deficit. On16GSM8K cases, disabled12 vs full13 and half14: the effect is not a uniform mathematics decline. These exposed small diagnostic subsets cannot select a final model or establish a unique upstream cause."
+}

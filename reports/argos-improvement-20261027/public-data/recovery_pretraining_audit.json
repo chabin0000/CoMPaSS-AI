@@ -1,0 +1,35 @@
+{
+  "at": 1793075990.5196455,
+  "old_B4_supervised_tokens": 29716,
+  "new_domain_supervised_tokens": 69591,
+  "old_B4_mean_target_tokens": 49.526666666666664,
+  "new_domain_mean_target_tokens": 115.985,
+  "numerical_domain_targets_recomputed": 600,
+  "training_prompts_unique": 960,
+  "training_data_vs_public_test_exact_overlap": 0,
+  "observations": [
+    "Previous B4-075 to B4-150 development document accuracy fell 53 to 52 and GSM8K final accuracy 32 to 30; this is consistent with overspecialization but is not a controlled causal proof.",
+    "The old duration target stated minutes as hidden intermediate values without showing HH:MM conversion. A saved wrong prediction instead subtracted HHMM integers. New targets explicitly convert both clock readings.",
+    "Old abbreviated weighted/invoice/exchange targets omitted individual products, discount amounts, or the full coupon subtraction. New targets expose these intermediate operations.",
+    "A local sentence-boundary audit repaired ten general replay quotations before training. This is a data-quality repair, not evidence that it caused the earlier mathematics decline.",
+    "The vendor forward passes loss kwargs into the token-normalized causal LM loss. Actual GPU loss is separately compared to manual shifted CE; a passing example does not prove all optimization behavior correct."
+  ],
+  "hypotheses": [
+    "Adapter update magnitude and short-target specialization interfere with base behavior.",
+    "More explicit process targets plus broader school-math replay at lower LR may improve preservation."
+  ],
+  "causal_limits": "One combined SFT intervention changes LR, target detail, training instruction alignment, data composition and exposure. The dose experiment isolates only applying the old adapter. No claim that one upstream factor is conclusively the root cause.",
+  "runtime_sources_sha256": {
+    "student_runtime.py": "7bc1bf35cd89fd6ea6e37f6093b8c53c2dd8ec6726d862fd7339ed2f11713cce",
+    "gpu_job.py": "085ca0266ac1a36f95e225b8cf98ceef5b3665c311701e7f60df3cd1a3104cf8",
+    "future_training_tokens.py": "0419661fb0b8cf2a32ddfbccf4b2eeda6d911c377c807e330a607da043daf4c9",
+    "diagnostic_gpu.py": "66128eee3b78e52c96912a6b091261170ffa7b0bc66aa57b3f2fb4f0f7852f70"
+  },
+  "old_frozen_runtime_unchanged": true,
+  "new_final_seal_preserved": true,
+  "single_training_run_allowed": true,
+  "human_reviewers": 0,
+  "Web_ChatGPT_used": false,
+  "unchanged_document_training_bodies": 600,
+  "changed_training_instruction": true
+}

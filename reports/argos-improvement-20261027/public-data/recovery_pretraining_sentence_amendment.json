@@ -1,0 +1,11 @@
+{
+  "at": 1793075699.8422086,
+  "before_training": true,
+  "old_training_sha256": "291686fe507eecde3fa804c3405d637c4088c86719213abb131ce4dc1107fc90",
+  "new_training_sha256": "63ea7617def08b4374fd336b29d08b61de5b61d8f102f896c6b83bcfaa3806ca",
+  "changed_general_rows": 10,
+  "reason": "Naive period splitting broke abbreviations such as Terry v. Ohio; use original annotated answer spans and abbreviation-aware sentence boundaries.",
+  "numerical_targets_changed": false,
+  "sealed_final_changed": false,
+  "training_runs_started": 0
+}

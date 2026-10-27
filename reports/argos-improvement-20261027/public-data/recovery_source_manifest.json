@@ -1,0 +1,13 @@
+{
+  "files": {
+    "diagnostic_gpu.py": "66128eee3b78e52c96912a6b091261170ffa7b0bc66aa57b3f2fb4f0f7852f70",
+    "exaone_compat.py": "389130ee06bcea7543c98caa306255b1533709289ea98c719a0e8923e6e1ce9a",
+    "future_training_tokens.py": "0419661fb0b8cf2a32ddfbccf4b2eeda6d911c377c807e330a607da043daf4c9",
+    "gpu_job.py": "085ca0266ac1a36f95e225b8cf98ceef5b3665c311701e7f60df3cd1a3104cf8",
+    "paired_statistics.py": "6de2df9a791ea18a21bda92517b2cfcdebab5c33eec085eb9207c3f3b9896f0f",
+    "recompute_round.py": "fa10d158a5a511b497ad725053eccc5ed93620109e9caae20d868531fdbdea33",
+    "student_runtime.py": "7bc1bf35cd89fd6ea6e37f6093b8c53c2dd8ec6726d862fd7339ed2f11713cce",
+    "teacher_transport.py": "e845b019d01a69f308924ddbfee0bb7fd5ec94e79c4291ba1ad3ef9eee2ca0d9"
+  },
+  "scope": "Execution sources for inspection. Sealed final inputs, original training passages, weights, credentials and provider control are withheld; not a standalone full-training release."
+}

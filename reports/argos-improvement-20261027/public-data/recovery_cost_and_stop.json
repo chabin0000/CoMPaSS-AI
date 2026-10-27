@@ -1,0 +1,15 @@
+{
+  "at": 1793080880.4309247,
+  "gpu": "NVIDIA RTX A5000 24GB",
+  "GPU_advertised_hourly_USD": 0.27,
+  "original_budget_USD": 10,
+  "original_anchor_account_debit_USD": 2.2237139185999997,
+  "round_account_debit_USD": 0.45727269959999894,
+  "additional_round_limit_USD": 2,
+  "stop_confirmed": true,
+  "verified_backup": true,
+  "old_pods_untouched": true,
+  "cost_scope": "Account balance change, including setup, inference, backups and existing stopped-storage charges; not a training-only GPU invoice.",
+  "storage_charges_can_continue": true,
+  "no_account_balance_or_pod_identifiers_published": true
+}

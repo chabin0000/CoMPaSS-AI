@@ -1,0 +1,38 @@
+{
+  "at": 1793078061.7981834,
+  "training_runs": 1,
+  "steps": 120,
+  "epochs": 1.0,
+  "rows": 960,
+  "supervised_tokens": 98092,
+  "elapsed_seconds": 407.6018080711365,
+  "peak_torch_allocated_bytes": 10147129856,
+  "peak_torch_allocated_GiB": 9.45025110244751,
+  "trainable_parameters": 13631488,
+  "quantized_linear_modules": 224,
+  "base_revision": "553ea250b9a5317231459279d5847d6cf955b9aa",
+  "checkpoints": [
+    {
+      "step": 40,
+      "adapter_sha256": "eae227d1d71ce76d715123140d285ac6c863460f817230a8368802ef5821db05",
+      "config_sha256": "779d8b24e66ae453f2d57b9ce9a5a571f2f19e6d203edc0180bd58e9aed3f0e9"
+    },
+    {
+      "step": 80,
+      "adapter_sha256": "733d9d4ca5b43a6a45779c03d63d7d144d8be4f467f9f720583dd1bae9ea0808",
+      "config_sha256": "779d8b24e66ae453f2d57b9ce9a5a571f2f19e6d203edc0180bd58e9aed3f0e9"
+    },
+    {
+      "step": 120,
+      "adapter_sha256": "5bd6395cc0c3375787570631ed94d69fc415f58d81e9687046462a44a51d6cdf",
+      "config_sha256": "779d8b24e66ae453f2d57b9ce9a5a571f2f19e6d203edc0180bd58e9aed3f0e9"
+    }
+  ],
+  "first10_mean_loss": 2.2309865713119508,
+  "last10_mean_loss": 0.8943869709968567,
+  "loss_note": "Different batches at the start and end; descriptive training objective only, not a capability metric.",
+  "training_data_sha256": "63ea7617def08b4374fd336b29d08b61de5b61d8f102f896c6b83bcfaa3806ca",
+  "complete_backup_hashes_verified": true,
+  "human_reviewers": 0,
+  "additional_training_authorized": false
+}

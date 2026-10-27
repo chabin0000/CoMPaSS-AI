@@ -1,0 +1,47 @@
+{
+  "status": "verified",
+  "development_responses": 704,
+  "diagnostic_responses": 224,
+  "document_judgments": 384,
+  "new_candidate_document_reviews": 288,
+  "total_recorded_reviews": 428,
+  "additional_training_runs": 1,
+  "steps": 120,
+  "selected": null,
+  "final_inference": 0,
+  "all_gates_recomputed": true,
+  "original_phase_standard_responses": 3128,
+  "combined_standard_responses": 4056,
+  "human_reviewers": 0,
+  "tables": {
+    "S0": {
+      "document": 68,
+      "gsm8k": 35,
+      "kobest_boolq": 36,
+      "valid_explanations": 42,
+      "kobest_corrected": 37
+    },
+    "R6-040": {
+      "document": 46,
+      "gsm8k": 34,
+      "kobest_boolq": 36,
+      "valid_explanations": 23,
+      "kobest_corrected": 37
+    },
+    "R6-080": {
+      "document": 57,
+      "gsm8k": 31,
+      "kobest_boolq": 36,
+      "valid_explanations": 45,
+      "kobest_corrected": 37
+    },
+    "R6-120": {
+      "document": 55,
+      "gsm8k": 34,
+      "kobest_boolq": 36,
+      "valid_explanations": 44,
+      "kobest_corrected": 37
+    }
+  },
+  "scope": "Recomputed recorded judgments and integrity links, not independent semantic adjudication, human review, or final-test evidence."
+}
