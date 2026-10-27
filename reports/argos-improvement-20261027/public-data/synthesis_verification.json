@@ -9,7 +9,7 @@
   "direct_human_work_hours_measured": false,
   "pdf_pages": 39,
   "table_cells_inspected": 761,
-  "pdf_sha256": "f4674920cc5d8c6a9ee111df1ba3089656406f603aed6f4c29fb34e500a94c3d",
+  "pdf_sha256": "85921742ad53c8816540cfb2203248cef02226165ebbbdb1e26b95885215fa17",
   "canonical_data_sha256": "40761ccc6860ec2a63351b518cd445b2293ea3c7012f010ac21a16f0b45a629b",
   "scope": "Aggregate, cross-artifact and layout-data integrity; no independent semantic adjudication or new inference."
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T09:16:34.846788+00:00",
+  "generated_at": "2026-10-27T14:22:56.837848+00:00",
   "scope": "Public report artifacts only; excludes this self-referential manifest, private logs, credentials, weights and sealed test contents.",
   "files": [
     {
@@ -9,8 +9,8 @@
     },
     {
       "path": "ARGOS_Improvement_Report_KO.pdf",
-      "bytes": 3212665,
-      "sha256": "f4674920cc5d8c6a9ee111df1ba3089656406f603aed6f4c29fb34e500a94c3d"
+      "bytes": 3213208,
+      "sha256": "85921742ad53c8816540cfb2203248cef02226165ebbbdb1e26b95885215fa17"
     },
     {
       "path": "code/recompute_public_report.py",
@@ -519,8 +519,8 @@
     },
     {
       "path": "public-data/synthesis_pdf_build.json",
-      "bytes": 8714,
-      "sha256": "49480d3fcb5175d2a3636be15d0d629954b028e58a0e1c49b57aa211a765e8ae"
+      "bytes": 8637,
+      "sha256": "63aec0eaff10855b8427fa2322260bfda79f3fd275bba7e277a3d9f49112a903"
     },
     {
       "path": "public-data/synthesis_peer_review.json",
@@ -530,7 +530,7 @@
     {
       "path": "public-data/synthesis_verification.json",
       "bytes": 596,
-      "sha256": "c5e70feeea05aad9be21fe82f39bd6426b53041fbe0829bb09f25777f697da93"
+      "sha256": "c2cdbc99b379ea653de3e1423ed608ab482035be2d0f9afa2988c8782602ed5f"
     },
     {
       "path": "public-data/synthetic_development_evidence.jsonl",
@@ -619,8 +619,8 @@
     },
     {
       "path": "report-code/render_pdf.py",
-      "bytes": 8723,
-      "sha256": "2f563db9f4b6bf1e40e3c3d8e88bbcf5a0d9831c97e04a53799ff37fa4b5b9b7"
+      "bytes": 9341,
+      "sha256": "470c575f399a88eecc63879805bf6091bd51c1a9658c1b3f4d1258e6c193d9bd"
     },
     {
       "path": "report-code/verify_final_report.py",

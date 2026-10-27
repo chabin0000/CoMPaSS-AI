@@ -23,6 +23,8 @@ ST={
  'heading':ParagraphStyle('heading',fontName='MalgunBold',fontSize=12,leading=18.5,textColor=INK,wordWrap='CJK',spaceBefore=14,spaceAfter=9,keepWithNext=True),
  'body':ParagraphStyle('body',fontName='Malgun',fontSize=10.1,leading=16.3,textColor=INK,wordWrap='CJK',spaceAfter=9,allowWidows=0,allowOrphans=0),
  'small':ParagraphStyle('small',fontName='Malgun',fontSize=8,leading=12.2,textColor=GRAY,wordWrap='CJK',spaceAfter=7),
+ 'coverlink':ParagraphStyle('coverlink',fontName='MalgunBold',fontSize=10.5,leading=15,textColor=colors.HexColor('#225F91'),wordWrap='CJK',spaceBefore=4,spaceAfter=2),
+ 'coverurl':ParagraphStyle('coverurl',fontName='Malgun',fontSize=8.8,leading=13,textColor=colors.HexColor('#225F91'),wordWrap='CJK',spaceAfter=5),
  'cell':ParagraphStyle('cell',fontName='Malgun',fontSize=8.2,leading=12.4,textColor=INK,wordWrap='CJK',allowWidows=0,allowOrphans=0),
  'headcell':ParagraphStyle('headcell',fontName='MalgunBold',fontSize=8.2,leading=12.4,textColor=INK,wordWrap='CJK'),
  'toc0':ParagraphStyle('toc0',fontName='MalgunBold',fontSize=10.5,leading=16,textColor=INK,spaceBefore=11,spaceAfter=3,wordWrap='CJK'),
@@ -66,7 +68,7 @@ class ReportDoc(SimpleDocTemplate):
    self.canv.bookmarkPage(key);self.canv.addOutlineEntry(f.getPlainText(),key,level=level,closed=False)
    self.notify('TOCEntry',(level,f.getPlainText(),self.page,key));self.section_pages.append(dict(level=level,title=f.getPlainText(),page=self.page))
 
-flow=[Spacer(1,30),para('CoMPaSS RESEARCH / FINAL RECORD','small'),Spacer(1,31),para('ARGOS\n제작과 개선 연구\n최종보고서','title'),para(d['report']['subtitle'],'subtitle'),Spacer(1,14),para(d['report']['introduction']),Spacer(1,25),table([{'field':'item','label':'구분'},{'field':'value','label':'기록'}],[{'item':'연구 상태','value':'추가 학습·후보 선택 종료, 결과 동결'},{'item':'기준일','value':'2026년 10월 27일'},{'item':'비용·장비 가동','value':'사용자 보고 총40달러 / PC4일·96시간'},{'item':'검수와 협업','value':'AI 검수와 웹 프로젝트 Pro 대조 / 독립 사람 검수0명'}]),Spacer(1,17),para('연구 질문과 예산·중단·공개 결정: 프로젝트 연구자\n코드·실행·분석·문서 지원: Codex / 설계·해석·역사 검토: ChatGPT','small'),para('[공개 연구 저장소](https://github.com/chabin0000/CoMPaSS-AI)','small'),PageBreak(),para('읽는 순서와 목차','chapter')]
+flow=[Spacer(1,30),para('CoMPaSS RESEARCH / FINAL RECORD','small'),Spacer(1,31),para('ARGOS\n제작과 개선 연구\n최종보고서','title'),para(d['report']['subtitle'],'subtitle'),Spacer(1,14),para(d['report']['introduction']),Spacer(1,25),table([{'field':'item','label':'구분'},{'field':'value','label':'기록'}],[{'item':'연구 상태','value':'추가 학습·후보 선택 종료, 결과 동결'},{'item':'기준일','value':'2026년 10월 27일'},{'item':'비용·장비 가동','value':'사용자 보고 총40달러 / PC4일·96시간'},{'item':'검수와 협업','value':'AI 검수와 웹 프로젝트 Pro 대조 / 독립 사람 검수0명'}]),Spacer(1,17),para('연구 질문과 예산·중단·공개 결정: 프로젝트 연구자\n코드·실행·분석·문서 지원: Codex / 설계·해석·역사 검토: ChatGPT','small'),para('공개 연구 저장소','coverlink'),para('[github.com/chabin0000/CoMPaSS-AI](https://github.com/chabin0000/CoMPaSS-AI)','coverurl'),para('ARGOS 연구 웹사이트','coverlink'),para('[compass-argos-research-2026.web.app](https://compass-argos-research-2026.web.app/)','coverurl'),PageBreak(),para('읽는 순서와 목차','chapter')]
 flow.append(para('핵심 결과는1–2절, 제작 과정은6–22절, 보완 실험은23–39절, 주장·선호·통계는40–44절, 비용·시간·결론은45–50절에 정리했다. 그림과 표는 해당 절의 근거 파일·표본 범위에 연결된다.','small'))
 toc=TableOfContents();toc.levelStyles=[ST['toc0'],ST['toc1']];toc.dotsMinLevel=1;flow += [toc,PageBreak()]
 for i,s in enumerate(d['report']['sections'],1):

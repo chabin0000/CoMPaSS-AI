@@ -19,7 +19,7 @@ export default function App(){
           <h1 id="hero-title" className="sr-only">ARGOS — 다중 교사 학습의 가능성과 한계</h1>
           {fallback&&staticScene(0)}
           <div className="hero-caption"><p>다중 교사 학습의<br className="mobile-break"/> 가능성과 한계를 탐구하다.</p><span>서로 다른 답변에서 시작된, 하나의 연구.</span></div>
-          <a className="hero-report" href="/sources/final-report.pdf" target="_blank" rel="noreferrer">ARGOS 최종 연구보고서 PDF 보기 ↗</a>
+          <a className="hero-report" href="/sources/improvement-report.pdf" target="_blank" rel="noreferrer">ARGOS 제작과 개선 연구 최종보고서 PDF 보기 ↗</a>
           <a className="scroll-cue" href="#teachers"><span>아래로, 연구의 여정을 따라</span><span className="scroll-line"/></a>
         </div>
       </section>

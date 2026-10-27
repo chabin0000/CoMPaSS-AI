@@ -1,5 +1,7 @@
 # CoMPaSS-AI · ARGOS
 
+**[ARGOS 연구 웹사이트 바로가기](https://compass-argos-research-2026.web.app/)**
+
 서로 다른 교사 언어모델의 답변을 검증하고 EXAONE 학생 모델에 학습시킨 연구입니다. **실제 본실험은 임대한 RTX A5000 24GB에서 진행했습니다.** DGX Spark는 초기 구상에 해당하며, 초기 교사 수집의 실제 장비는 보존된 메타데이터만으로 독립 확인할 수 없습니다.
 
 **[제작 이력과 마지막 개선 실험을 담은 최종보고서](reports/argos-improvement-20261027/REPORT_KO.md)** · **[39쪽 PDF·그림 18개](reports/argos-improvement-20261027/ARGOS_Improvement_Report_KO.pdf)** · [원자료·재계산 코드·검증 기록](reports/argos-improvement-20261027/)

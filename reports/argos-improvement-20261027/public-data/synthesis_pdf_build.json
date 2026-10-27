@@ -1,11 +1,11 @@
 {
   "pdf": "ARGOS_Improvement_Report_KO.pdf",
-  "sha256": "f4674920cc5d8c6a9ee111df1ba3089656406f603aed6f4c29fb34e500a94c3d",
+  "sha256": "85921742ad53c8816540cfb2203248cef02226165ebbbdb1e26b95885215fa17",
   "pages": 39,
   "narrative_sections": 51,
   "figures": 18,
   "canonical_data_sha256": "40761ccc6860ec2a63351b518cd445b2293ea3c7012f010ac21a16f0b45a629b",
-  "extracted_characters": 48613,
+  "extracted_characters": 48696,
   "section_pages": [
     {
       "level": 0,
@@ -309,5 +309,5 @@
     }
   ],
   "font_sha256": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f",
-  "visual_verification": "All 39 rendered pages inspected by Codex; 7 contact sheets and full-page checks of pages 5, 25, 32 and 37. No clipping, overlap or missing Korean glyphs observed."
+  "visual_verification": "Cover page rendered and inspected after link update; earlier report layout preserved."
 }
