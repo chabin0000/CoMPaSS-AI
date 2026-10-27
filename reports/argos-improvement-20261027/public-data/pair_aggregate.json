@@ -1,0 +1,126 @@
+{
+  "at": 1793059976.0201366,
+  "agreement": {
+    "overall": {
+      "n": 72,
+      "agree": 57,
+      "percent_agreement": 79.16666666666666,
+      "expected_agreement": 0.42843364197530864,
+      "cohen_kappa": 0.6355045561930476,
+      "undefined_if_constant_identical_margins": false,
+      "marginals_first": {
+        "A": 28,
+        "B": 41,
+        "tie": 3
+      },
+      "marginals_second": {
+        "A": 27,
+        "B": 35,
+        "tie": 10
+      }
+    },
+    "naturalness": {
+      "n": 72,
+      "agree": 19,
+      "percent_agreement": 26.38888888888889,
+      "expected_agreement": 0.14756944444444445,
+      "cohen_kappa": 0.1364562118126273,
+      "undefined_if_constant_identical_margins": false,
+      "marginals_first": {
+        "A": 27,
+        "B": 45,
+        "tie": 0
+      },
+      "marginals_second": {
+        "A": 10,
+        "B": 11,
+        "tie": 51
+      }
+    }
+  },
+  "preferences": {
+    "Codex": {
+      "S0": {
+        "overall": {
+          "candidate": 15,
+          "comparator": 9,
+          "tie": 0
+        },
+        "naturalness": {
+          "candidate": 11,
+          "comparator": 13,
+          "tie": 0
+        }
+      },
+      "gpt_oss": {
+        "overall": {
+          "candidate": 6,
+          "comparator": 17,
+          "tie": 1
+        },
+        "naturalness": {
+          "candidate": 2,
+          "comparator": 22,
+          "tie": 0
+        }
+      },
+      "glm": {
+        "overall": {
+          "candidate": 6,
+          "comparator": 16,
+          "tie": 2
+        },
+        "naturalness": {
+          "candidate": 4,
+          "comparator": 20,
+          "tie": 0
+        }
+      }
+    },
+    "ProjectPro": {
+      "S0": {
+        "overall": {
+          "candidate": 13,
+          "comparator": 9,
+          "tie": 2
+        },
+        "naturalness": {
+          "candidate": 6,
+          "comparator": 3,
+          "tie": 15
+        }
+      },
+      "gpt_oss": {
+        "overall": {
+          "candidate": 8,
+          "comparator": 13,
+          "tie": 3
+        },
+        "naturalness": {
+          "candidate": 2,
+          "comparator": 4,
+          "tie": 18
+        }
+      },
+      "glm": {
+        "overall": {
+          "candidate": 8,
+          "comparator": 11,
+          "tie": 5
+        },
+        "naturalness": {
+          "candidate": 2,
+          "comparator": 4,
+          "tie": 18
+        }
+      }
+    }
+  },
+  "source_scope_sha256": "34613cfc1a8ddd1da2717c186d95055b04a03a0f72131c056169e12eb8ff68a5",
+  "decisions_sha256": {
+    "Codex": "f41272f559d6d4fcbfb443bfd5a9ef50fa78deb3b57edcf39ad9d3811a55ddbb",
+    "ProjectPro": "168efdb5dae351d724c4c8f9125ccb762c5892c0a53ced9646fdd9226c68f177"
+  },
+  "human_reviewers": 0,
+  "limitation": "Two related AI raters, shared task design and project history, possible style unmasking; not independent human agreement or a primary capability test"
+}

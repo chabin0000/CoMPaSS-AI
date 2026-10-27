@@ -1,0 +1,52 @@
+{
+  "base_model": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct",
+  "base_revision": "553ea250b9a5317231459279d5847d6cf955b9aa",
+  "tokenizer_fingerprint": "274d660f2a8d606d317f023624130b106e044642fdcf8c9c18e70b21d79fbe55",
+  "llama_commit": "7170cad4d02f7907517613931840cbb2367399a3",
+  "teachers": {
+    "glm": {
+      "model": "zai-org/GLM-4.7-Flash",
+      "extra_body": {
+        "chat_template_kwargs": {
+          "enable_thinking": true
+        }
+      },
+      "model_metadata": {
+        "engine": "llama.cpp",
+        "engine_revision": "7170cad4d02f7907517613931840cbb2367399a3",
+        "filename": "GLM-4.7-Flash-Q4_K_M.gguf",
+        "quantization": "Q4_K_M",
+        "repo": "unsloth/GLM-4.7-Flash-GGUF",
+        "revision": "0d32489ecb9db6d2a4fc93bd27ef01519f95474d",
+        "sha256": "29837ed2c0fc5f51981adf8ac8083fcf80743c598381f13e9f06cbad0498b174",
+        "upstream_revision": "7dd20894a642a0aa287e9827cb1a1f7f91386b67"
+      }
+    },
+    "gpt_oss": {
+      "model": "openai/gpt-oss-20b",
+      "extra_body": {
+        "reasoning_effort": "medium"
+      },
+      "model_metadata": {
+        "engine": "llama.cpp",
+        "engine_revision": "7170cad4d02f7907517613931840cbb2367399a3",
+        "filename": "gpt-oss-20b-Q4_K_M.gguf",
+        "quantization": "Q4_K_M",
+        "repo": "unsloth/gpt-oss-20b-GGUF",
+        "revision": "d449b42d93e1c2c7bda5312f5c25c8fb91dfa9b4",
+        "sha256": "c27536640e410032865dc68781d80a08b98f8db5e93575919af8ccc0568aeb4f",
+        "upstream_revision": "6cee5e81ee83917806bbde320786a8fb61efebee"
+      }
+    }
+  },
+  "actual_generation_cap": 8192,
+  "greedy": true,
+  "student_frameworks": {
+    "transformers": "5.1.0",
+    "peft": "0.19.1",
+    "accelerate": "1.15.0",
+    "bitsandbytes": "0.50.2",
+    "torch": "2.8.0"
+  },
+  "note": "Teacher generation defaults in source config are superseded by the actual command-line cap8192. Model weights are not redistributed."
+}

@@ -1,0 +1,125 @@
+{
+  "at": 1793049069.0954,
+  "baseline_review_sha256": "e649d130257f10ce34487ce768cdc59d35d66ec6d6e3ecf25a2dda11277acc99",
+  "baseline_review_count": 704,
+  "conditions": {
+    "A4": {
+      "data_sha256": "990e6370b3128802762cb1c5c9c692e1a3ae27547cb04169d291d6c3996a14d0",
+      "receipt_sha256": "f502c2f358bc8bd8571360300fd51899e77559c897dc5f161432086c2855eba4",
+      "max_steps": 150,
+      "save_steps": 75,
+      "planned_epochs": 2,
+      "unique_rows": 600,
+      "schedule_rows": 600,
+      "supervised_tokens_per_epoch": 3750
+    },
+    "B4": {
+      "data_sha256": "6bf26803cd853e3db898f0742f88154916d3fd89e783f4083314b1e2620b51f7",
+      "receipt_sha256": "ce21c7dd1a83fe0b841bcb095f48e28f280bde6571245cbfe198560613a7bde7",
+      "max_steps": 150,
+      "save_steps": 75,
+      "planned_epochs": 2,
+      "unique_rows": 600,
+      "schedule_rows": 600,
+      "supervised_tokens_per_epoch": 29716
+    },
+    "C5": {
+      "data_sha256": "be1bd3f676507c46af21f7b9c9ee785f7fe2dc1358fb1bd7b2ecf3a76a8b72eb",
+      "receipt_sha256": "72db08b095b9d0699de2aabf91a7359006f9af4ae8ee10fcb7367ad6e37a6273",
+      "max_steps": 152,
+      "save_steps": 76,
+      "planned_epochs": 2,
+      "unique_rows": 603,
+      "schedule_rows": 608,
+      "supervised_tokens_per_epoch": 29869
+    }
+  },
+  "learning_rate": 5e-05,
+  "seed": 20261027,
+  "replication_seed": 20261028,
+  "initialization": "fresh pinned S0, not continued old ARGOS",
+  "quantization": "NF4 double quantization BF16",
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "out_proj"
+    ]
+  },
+  "optimizer": "adamw_torch",
+  "lr_scheduler": "linear",
+  "warmup_ratio": 0.03,
+  "weight_decay": 0,
+  "max_grad_norm": 1.0,
+  "batch_size": 1,
+  "gradient_accumulation": 8,
+  "max_length": 1536,
+  "prompt_loss_masked": true,
+  "EOS_supervised": true,
+  "truncation_allowed": false,
+  "ranking": [
+    "semantic correct descending",
+    "valid explanation count descending",
+    "checkpoint step ascending",
+    "condition order A4 B4 C5"
+  ],
+  "minimum_counts": {
+    "document": 73,
+    "valid_document_explanations": 87,
+    "gsm8k": 33,
+    "kobest_official": 34,
+    "kobest_corrected": 35
+  },
+  "corrected_baseline_general_counts": {
+    "S0": 37,
+    "gpt_oss": 36,
+    "glm": 38,
+    "ARGOS_old": 38
+  },
+  "corrected_label_rule_sha256": "7f8474f81994cfcf730d2bc76231d5263e6917b459459ba4df7168e0965bd0f5",
+  "C5": {
+    "scheduled_row_counts": {
+      "domain": 422,
+      "math": 90,
+      "general": 96
+    },
+    "scheduled_row_shares": {
+      "domain": 0.694078947368421,
+      "math": 0.14802631578947367,
+      "general": 0.15789473684210525
+    },
+    "scheduled_supervised_token_counts": {
+      "domain": 20818,
+      "math": 4461,
+      "general": 4590
+    },
+    "scheduled_supervised_token_shares": {
+      "domain": 0.6969767986876025,
+      "math": 0.1493521711473434,
+      "general": 0.15367103016505407
+    },
+    "supervised_token_difference_vs_B": 0.005148741418764302,
+    "unique_rows": 603,
+    "padding_repeats": 5
+  },
+  "controls": "A/B same600 ordered questions, different supervision tokens; B/C approximately token matched, not exposure or FLOP matched",
+  "second_seed": "Only qualified primary winner; same entire LR schedule, selected checkpoint and prompt; never replace primary with lucky seed",
+  "second_seed_rule_sha256": "c7e1598ada358f09c7675a04fba860750827348187e0a69bb07c611ce1ca3831",
+  "second_seed_same_five_gates": true,
+  "failure_policy": "No threshold relaxation or training extension if no candidate qualifies; retain final seal",
+  "consultation": "Existing compass ai project Pro reviewed supplied aggregates, supported conditions and corrected ratio denominators; no independent file verification",
+  "runtime_source_sha256": {
+    "gpu_job.py": "085ca0266ac1a36f95e225b8cf98ceef5b3665c311701e7f60df3cd1a3104cf8",
+    "student_runtime.py": "bde4a51d50074e89dcbf013350ea63a847c717fd700a3838aad7783e11ad29b2",
+    "future_training_tokens.py": "0419661fb0b8cf2a32ddfbccf4b2eeda6d911c377c807e330a607da043daf4c9",
+    "candidate_stage.py": "b97e017e273e7a004965387ea469965e57c6ee6dd130f3edf634463197ec7281",
+    "candidate_selection.py": "faff84e748e25c0e40b6976a8ac982ed61056b443f6542116e8c88b6585d3985"
+  },
+  "protocol_sha256": "3e61e0ae5f546f63c526b730a915c253b5e31e63ee0742bd1696466b948c410d",
+  "final_keys_accessed": false,
+  "user_budget_USD": 10
+}

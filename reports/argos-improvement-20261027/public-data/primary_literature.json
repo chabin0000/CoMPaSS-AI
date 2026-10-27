@@ -1,0 +1,23 @@
+{
+  "accessed_at": 1793044808.7309403,
+  "sources": [
+    {
+      "url": "https://aclanthology.org/2023.findings-acl.507/",
+      "title": "Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes",
+      "year": 2023,
+      "relevance": "Task-specific rationale-plus-label supervision can outperform larger models in the paper settings; this does not establish ARGOS success or general teacher superiority."
+    },
+    {
+      "url": "https://aclanthology.org/2024.naacl-long.142/",
+      "title": "PaD: Program-aided Distillation Can Teach Small Models Reasoning Better than Chain-of-thought Fine-tuning",
+      "year": 2024,
+      "relevance": "Program-based filtering of reasoning data motivates verifiable targets. The present run does not implement the paper complete PaD algorithm."
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.20050",
+      "title": "Let's Verify Step by Step",
+      "year": 2023,
+      "relevance": "Process supervision motivates attention to intermediate errors; the present experiment uses completion-only SFT of verified explanation text, not a trained process reward model."
+    }
+  ]
+}

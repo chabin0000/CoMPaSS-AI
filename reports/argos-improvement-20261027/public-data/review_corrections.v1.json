@@ -1,0 +1,80 @@
+{
+  "at": 1793053516.8738565,
+  "changes": [
+    {
+      "audit_index": 22,
+      "phase": "development",
+      "review_id": "development-review-0344",
+      "packet_sha256": "fe48423720087088b222feedbcc5110c6efcbd11daf81484a1cd7cfe1acfa1d8",
+      "old_rationale_valid": false,
+      "new_rationale_valid": true,
+      "reason": "All three correct conditions and correct empty filter result satisfy original v3. Earlier failure added an unwritten exclusion-detail requirement.",
+      "at": 1793053444.6637404,
+      "reviewer": "Codex single AI",
+      "original_decision_sha256": "4f21649315cf198b94635f0a22bf31f9eb03acf1aacd3744e7bc3a37b3e91af8",
+      "payload_sha256": "eee5438cc494e1aaadad112475b99a4f5991885807d056a5b38f428ceca68457",
+      "rubric_version": "v3 with citation resolution v3.1; consistency restoration 20261027-1"
+    },
+    {
+      "audit_index": 31,
+      "phase": "candidate_calibration",
+      "review_id": "candidate_calibration-review-0134",
+      "packet_sha256": "d99bfd87ce4ebeea221cf7bba1621f049f78a4927c4c0d85d8ef66dc378b436b",
+      "old_rationale_valid": false,
+      "new_rationale_valid": true,
+      "reason": "All three correct core criteria and correct empty filter result satisfy original v3; remove unwritten zero-specific exclusion-detail requirement.",
+      "at": 1793053456.3833942,
+      "reviewer": "Codex single AI",
+      "original_decision_sha256": "0157af9b9a97340c4f7e08e17d589b466642c3e9ae04f08abe8d3fd354832f61",
+      "payload_sha256": "cbe4d17fa02343f19c1af70fd51cf32f2a1b0733f66a8951d12a13fd113573d1",
+      "rubric_version": "v3 with citation resolution v3.1; consistency restoration 20261027-1"
+    },
+    {
+      "audit_index": 33,
+      "phase": "candidate_calibration",
+      "review_id": "candidate_calibration-review-0180",
+      "packet_sha256": "41864c4a758d59484d2db806fb982e76ba67f01f55922096d93db46ad96c85bc",
+      "old_rationale_valid": false,
+      "new_rationale_valid": true,
+      "reason": "All three correct core criteria and correct empty filter result satisfy original v3; remove unwritten zero-specific exclusion-detail requirement.",
+      "at": 1793053456.3833942,
+      "reviewer": "Codex single AI",
+      "original_decision_sha256": "0fe06fa0908f96777ebed7946ef706dd25cf77e886f8f8a63633678d4d00f58e",
+      "payload_sha256": "c79db7bd81ea622c316ae8034909d32cd2c75151b29efeaaaf09b2e4d0a36167",
+      "rubric_version": "v3 with citation resolution v3.1; consistency restoration 20261027-1"
+    },
+    {
+      "audit_index": 35,
+      "phase": "candidate_calibration",
+      "review_id": "candidate_calibration-review-0205",
+      "packet_sha256": "742c5dc5430a4312cd3dd3bf46d727455a10dd71f5cde13fd5f152d07c5d563a",
+      "old_rationale_valid": false,
+      "new_rationale_valid": true,
+      "reason": "All three correct core criteria and correct empty filter result satisfy original v3; remove unwritten zero-specific exclusion-detail requirement.",
+      "at": 1793053456.3833942,
+      "reviewer": "Codex single AI",
+      "original_decision_sha256": "224051b902079070a264d3c91cf6314b7989667dae283cd01e617bbd15e255be",
+      "payload_sha256": "b3122d76d91148049e33b6ef324d3af10ab5949971411015e86f696a20f0863d",
+      "rubric_version": "v3 with citation resolution v3.1; consistency restoration 20261027-1"
+    },
+    {
+      "audit_index": 46,
+      "phase": "candidate_calibration",
+      "review_id": "candidate_calibration-review-0559",
+      "packet_sha256": "4867580d577e0c38e5e48b5e3b460418126d69ecf16f07cd48ff76cb165c988d",
+      "old_rationale_valid": false,
+      "new_rationale_valid": true,
+      "reason": "Restore correct concise criteria plus empty filter result to original v3.",
+      "at": 1793053516.872856,
+      "reviewer": "Codex single AI",
+      "original_decision_sha256": "10147f83eaf89e4b8b48581d54bcd7f5667b896092cc75f38ffe0c8598a9e65e",
+      "payload_sha256": "c79db7bd81ea622c316ae8034909d32cd2c75151b29efeaaaf09b2e4d0a36167",
+      "rubric_version": "v3 with citation resolution v3.1; consistency restoration 20261027-1"
+    }
+  ],
+  "raw_decision_files_at_audit": {
+    "calibration": "46188958cf4b462cc3f5b4a5514ba2564b367b129fa9b34c0aef910c16e02a70",
+    "development": "0f07ea0c3c606bd781d3571a436eb30165476f8e946f586bc9a17d07144b45cc",
+    "candidate_calibration": "2bdcbf4360d794a9a1525438a35e98150b7e8d88c091ac5b56a0824069727090"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "source_sha256": "1c7f8b9bab0e9a9f3a9800e80c9953f3c8c622cff0bcc8417b7c9bea869caa72",
+  "models": 10,
+  "panels": 4,
+  "value_kind": "Actual fully reviewed development counts",
+  "final_evaluation": false,
+  "confidence_intervals_shown": false
+}

@@ -1,0 +1,92 @@
+{
+  "status": "verified",
+  "models": [
+    {
+      "model": "S0",
+      "document_correct": 68,
+      "valid_explanations": 42,
+      "gsm8k_correct": 35,
+      "kobest_official": 36,
+      "kobest_corrected": 37
+    },
+    {
+      "model": "ARGOS_old",
+      "document_correct": 35,
+      "valid_explanations": 25,
+      "gsm8k_correct": 6,
+      "kobest_official": 37,
+      "kobest_corrected": 38
+    },
+    {
+      "model": "A4-075",
+      "document_correct": 44,
+      "valid_explanations": 0,
+      "gsm8k_correct": 16,
+      "kobest_official": 37,
+      "kobest_corrected": 38
+    },
+    {
+      "model": "A4-150",
+      "document_correct": 49,
+      "valid_explanations": 0,
+      "gsm8k_correct": 18,
+      "kobest_official": 36,
+      "kobest_corrected": 37
+    },
+    {
+      "model": "B4-075",
+      "document_correct": 53,
+      "valid_explanations": 40,
+      "gsm8k_correct": 32,
+      "kobest_official": 37,
+      "kobest_corrected": 38
+    },
+    {
+      "model": "B4-150",
+      "document_correct": 52,
+      "valid_explanations": 42,
+      "gsm8k_correct": 30,
+      "kobest_official": 37,
+      "kobest_corrected": 38
+    },
+    {
+      "model": "C5-076",
+      "document_correct": 47,
+      "valid_explanations": 36,
+      "gsm8k_correct": 22,
+      "kobest_official": 37,
+      "kobest_corrected": 38
+    },
+    {
+      "model": "C5-152",
+      "document_correct": 50,
+      "valid_explanations": 42,
+      "gsm8k_correct": 22,
+      "kobest_official": 36,
+      "kobest_corrected": 37
+    },
+    {
+      "model": "gpt_oss",
+      "document_correct": 93,
+      "valid_explanations": 87,
+      "gsm8k_correct": 38,
+      "kobest_official": 35,
+      "kobest_corrected": 36
+    },
+    {
+      "model": "glm",
+      "document_correct": 86,
+      "valid_explanations": 72,
+      "gsm8k_correct": 39,
+      "kobest_official": 37,
+      "kobest_corrected": 38
+    }
+  ],
+  "document_responses": 960,
+  "retention_responses": 800,
+  "claim_responses": 120,
+  "atomic_claims": 798,
+  "pairs": 72,
+  "AI_pair_judgments": 144,
+  "scope": "Recomputed recorded judgments and descriptive statistics; does not independently establish semantic validity, human review, causality, or teacher superiority."
+}

@@ -1,0 +1,237 @@
+{
+  "at": 1793057275.8415053,
+  "configuration_sha256": "10174de40459c44635b2aa3fc5247ddfbca5936cef6edaaf2b8ca374e29993ea",
+  "decision_sha256": "ec058c939ca094267846d204ece94e6e86c3c4e178b213a5f74b0f02864274f3",
+  "table": {
+    "A4-075": {
+      "document": {
+        "correct": 44,
+        "n": 96,
+        "incomplete": 0,
+        "valid_explanations": 0
+      },
+      "gsm8k": {
+        "correct": 16,
+        "n": 40,
+        "incomplete": 0,
+        "valid_explanations": null
+      },
+      "kobest_boolq": {
+        "correct": 37,
+        "n": 40,
+        "incomplete": 0,
+        "valid_explanations": null
+      },
+      "kobest_corrected": 38,
+      "gates": {
+        "document": false,
+        "valid_document_explanations": false,
+        "gsm8k": false,
+        "kobest_official": true,
+        "kobest_corrected": true
+      },
+      "qualified": false,
+      "observed_counts": {
+        "document": 44,
+        "valid_document_explanations": 0,
+        "gsm8k": 16,
+        "kobest_official": 37,
+        "kobest_corrected": 38
+      }
+    },
+    "A4-150": {
+      "document": {
+        "correct": 49,
+        "n": 96,
+        "incomplete": 0,
+        "valid_explanations": 0
+      },
+      "gsm8k": {
+        "correct": 18,
+        "n": 40,
+        "incomplete": 0,
+        "valid_explanations": null
+      },
+      "kobest_boolq": {
+        "correct": 36,
+        "n": 40,
+        "incomplete": 0,
+        "valid_explanations": null
+      },
+      "kobest_corrected": 37,
+      "gates": {
+        "document": false,
+        "valid_document_explanations": false,
+        "gsm8k": false,
+        "kobest_official": true,
+        "kobest_corrected": true
+      },
+      "qualified": false,
+      "observed_counts": {
+        "document": 49,
+        "valid_document_explanations": 0,
+        "gsm8k": 18,
+        "kobest_official": 36,
+        "kobest_corrected": 37
+      }
+    },
+    "B4-075": {
+      "document": {
+        "correct": 53,
+        "n": 96,
+        "incomplete": 0,
+        "valid_explanations": 40
+      },
+      "gsm8k": {
+        "correct": 32,
+        "n": 40,
+        "incomplete": 0,
+        "valid_explanations": null
+      },
+      "kobest_boolq": {
+        "correct": 37,
+        "n": 40,
+        "incomplete": 0,
+        "valid_explanations": null
+      },
+      "kobest_corrected": 38,
+      "gates": {
+        "document": false,
+        "valid_document_explanations": false,
+        "gsm8k": false,
+        "kobest_official": true,
+        "kobest_corrected": true
+      },
+      "qualified": false,
+      "observed_counts": {
+        "document": 53,
+        "valid_document_explanations": 40,
+        "gsm8k": 32,
+        "kobest_official": 37,
+        "kobest_corrected": 38
+      }
+    },
+    "B4-150": {
+      "document": {
+        "correct": 52,
+        "n": 96,
+        "incomplete": 0,
+        "valid_explanations": 42
+      },
+      "gsm8k": {
+        "correct": 30,
+        "n": 40,
+        "incomplete": 0,
+        "valid_explanations": null
+      },
+      "kobest_boolq": {
+        "correct": 37,
+        "n": 40,
+        "incomplete": 0,
+        "valid_explanations": null
+      },
+      "kobest_corrected": 38,
+      "gates": {
+        "document": false,
+        "valid_document_explanations": false,
+        "gsm8k": false,
+        "kobest_official": true,
+        "kobest_corrected": true
+      },
+      "qualified": false,
+      "observed_counts": {
+        "document": 52,
+        "valid_document_explanations": 42,
+        "gsm8k": 30,
+        "kobest_official": 37,
+        "kobest_corrected": 38
+      }
+    },
+    "C5-076": {
+      "document": {
+        "correct": 47,
+        "n": 96,
+        "incomplete": 0,
+        "valid_explanations": 36
+      },
+      "gsm8k": {
+        "correct": 22,
+        "n": 40,
+        "incomplete": 0,
+        "valid_explanations": null
+      },
+      "kobest_boolq": {
+        "correct": 37,
+        "n": 40,
+        "incomplete": 0,
+        "valid_explanations": null
+      },
+      "kobest_corrected": 38,
+      "gates": {
+        "document": false,
+        "valid_document_explanations": false,
+        "gsm8k": false,
+        "kobest_official": true,
+        "kobest_corrected": true
+      },
+      "qualified": false,
+      "observed_counts": {
+        "document": 47,
+        "valid_document_explanations": 36,
+        "gsm8k": 22,
+        "kobest_official": 37,
+        "kobest_corrected": 38
+      }
+    },
+    "C5-152": {
+      "document": {
+        "correct": 50,
+        "n": 96,
+        "incomplete": 0,
+        "valid_explanations": 42
+      },
+      "gsm8k": {
+        "correct": 22,
+        "n": 40,
+        "incomplete": 0,
+        "valid_explanations": null
+      },
+      "kobest_boolq": {
+        "correct": 36,
+        "n": 40,
+        "incomplete": 0,
+        "valid_explanations": null
+      },
+      "kobest_corrected": 37,
+      "gates": {
+        "document": false,
+        "valid_document_explanations": false,
+        "gsm8k": false,
+        "kobest_official": true,
+        "kobest_corrected": true
+      },
+      "qualified": false,
+      "observed_counts": {
+        "document": 50,
+        "valid_document_explanations": 42,
+        "gsm8k": 22,
+        "kobest_official": 36,
+        "kobest_corrected": 37
+      }
+    }
+  },
+  "ranking": [
+    "B4-075",
+    "B4-150",
+    "C5-152",
+    "A4-150",
+    "C5-076",
+    "A4-075"
+  ],
+  "qualified": [],
+  "selected": null,
+  "descriptive_candidate": "B4-075",
+  "no_final_exam_yet": true,
+  "teacher_superiority_demonstrated": false,
+  "final_keys_accessed": false
+}

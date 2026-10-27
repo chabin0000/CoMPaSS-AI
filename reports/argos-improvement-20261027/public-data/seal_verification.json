@@ -1,0 +1,20 @@
+{
+  "at": 1793059810.8013127,
+  "all_match": true,
+  "checked_files": 12,
+  "files": {
+    "calibration.keys.jsonl": "1328bcfc3d673ddb885549c86f37787678819370671ed606f60ee7bbb008d875",
+    "calibration.questions.jsonl": "d5383d5b13078efc7b3aa773df54b4bda0094cb844a04552755cb901763577b5",
+    "development.keys.jsonl": "c5966f60e0c8eb46e3236f2b52e25c628fb85ee7f3a7d425c3b731cb07ab90c8",
+    "development.questions.jsonl": "cd4fb71fbf8fa4223978da3b8f2a3a1247d10849c2ffb1e092665720c99c31e2",
+    "final.keys.jsonl": "89b90978e9df37914ae18de5f91f164e2fa1df28944911755512b28de44a36f9",
+    "final.questions.jsonl": "6153fbfd325bed7e4a80f45774125c2b63ea4388241c29b9dbcc113c202deb20",
+    "train.keys.jsonl": "3954f7c6552a6a9d824867c104db5787cdf14b4b28a56dbde43be3a88ed01299",
+    "train.questions.jsonl": "ff9afa257f3a82221b1289eac378ba2a4e39c16c4564b9487ac44d8bd8039563",
+    "retention_development.keys.jsonl": "58e215bb54fc0c238f739f494aa7107bae050f1c7a362a0347078dd26a754b7b",
+    "retention_development.questions.jsonl": "4bef3593c187c3a8ea87c023d2aef5487bdbeab24c4dd278a32e6bf9892df54b",
+    "retention_final.keys.jsonl": "27c37f9cffb2490194ba029ef63c2d44339f2feec4372708afc2e79627b8c5b7",
+    "retention_final.questions.jsonl": "539fcd91e958eb726d0044dc85d41c458df9f1c0a009ab032046f5d50e373816"
+  },
+  "limitation": "Local SHA256 integrity comparison, not independent timestamping or human validation. Final items were generated and validated before sealing; no final inference was executed."
+}

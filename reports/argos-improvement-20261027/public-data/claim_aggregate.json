@@ -1,0 +1,70 @@
+{
+  "at": 1793057566.911196,
+  "table": {
+    "glm": {
+      "responses": 24,
+      "complete": 23,
+      "zero_claim_responses": 1,
+      "supported": 181,
+      "contradicted": 4,
+      "unverifiable": 0,
+      "claims": 185,
+      "contradicted_fraction": 0.021621621621621623,
+      "unsupported_fraction": 0.021621621621621623,
+      "claims_per_response": 7.708333333333333
+    },
+    "ARGOS_old": {
+      "responses": 24,
+      "complete": 24,
+      "zero_claim_responses": 0,
+      "supported": 49,
+      "contradicted": 19,
+      "unverifiable": 1,
+      "claims": 69,
+      "contradicted_fraction": 0.2753623188405797,
+      "unsupported_fraction": 0.2898550724637681,
+      "claims_per_response": 2.875
+    },
+    "S0": {
+      "responses": 24,
+      "complete": 24,
+      "zero_claim_responses": 0,
+      "supported": 218,
+      "contradicted": 32,
+      "unverifiable": 1,
+      "claims": 251,
+      "contradicted_fraction": 0.12749003984063745,
+      "unsupported_fraction": 0.13147410358565736,
+      "claims_per_response": 10.458333333333334
+    },
+    "gpt_oss": {
+      "responses": 24,
+      "complete": 24,
+      "zero_claim_responses": 0,
+      "supported": 215,
+      "contradicted": 1,
+      "unverifiable": 0,
+      "claims": 216,
+      "contradicted_fraction": 0.004629629629629629,
+      "unsupported_fraction": 0.004629629629629629,
+      "claims_per_response": 9.0
+    },
+    "B4-075": {
+      "responses": 24,
+      "complete": 24,
+      "zero_claim_responses": 0,
+      "supported": 48,
+      "contradicted": 27,
+      "unverifiable": 2,
+      "claims": 77,
+      "contradicted_fraction": 0.35064935064935066,
+      "unsupported_fraction": 0.37662337662337664,
+      "claims_per_response": 3.2083333333333335
+    }
+  },
+  "baseline_only": false,
+  "sampling": "Fixed2perfamily24documents",
+  "scope": "Secondary descriptive audit, not population-wide factual error rate or checkpoint selection",
+  "human_reviewers": 0,
+  "decision_sha256": "d9b240d2b3ef474a9bafbfac529e5667204f69c9845c8facb7542092829c079f"
+}

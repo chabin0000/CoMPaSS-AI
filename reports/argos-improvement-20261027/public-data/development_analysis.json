@@ -1,0 +1,1202 @@
+{
+  "at": 1793057288.702452,
+  "models": [
+    {
+      "model": "S0",
+      "label": "기본 S0",
+      "prompt": "verify",
+      "document_correct": 68,
+      "valid_explanations": 42,
+      "gsm8k_correct": 35,
+      "kobest_official": 36,
+      "kobest_corrected": 37,
+      "document_n": 96,
+      "gsm8k_n": 40,
+      "kobest_n": 40,
+      "incomplete": 0,
+      "qualified": null
+    },
+    {
+      "model": "ARGOS_old",
+      "label": "기존 ARGOS",
+      "prompt": "direct",
+      "document_correct": 35,
+      "valid_explanations": 25,
+      "gsm8k_correct": 6,
+      "kobest_official": 37,
+      "kobest_corrected": 38,
+      "document_n": 96,
+      "gsm8k_n": 40,
+      "kobest_n": 40,
+      "incomplete": 0,
+      "qualified": null
+    },
+    {
+      "model": "A4-075",
+      "label": "A4-075",
+      "prompt": "direct",
+      "document_correct": 44,
+      "valid_explanations": 0,
+      "gsm8k_correct": 16,
+      "kobest_official": 37,
+      "kobest_corrected": 38,
+      "document_n": 96,
+      "gsm8k_n": 40,
+      "kobest_n": 40,
+      "incomplete": 0,
+      "qualified": false
+    },
+    {
+      "model": "A4-150",
+      "label": "A4-150",
+      "prompt": "direct",
+      "document_correct": 49,
+      "valid_explanations": 0,
+      "gsm8k_correct": 18,
+      "kobest_official": 36,
+      "kobest_corrected": 37,
+      "document_n": 96,
+      "gsm8k_n": 40,
+      "kobest_n": 40,
+      "incomplete": 0,
+      "qualified": false
+    },
+    {
+      "model": "B4-075",
+      "label": "B4-075",
+      "prompt": "verify",
+      "document_correct": 53,
+      "valid_explanations": 40,
+      "gsm8k_correct": 32,
+      "kobest_official": 37,
+      "kobest_corrected": 38,
+      "document_n": 96,
+      "gsm8k_n": 40,
+      "kobest_n": 40,
+      "incomplete": 0,
+      "qualified": false
+    },
+    {
+      "model": "B4-150",
+      "label": "B4-150",
+      "prompt": "direct",
+      "document_correct": 52,
+      "valid_explanations": 42,
+      "gsm8k_correct": 30,
+      "kobest_official": 37,
+      "kobest_corrected": 38,
+      "document_n": 96,
+      "gsm8k_n": 40,
+      "kobest_n": 40,
+      "incomplete": 0,
+      "qualified": false
+    },
+    {
+      "model": "C5-076",
+      "label": "C5-076",
+      "prompt": "direct",
+      "document_correct": 47,
+      "valid_explanations": 36,
+      "gsm8k_correct": 22,
+      "kobest_official": 37,
+      "kobest_corrected": 38,
+      "document_n": 96,
+      "gsm8k_n": 40,
+      "kobest_n": 40,
+      "incomplete": 0,
+      "qualified": false
+    },
+    {
+      "model": "C5-152",
+      "label": "C5-152",
+      "prompt": "direct",
+      "document_correct": 50,
+      "valid_explanations": 42,
+      "gsm8k_correct": 22,
+      "kobest_official": 36,
+      "kobest_corrected": 37,
+      "document_n": 96,
+      "gsm8k_n": 40,
+      "kobest_n": 40,
+      "incomplete": 0,
+      "qualified": false
+    },
+    {
+      "model": "gpt_oss",
+      "label": "GPT-OSS 20B",
+      "prompt": "direct",
+      "document_correct": 93,
+      "valid_explanations": 87,
+      "gsm8k_correct": 38,
+      "kobest_official": 35,
+      "kobest_corrected": 36,
+      "document_n": 96,
+      "gsm8k_n": 40,
+      "kobest_n": 40,
+      "incomplete": 0,
+      "qualified": null
+    },
+    {
+      "model": "glm",
+      "label": "GLM-4.7-Flash",
+      "prompt": "direct",
+      "document_correct": 86,
+      "valid_explanations": 72,
+      "gsm8k_correct": 39,
+      "kobest_official": 37,
+      "kobest_corrected": 38,
+      "document_n": 96,
+      "gsm8k_n": 40,
+      "kobest_n": 40,
+      "incomplete": 5,
+      "qualified": null
+    }
+  ],
+  "families": [
+    {
+      "model": "S0",
+      "family": "capacity",
+      "n": 8,
+      "correct": 6,
+      "valid_explanations": 3
+    },
+    {
+      "model": "S0",
+      "family": "duration",
+      "n": 8,
+      "correct": 2,
+      "valid_explanations": 1
+    },
+    {
+      "model": "S0",
+      "family": "eligibility",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 3
+    },
+    {
+      "model": "S0",
+      "family": "exchange",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "S0",
+      "family": "intersection",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 6
+    },
+    {
+      "model": "S0",
+      "family": "inventory",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 7
+    },
+    {
+      "model": "S0",
+      "family": "invoice",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 6
+    },
+    {
+      "model": "S0",
+      "family": "latest",
+      "n": 8,
+      "correct": 4,
+      "valid_explanations": 1
+    },
+    {
+      "model": "S0",
+      "family": "offer",
+      "n": 8,
+      "correct": 6,
+      "valid_explanations": 1
+    },
+    {
+      "model": "S0",
+      "family": "tier",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 7
+    },
+    {
+      "model": "S0",
+      "family": "unknown",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 1
+    },
+    {
+      "model": "S0",
+      "family": "weighted",
+      "n": 8,
+      "correct": 6,
+      "valid_explanations": 6
+    },
+    {
+      "model": "ARGOS_old",
+      "family": "capacity",
+      "n": 8,
+      "correct": 4,
+      "valid_explanations": 4
+    },
+    {
+      "model": "ARGOS_old",
+      "family": "duration",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "ARGOS_old",
+      "family": "eligibility",
+      "n": 8,
+      "correct": 6,
+      "valid_explanations": 5
+    },
+    {
+      "model": "ARGOS_old",
+      "family": "exchange",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "ARGOS_old",
+      "family": "intersection",
+      "n": 8,
+      "correct": 1,
+      "valid_explanations": 0
+    },
+    {
+      "model": "ARGOS_old",
+      "family": "inventory",
+      "n": 8,
+      "correct": 3,
+      "valid_explanations": 3
+    },
+    {
+      "model": "ARGOS_old",
+      "family": "invoice",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "ARGOS_old",
+      "family": "latest",
+      "n": 8,
+      "correct": 5,
+      "valid_explanations": 4
+    },
+    {
+      "model": "ARGOS_old",
+      "family": "offer",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 0
+    },
+    {
+      "model": "ARGOS_old",
+      "family": "tier",
+      "n": 8,
+      "correct": 1,
+      "valid_explanations": 1
+    },
+    {
+      "model": "ARGOS_old",
+      "family": "unknown",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 8
+    },
+    {
+      "model": "ARGOS_old",
+      "family": "weighted",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-075",
+      "family": "capacity",
+      "n": 8,
+      "correct": 5,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-075",
+      "family": "duration",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-075",
+      "family": "eligibility",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-075",
+      "family": "exchange",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-075",
+      "family": "intersection",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-075",
+      "family": "inventory",
+      "n": 8,
+      "correct": 3,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-075",
+      "family": "invoice",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-075",
+      "family": "latest",
+      "n": 8,
+      "correct": 5,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-075",
+      "family": "offer",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-075",
+      "family": "tier",
+      "n": 8,
+      "correct": 2,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-075",
+      "family": "unknown",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-075",
+      "family": "weighted",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-150",
+      "family": "capacity",
+      "n": 8,
+      "correct": 6,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-150",
+      "family": "duration",
+      "n": 8,
+      "correct": 2,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-150",
+      "family": "eligibility",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-150",
+      "family": "exchange",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-150",
+      "family": "intersection",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-150",
+      "family": "inventory",
+      "n": 8,
+      "correct": 3,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-150",
+      "family": "invoice",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-150",
+      "family": "latest",
+      "n": 8,
+      "correct": 6,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-150",
+      "family": "offer",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-150",
+      "family": "tier",
+      "n": 8,
+      "correct": 2,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-150",
+      "family": "unknown",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 0
+    },
+    {
+      "model": "A4-150",
+      "family": "weighted",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "B4-075",
+      "family": "capacity",
+      "n": 8,
+      "correct": 5,
+      "valid_explanations": 5
+    },
+    {
+      "model": "B4-075",
+      "family": "duration",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "B4-075",
+      "family": "eligibility",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 5
+    },
+    {
+      "model": "B4-075",
+      "family": "exchange",
+      "n": 8,
+      "correct": 2,
+      "valid_explanations": 2
+    },
+    {
+      "model": "B4-075",
+      "family": "intersection",
+      "n": 8,
+      "correct": 4,
+      "valid_explanations": 4
+    },
+    {
+      "model": "B4-075",
+      "family": "inventory",
+      "n": 8,
+      "correct": 5,
+      "valid_explanations": 5
+    },
+    {
+      "model": "B4-075",
+      "family": "invoice",
+      "n": 8,
+      "correct": 1,
+      "valid_explanations": 1
+    },
+    {
+      "model": "B4-075",
+      "family": "latest",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 6
+    },
+    {
+      "model": "B4-075",
+      "family": "offer",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 3
+    },
+    {
+      "model": "B4-075",
+      "family": "tier",
+      "n": 8,
+      "correct": 4,
+      "valid_explanations": 4
+    },
+    {
+      "model": "B4-075",
+      "family": "unknown",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 5
+    },
+    {
+      "model": "B4-075",
+      "family": "weighted",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "B4-150",
+      "family": "capacity",
+      "n": 8,
+      "correct": 6,
+      "valid_explanations": 6
+    },
+    {
+      "model": "B4-150",
+      "family": "duration",
+      "n": 8,
+      "correct": 2,
+      "valid_explanations": 0
+    },
+    {
+      "model": "B4-150",
+      "family": "eligibility",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 7
+    },
+    {
+      "model": "B4-150",
+      "family": "exchange",
+      "n": 8,
+      "correct": 1,
+      "valid_explanations": 1
+    },
+    {
+      "model": "B4-150",
+      "family": "intersection",
+      "n": 8,
+      "correct": 5,
+      "valid_explanations": 5
+    },
+    {
+      "model": "B4-150",
+      "family": "inventory",
+      "n": 8,
+      "correct": 4,
+      "valid_explanations": 4
+    },
+    {
+      "model": "B4-150",
+      "family": "invoice",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "B4-150",
+      "family": "latest",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 6
+    },
+    {
+      "model": "B4-150",
+      "family": "offer",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 2
+    },
+    {
+      "model": "B4-150",
+      "family": "tier",
+      "n": 8,
+      "correct": 3,
+      "valid_explanations": 3
+    },
+    {
+      "model": "B4-150",
+      "family": "unknown",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 8
+    },
+    {
+      "model": "B4-150",
+      "family": "weighted",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "C5-076",
+      "family": "capacity",
+      "n": 8,
+      "correct": 6,
+      "valid_explanations": 6
+    },
+    {
+      "model": "C5-076",
+      "family": "duration",
+      "n": 8,
+      "correct": 1,
+      "valid_explanations": 0
+    },
+    {
+      "model": "C5-076",
+      "family": "eligibility",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 5
+    },
+    {
+      "model": "C5-076",
+      "family": "exchange",
+      "n": 8,
+      "correct": 2,
+      "valid_explanations": 2
+    },
+    {
+      "model": "C5-076",
+      "family": "intersection",
+      "n": 8,
+      "correct": 6,
+      "valid_explanations": 6
+    },
+    {
+      "model": "C5-076",
+      "family": "inventory",
+      "n": 8,
+      "correct": 3,
+      "valid_explanations": 3
+    },
+    {
+      "model": "C5-076",
+      "family": "invoice",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "C5-076",
+      "family": "latest",
+      "n": 8,
+      "correct": 4,
+      "valid_explanations": 3
+    },
+    {
+      "model": "C5-076",
+      "family": "offer",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 1
+    },
+    {
+      "model": "C5-076",
+      "family": "tier",
+      "n": 8,
+      "correct": 3,
+      "valid_explanations": 3
+    },
+    {
+      "model": "C5-076",
+      "family": "unknown",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 7
+    },
+    {
+      "model": "C5-076",
+      "family": "weighted",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "C5-152",
+      "family": "capacity",
+      "n": 8,
+      "correct": 6,
+      "valid_explanations": 5
+    },
+    {
+      "model": "C5-152",
+      "family": "duration",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "C5-152",
+      "family": "eligibility",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 8
+    },
+    {
+      "model": "C5-152",
+      "family": "exchange",
+      "n": 8,
+      "correct": 1,
+      "valid_explanations": 1
+    },
+    {
+      "model": "C5-152",
+      "family": "intersection",
+      "n": 8,
+      "correct": 6,
+      "valid_explanations": 6
+    },
+    {
+      "model": "C5-152",
+      "family": "inventory",
+      "n": 8,
+      "correct": 4,
+      "valid_explanations": 4
+    },
+    {
+      "model": "C5-152",
+      "family": "invoice",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "C5-152",
+      "family": "latest",
+      "n": 8,
+      "correct": 6,
+      "valid_explanations": 5
+    },
+    {
+      "model": "C5-152",
+      "family": "offer",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 1
+    },
+    {
+      "model": "C5-152",
+      "family": "tier",
+      "n": 8,
+      "correct": 5,
+      "valid_explanations": 5
+    },
+    {
+      "model": "C5-152",
+      "family": "unknown",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 7
+    },
+    {
+      "model": "C5-152",
+      "family": "weighted",
+      "n": 8,
+      "correct": 0,
+      "valid_explanations": 0
+    },
+    {
+      "model": "gpt_oss",
+      "family": "capacity",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 8
+    },
+    {
+      "model": "gpt_oss",
+      "family": "duration",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 6
+    },
+    {
+      "model": "gpt_oss",
+      "family": "eligibility",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 8
+    },
+    {
+      "model": "gpt_oss",
+      "family": "exchange",
+      "n": 8,
+      "correct": 5,
+      "valid_explanations": 5
+    },
+    {
+      "model": "gpt_oss",
+      "family": "intersection",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 8
+    },
+    {
+      "model": "gpt_oss",
+      "family": "inventory",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 8
+    },
+    {
+      "model": "gpt_oss",
+      "family": "invoice",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 7
+    },
+    {
+      "model": "gpt_oss",
+      "family": "latest",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 7
+    },
+    {
+      "model": "gpt_oss",
+      "family": "offer",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 7
+    },
+    {
+      "model": "gpt_oss",
+      "family": "tier",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 8
+    },
+    {
+      "model": "gpt_oss",
+      "family": "unknown",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 8
+    },
+    {
+      "model": "gpt_oss",
+      "family": "weighted",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 7
+    },
+    {
+      "model": "glm",
+      "family": "capacity",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 7
+    },
+    {
+      "model": "glm",
+      "family": "duration",
+      "n": 8,
+      "correct": 6,
+      "valid_explanations": 4
+    },
+    {
+      "model": "glm",
+      "family": "eligibility",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 8
+    },
+    {
+      "model": "glm",
+      "family": "exchange",
+      "n": 8,
+      "correct": 1,
+      "valid_explanations": 1
+    },
+    {
+      "model": "glm",
+      "family": "intersection",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 8
+    },
+    {
+      "model": "glm",
+      "family": "inventory",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 8
+    },
+    {
+      "model": "glm",
+      "family": "invoice",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 6
+    },
+    {
+      "model": "glm",
+      "family": "latest",
+      "n": 8,
+      "correct": 7,
+      "valid_explanations": 7
+    },
+    {
+      "model": "glm",
+      "family": "offer",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 7
+    },
+    {
+      "model": "glm",
+      "family": "tier",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 8
+    },
+    {
+      "model": "glm",
+      "family": "unknown",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 5
+    },
+    {
+      "model": "glm",
+      "family": "weighted",
+      "n": 8,
+      "correct": 8,
+      "valid_explanations": 3
+    }
+  ],
+  "paired_outcomes": [
+    {
+      "candidate": "B4-075",
+      "comparator": "S0",
+      "scope": "all_document",
+      "n": 96,
+      "both_correct": 43,
+      "candidate_only": 10,
+      "comparator_only": 25,
+      "both_wrong": 18,
+      "confirmatory": false
+    },
+    {
+      "candidate": "B4-075",
+      "comparator": "S0",
+      "scope": "exclude_zero_coupon",
+      "n": 94,
+      "both_correct": 43,
+      "candidate_only": 9,
+      "comparator_only": 25,
+      "both_wrong": 17,
+      "confirmatory": false
+    },
+    {
+      "candidate": "B4-075",
+      "comparator": "ARGOS_old",
+      "scope": "all_document",
+      "n": 96,
+      "both_correct": 31,
+      "candidate_only": 22,
+      "comparator_only": 4,
+      "both_wrong": 39,
+      "confirmatory": false
+    },
+    {
+      "candidate": "B4-075",
+      "comparator": "ARGOS_old",
+      "scope": "exclude_zero_coupon",
+      "n": 94,
+      "both_correct": 31,
+      "candidate_only": 21,
+      "comparator_only": 4,
+      "both_wrong": 38,
+      "confirmatory": false
+    },
+    {
+      "candidate": "B4-075",
+      "comparator": "gpt_oss",
+      "scope": "all_document",
+      "n": 96,
+      "both_correct": 52,
+      "candidate_only": 1,
+      "comparator_only": 41,
+      "both_wrong": 2,
+      "confirmatory": false
+    },
+    {
+      "candidate": "B4-075",
+      "comparator": "gpt_oss",
+      "scope": "exclude_zero_coupon",
+      "n": 94,
+      "both_correct": 52,
+      "candidate_only": 0,
+      "comparator_only": 41,
+      "both_wrong": 1,
+      "confirmatory": false
+    },
+    {
+      "candidate": "B4-075",
+      "comparator": "glm",
+      "scope": "all_document",
+      "n": 96,
+      "both_correct": 51,
+      "candidate_only": 2,
+      "comparator_only": 35,
+      "both_wrong": 8,
+      "confirmatory": false
+    },
+    {
+      "candidate": "B4-075",
+      "comparator": "glm",
+      "scope": "exclude_zero_coupon",
+      "n": 94,
+      "both_correct": 50,
+      "candidate_only": 2,
+      "comparator_only": 35,
+      "both_wrong": 7,
+      "confirmatory": false
+    }
+  ],
+  "document_timings": [
+    {
+      "model": "S0",
+      "n": 96,
+      "completed": 96,
+      "median_seconds": 5.331325408478733,
+      "p90_seconds_nearest_rank": 7.974622032023035,
+      "max_seconds": 17.3098982690135,
+      "median_visible_characters": 293.0,
+      "median_ttft_seconds": null
+    },
+    {
+      "model": "ARGOS_old",
+      "n": 96,
+      "completed": 96,
+      "median_seconds": 1.2173486039973795,
+      "p90_seconds_nearest_rank": 3.8053898670477793,
+      "max_seconds": 5.242968971957453,
+      "median_visible_characters": 37.0,
+      "median_ttft_seconds": null
+    },
+    {
+      "model": "A4-075",
+      "n": 96,
+      "completed": 96,
+      "median_seconds": 0.31922441703500226,
+      "p90_seconds_nearest_rank": 0.4839131080079824,
+      "max_seconds": 0.6691806149901822,
+      "median_visible_characters": 6.0,
+      "median_ttft_seconds": null
+    },
+    {
+      "model": "A4-150",
+      "n": 96,
+      "completed": 96,
+      "median_seconds": 0.3012400725274347,
+      "p90_seconds_nearest_rank": 0.4863760609878227,
+      "max_seconds": 0.7178822089917958,
+      "median_visible_characters": 6.0,
+      "median_ttft_seconds": null
+    },
+    {
+      "model": "B4-075",
+      "n": 96,
+      "completed": 96,
+      "median_seconds": 2.176467730489094,
+      "p90_seconds_nearest_rank": 3.7152741480385885,
+      "max_seconds": 4.609366111923009,
+      "median_visible_characters": 58.0,
+      "median_ttft_seconds": null
+    },
+    {
+      "model": "B4-150",
+      "n": 96,
+      "completed": 96,
+      "median_seconds": 2.171970974013675,
+      "p90_seconds_nearest_rank": 3.943026120075956,
+      "max_seconds": 4.818033303017728,
+      "median_visible_characters": 57.0,
+      "median_ttft_seconds": null
+    },
+    {
+      "model": "C5-076",
+      "n": 96,
+      "completed": 96,
+      "median_seconds": 2.240126265503932,
+      "p90_seconds_nearest_rank": 3.7906505040591583,
+      "max_seconds": 5.202303788042627,
+      "median_visible_characters": 58.5,
+      "median_ttft_seconds": null
+    },
+    {
+      "model": "C5-152",
+      "n": 96,
+      "completed": 96,
+      "median_seconds": 2.2777677035192028,
+      "p90_seconds_nearest_rank": 3.509085154044442,
+      "max_seconds": 4.415010634926148,
+      "median_visible_characters": 59.0,
+      "median_ttft_seconds": null
+    },
+    {
+      "model": "gpt_oss",
+      "n": 96,
+      "completed": 96,
+      "median_seconds": 2.5518387790652923,
+      "p90_seconds_nearest_rank": 3.9970554939936846,
+      "max_seconds": 34.3861543770181,
+      "median_visible_characters": 166.0,
+      "median_ttft_seconds": 0.16406392952194437
+    },
+    {
+      "model": "glm",
+      "n": 96,
+      "completed": 92,
+      "median_seconds": 8.987787118006963,
+      "p90_seconds_nearest_rank": 15.239062114036642,
+      "max_seconds": 73.40181138494518,
+      "median_visible_characters": 133.0,
+      "median_ttft_seconds": 0.19943804247304797
+    }
+  ],
+  "descriptive_candidate": "B4-075",
+  "formally_selected": null,
+  "gates": {
+    "document": 73,
+    "valid_document_explanations": 87,
+    "gsm8k": 33,
+    "kobest_official": 34,
+    "kobest_corrected": 35
+  },
+  "teacher_superiority_demonstrated": false,
+  "final_material_opened_by_this_export": false,
+  "scope": "Development data used to choose candidates; descriptive comparisons, not independent final evidence",
+  "human_reviewers": 0
+}

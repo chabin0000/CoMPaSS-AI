@@ -1,0 +1,120 @@
+{
+  "at": 1793051288.8316562,
+  "conditions": {
+    "A4": {
+      "steps": 150,
+      "epochs": 2.0,
+      "seed": 20261027,
+      "elapsed_seconds": 610.5186765193939,
+      "peak_torch_allocated_GiB": 7.864440441131592,
+      "trainable_parameters": 13631488,
+      "scheduled_rows_per_epoch": 600,
+      "supervised_tokens_per_epoch": 3750,
+      "training_data_sha256": "990e6370b3128802762cb1c5c9c692e1a3ae27547cb04169d291d6c3996a14d0",
+      "loss_first": 1.86988365650177,
+      "loss_last": 0.2714676260948181,
+      "loss_min": 0.022418705746531487,
+      "loss_max": 2.2972567081451416,
+      "gradient_norm_max": 22.72484588623047,
+      "all_logged_loss_and_gradients_finite": true,
+      "checkpoint_verification": {
+        "75": {
+          "adapter_sha256": {
+            "adapter_model.safetensors": "0d113697896564d34f43634649a5fefdea53977fa50c34f0e62706e751de8d77",
+            "adapter_config.json": "d812c1bddb5936d0732b8e729b3c7a5993a21300d8c6bce7242c2a0d71888776"
+          },
+          "finite_tensor_count": 256,
+          "nonzero_lora_B_tensors": 128
+        },
+        "150": {
+          "adapter_sha256": {
+            "adapter_model.safetensors": "f59ac9abd0305ecb866625cf683704998fd0320857e3d291136e59767b4764be",
+            "adapter_config.json": "d812c1bddb5936d0732b8e729b3c7a5993a21300d8c6bce7242c2a0d71888776"
+          },
+          "finite_tensor_count": 256,
+          "nonzero_lora_B_tensors": 128
+        }
+      },
+      "inference_reloading_separate": true,
+      "optimization_loss_is_not_evaluation_accuracy": true
+    },
+    "B4": {
+      "steps": 150,
+      "epochs": 2.0,
+      "seed": 20261027,
+      "elapsed_seconds": 462.9775195121765,
+      "peak_torch_allocated_GiB": 7.984928607940674,
+      "trainable_parameters": 13631488,
+      "scheduled_rows_per_epoch": 600,
+      "supervised_tokens_per_epoch": 29716,
+      "training_data_sha256": "6bf26803cd853e3db898f0742f88154916d3fd89e783f4083314b1e2620b51f7",
+      "loss_first": 3.988422393798828,
+      "loss_last": 0.03048131614923477,
+      "loss_min": 0.0019139284268021584,
+      "loss_max": 3.988422393798828,
+      "gradient_norm_max": 9.286955833435059,
+      "all_logged_loss_and_gradients_finite": true,
+      "checkpoint_verification": {
+        "75": {
+          "adapter_sha256": {
+            "adapter_model.safetensors": "a530a38037ac6780293a5ce8eab8e88b7f6be09a9a15ba6c01abea8770e145c7",
+            "adapter_config.json": "a0ab964050e560cdea1332e725b23d02fd4a54385f0afa8bb5b075b75d6d5cbf"
+          },
+          "finite_tensor_count": 256,
+          "nonzero_lora_B_tensors": 128
+        },
+        "150": {
+          "adapter_sha256": {
+            "adapter_model.safetensors": "4e6aa3a96c15b836fde5004d0e9c7f9c3f984350f21f414d8d03b64dd25f60fa",
+            "adapter_config.json": "a0ab964050e560cdea1332e725b23d02fd4a54385f0afa8bb5b075b75d6d5cbf"
+          },
+          "finite_tensor_count": 256,
+          "nonzero_lora_B_tensors": 128
+        }
+      },
+      "inference_reloading_separate": true,
+      "optimization_loss_is_not_evaluation_accuracy": true
+    },
+    "C5": {
+      "steps": 152,
+      "epochs": 2.0,
+      "seed": 20261027,
+      "elapsed_seconds": 450.78509640693665,
+      "peak_torch_allocated_GiB": 8.603272914886475,
+      "trainable_parameters": 13631488,
+      "scheduled_rows_per_epoch": 608,
+      "supervised_tokens_per_epoch": 29869,
+      "training_data_sha256": "be1bd3f676507c46af21f7b9c9ee785f7fe2dc1358fb1bd7b2ecf3a76a8b72eb",
+      "loss_first": 3.1960153579711914,
+      "loss_last": 0.09738440811634064,
+      "loss_min": 0.010275609791278839,
+      "loss_max": 3.320389747619629,
+      "gradient_norm_max": 8.89773178100586,
+      "all_logged_loss_and_gradients_finite": true,
+      "checkpoint_verification": {
+        "76": {
+          "adapter_sha256": {
+            "adapter_model.safetensors": "8277b31def0508b0884b778e8ff242ff5df0d20e393722bd9666b46c260ea6c1",
+            "adapter_config.json": "37b59c4f349864df424de2f6fef11914761a401c6ccd1a7dea652783f45c9dbd"
+          },
+          "finite_tensor_count": 256,
+          "nonzero_lora_B_tensors": 128
+        },
+        "152": {
+          "adapter_sha256": {
+            "adapter_model.safetensors": "04ba672af22613f8009dd37eab42edd577c355acb9546f2843e74ea61f201ce1",
+            "adapter_config.json": "37b59c4f349864df424de2f6fef11914761a401c6ccd1a7dea652783f45c9dbd"
+          },
+          "finite_tensor_count": 256,
+          "nonzero_lora_B_tensors": 128
+        }
+      },
+      "inference_reloading_separate": true,
+      "optimization_loss_is_not_evaluation_accuracy": true
+    }
+  },
+  "expected_primary_conditions": 3,
+  "completed_primary_conditions": 3,
+  "source": "Verified local checkpoint backups; finite tensors and actual Trainer state",
+  "no_pickles_loaded": true
+}

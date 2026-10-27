@@ -1,0 +1,374 @@
+{
+  "at": 1793058982.3420827,
+  "jobs": [
+    {
+      "job": "engine-setup",
+      "backup_archive_sha256": "acdb710e689bee6807664956cf370a035d4dce502cc533a83fadd20990e0d957",
+      "backup_recorded_at": 1793039104.338505,
+      "records": null,
+      "role": "setup_or_diagnostic"
+    },
+    {
+      "job": "calibration-S0",
+      "backup_archive_sha256": "5564a83e643ee73c1b0e4609a63646a7ce044b8a7497428b907688cfab881828",
+      "backup_recorded_at": 1793040036.6975474,
+      "records": 96,
+      "responses_sha256": "42696e1bf0031855b24bee1dd817c19cb18986b2440487b8600e80278f9a6097",
+      "elapsed_seconds": 893.9940588474274,
+      "incomplete": 0,
+      "role": "setup_or_diagnostic"
+    },
+    {
+      "job": "sentinel-S0",
+      "backup_archive_sha256": "b2134b8abae6dce1d013fcb9cf2ffcac85eb6504fd4d3c102236e4bfbf29398b",
+      "backup_recorded_at": 1793040219.1027112,
+      "records": 20,
+      "responses_sha256": "8d90644e162187ff73a36ecad5630e3eb208ac0c63ebdd02db670ccde349a42d",
+      "elapsed_seconds": 137.5516722202301,
+      "incomplete": 0,
+      "role": "setup_or_diagnostic"
+    },
+    {
+      "job": "runtime-probe",
+      "backup_archive_sha256": "ec9625a6c43fad148a9dd1b22a8940b2c1d37e26176d68859e0771e68570db55",
+      "backup_recorded_at": 1793040276.7723413,
+      "records": null,
+      "role": "setup_or_diagnostic"
+    },
+    {
+      "job": "calibration2-S0",
+      "backup_archive_sha256": "423ca6bc8d6adbcc998047a557ac45298ae7f4cee15681ee2c16beb9c99ea564",
+      "backup_recorded_at": 1793040887.4504144,
+      "records": 96,
+      "responses_sha256": "40be2dac62786d4cb0e59a9c3ea1c71c85813746b4101aaa1b60402fc6564449",
+      "elapsed_seconds": 496.18383526802063,
+      "incomplete": 0,
+      "role": "setup_or_diagnostic"
+    },
+    {
+      "job": "calibration2-gpt_oss",
+      "backup_archive_sha256": "8e3a933d90c06961cfedf5620f473f6186527fe649e60357a7fe0052ff291094",
+      "backup_recorded_at": 1793041370.207389,
+      "records": 96,
+      "responses_sha256": "2c4549ae1fa167f61b8a4e285dc3cf7dca7114f18ae8af2d3d6e3761ff3627df",
+      "elapsed_seconds": 437.29203939437866,
+      "incomplete": 2,
+      "role": "setup_or_diagnostic"
+    },
+    {
+      "job": "calibration2-glm",
+      "backup_archive_sha256": "ccadfe95edf761cfec4867e04c1be2a01de272b4951a86028fe5cf1da72701cd",
+      "backup_recorded_at": 1793042704.7064552,
+      "records": 96,
+      "responses_sha256": "1fa30051689a5b9523869fbc22a7309dec9da715abd9a97eb16e14d20fa2634c",
+      "elapsed_seconds": 1306.2525744438171,
+      "incomplete": 7,
+      "role": "setup_or_diagnostic"
+    },
+    {
+      "job": "calibration3-S0",
+      "backup_archive_sha256": "1b4ef1e6a626aad8aadba416521fe8ba6e1b973f0bd702e7522822298cba6a41",
+      "backup_recorded_at": 1793043222.1202564,
+      "records": 96,
+      "responses_sha256": "4246a8eaf4a8df6233de08243be78d21aa466fe6777a6dcdfe71ee4590ba6434",
+      "elapsed_seconds": 487.53893971443176,
+      "incomplete": 0,
+      "role": "baseline_calibration"
+    },
+    {
+      "job": "calibration3-ARGOS_old",
+      "backup_archive_sha256": "b8103785d242d42ba73eb0f2a6ee6ed636d436db175ed1d29d5e6449774b5557",
+      "backup_recorded_at": 1793043375.8194559,
+      "records": 96,
+      "responses_sha256": "c8114ad22bb7e3571f7ef61e4a284e137b20b8b87b20bde9fc3828db32521411",
+      "elapsed_seconds": 104.58694243431091,
+      "incomplete": 0,
+      "role": "baseline_calibration"
+    },
+    {
+      "job": "calibration3-gpt_oss",
+      "backup_archive_sha256": "1e7e4e6e688ca2e3889f7165a39a3123028701c613a7c16d175bfa18f3490c31",
+      "backup_recorded_at": 1793043923.438837,
+      "records": 96,
+      "responses_sha256": "8efe8391806cb1894801ce360c77101d70ade46f9d690c74657aa0d7efcf0d8f",
+      "elapsed_seconds": 493.76094102859497,
+      "incomplete": 2,
+      "role": "baseline_calibration"
+    },
+    {
+      "job": "calibration3-glm",
+      "backup_archive_sha256": "4abf4c3728cae84a30e24dc53b2a9f68dd23c42eefd503c03994e3e4d50726e2",
+      "backup_recorded_at": 1793045531.4921086,
+      "records": 96,
+      "responses_sha256": "990dcb1bc60cdfd2e72cc16c773d9b40578c3dc8b26257ccfa7a963e0bd598bf",
+      "elapsed_seconds": 1566.3161897659302,
+      "incomplete": 7,
+      "role": "baseline_calibration"
+    },
+    {
+      "job": "wording-probe-glm",
+      "backup_archive_sha256": "295d8bcc1f50bd9e7bac01ac0d46b73abc23938e28c8abf2448d291de3551dfd",
+      "backup_recorded_at": 1793045594.4008832,
+      "records": 1,
+      "responses_sha256": "44cf498a63f99c8c29a1fc93fa9a3f9d15deed69a43b52defb10eb3cc81641cd",
+      "elapsed_seconds": 12.421099424362183,
+      "incomplete": 0,
+      "role": "setup_or_diagnostic"
+    },
+    {
+      "job": "wording-probe-gpt_oss",
+      "backup_archive_sha256": "41fdcd1ee77bf9c35a7e9dcd4c0c87557746d013a823da4c49af3507eb1adcfd",
+      "backup_recorded_at": 1793045656.957838,
+      "records": 1,
+      "responses_sha256": "20938197f32731f5cc20fc0a0c9005b186dd895b4cb1e332ff6c986b0e40503e",
+      "elapsed_seconds": 6.821254253387451,
+      "incomplete": 0,
+      "role": "setup_or_diagnostic"
+    },
+    {
+      "job": "wording-probe-S0",
+      "backup_archive_sha256": "928455a02982a54dddfcedfdbb81527ce121c21c089e05ba9cc8b30d76fa2388",
+      "backup_recorded_at": 1793045719.9130607,
+      "records": 1,
+      "responses_sha256": "347ba5d2d46e6e738b1f214d047fd9e97aede783c36ee0fe308a166ec364d6eb",
+      "elapsed_seconds": 23.197606086730957,
+      "incomplete": 0,
+      "role": "setup_or_diagnostic"
+    },
+    {
+      "job": "wording-probe-ARGOS_old",
+      "backup_archive_sha256": "bbf29073904dd658dec6933984ea120e863977e1548f0f32d79da29cacf8d3f9",
+      "backup_recorded_at": 1793045783.036699,
+      "records": 1,
+      "responses_sha256": "d0b09e310ab224319d714e73b48e3f5597fff60bb1cca6ea3a1355f9af299d0a",
+      "elapsed_seconds": 15.24862289428711,
+      "incomplete": 0,
+      "role": "setup_or_diagnostic"
+    },
+    {
+      "job": "development-S0",
+      "backup_archive_sha256": "698e010b93ce97406a73a0127ff392925258576b7cc496dd56d7dcd862abcd22",
+      "backup_recorded_at": 1793046543.2931876,
+      "records": 176,
+      "responses_sha256": "2f39028a91d91282501067ebd16071fa2f9020471d483422f76234ef7523863f",
+      "elapsed_seconds": 720.319837808609,
+      "incomplete": 0,
+      "role": "baseline_development"
+    },
+    {
+      "job": "development-ARGOS_old",
+      "backup_archive_sha256": "69d9e77719f2816b4978edbf08bec7c49678d143dc38a4dcb0f408a4251f5beb",
+      "backup_recorded_at": 1793046788.4441288,
+      "records": 176,
+      "responses_sha256": "14fab2ef4fae31c8ee91a7d08ba9c9092d6df8107213cecee7d67a958be8da86",
+      "elapsed_seconds": 204.46348118782043,
+      "incomplete": 0,
+      "role": "baseline_development"
+    },
+    {
+      "job": "development-gpt_oss",
+      "backup_archive_sha256": "ccc39a10b3b8080019ecdc9c92868ee02fea5708fb923cbccdfb2e127bb4911f",
+      "backup_recorded_at": 1793047276.0657382,
+      "records": 176,
+      "responses_sha256": "abf9c56ba4669cbe6a46f8837f6ee20ba7e1e3a435ef243284932847b6b76e23",
+      "elapsed_seconds": 435.29797077178955,
+      "incomplete": 0,
+      "role": "baseline_development"
+    },
+    {
+      "job": "development-glm",
+      "backup_archive_sha256": "b95c89489732da09212d2eeff00e4853c2fb54a6a17075e0eb0ec0e0070d865d",
+      "backup_recorded_at": 1793048945.5609941,
+      "records": 176,
+      "responses_sha256": "f909c8dedf6708da56fd4769b064c58765090d9d545f9186e16af0272de0cf81",
+      "elapsed_seconds": 1612.0280995368958,
+      "incomplete": 5,
+      "role": "baseline_development"
+    },
+    {
+      "job": "A4",
+      "backup_archive_sha256": "be57a86aed994f8d8d34c95449e0d721dc346378420c001dd22b915df19e017a",
+      "backup_recorded_at": 1793049892.796334,
+      "records": null,
+      "role": "training"
+    },
+    {
+      "job": "B4",
+      "backup_archive_sha256": "d506aa81cb7c836ee8cb54965762af85a4269e856d7ed986cdfddd43500e38c8",
+      "backup_recorded_at": 1793050531.602525,
+      "records": null,
+      "role": "training"
+    },
+    {
+      "job": "C5",
+      "backup_archive_sha256": "577444c2494c700d6980aa71aff90d66f03f98e534516c5257ede78456a13a13",
+      "backup_recorded_at": 1793051196.5764325,
+      "records": null,
+      "role": "training"
+    },
+    {
+      "job": "candidate-calibration-A4-075",
+      "backup_archive_sha256": "e9a8c33891e2993ab4d3b8d176b5d0bb01ddec5a3e55b566e5808febac7866e0",
+      "backup_recorded_at": 1793051462.6788592,
+      "records": 96,
+      "responses_sha256": "42aca288ee80fb4c103e19f1ce6007ed519a867cd05626600041ba97d35be113",
+      "elapsed_seconds": 48.59632730484009,
+      "incomplete": 0,
+      "role": "candidate_calibration"
+    },
+    {
+      "job": "candidate-calibration-A4-150",
+      "backup_archive_sha256": "0ce8a7b3cb67435cb5dfe55f298f4fed18a79293956fd16ba3e586c56dacd42d",
+      "backup_recorded_at": 1793051731.2090347,
+      "records": 96,
+      "responses_sha256": "64dadb6f885f6276b492848e0342f7c92be0f942bdb59f1c0f09e164cfad9a39",
+      "elapsed_seconds": 48.91283082962036,
+      "incomplete": 0,
+      "role": "candidate_calibration"
+    },
+    {
+      "job": "candidate-calibration-B4-075",
+      "backup_archive_sha256": "1edaadc40b4ed02942ebaa8dd92a44d713dfe12bcb3d980372319a4ff1e57164",
+      "backup_recorded_at": 1793052211.969958,
+      "records": 96,
+      "responses_sha256": "4bdb5a2dbc919047f9a645cd786b9d02cccc9d0b08bca19878e79e1d9b211c7a",
+      "elapsed_seconds": 259.8006408214569,
+      "incomplete": 0,
+      "role": "candidate_calibration"
+    },
+    {
+      "job": "candidate-calibration-B4-150",
+      "backup_archive_sha256": "c2a7c083bcefeefb83040bba7c4d6d37bdb7c0108f8e9dab3f702d4950321d37",
+      "backup_recorded_at": 1793052689.4075823,
+      "records": 96,
+      "responses_sha256": "c1bd02dae1d44e487b0ebe0678d5f191d7fa00725e82c7dc11cd30a4a1b98cb1",
+      "elapsed_seconds": 258.15284991264343,
+      "incomplete": 0,
+      "role": "candidate_calibration"
+    },
+    {
+      "job": "candidate-calibration-C5-076",
+      "backup_archive_sha256": "7f459875385a2bc9f3187a4d794fb26ac30a8202639b5aaa136b9310a8df0cdd",
+      "backup_recorded_at": 1793053172.7036679,
+      "records": 96,
+      "responses_sha256": "ab803eb678e1b924dad00d543133fd1769140dd74028474881f8dd55db27c4d5",
+      "elapsed_seconds": 254.06415390968323,
+      "incomplete": 0,
+      "role": "candidate_calibration"
+    },
+    {
+      "job": "candidate-calibration-C5-152",
+      "backup_archive_sha256": "7c26a65ce8484bf9d56d016f0ff62bc73f3fb2f02aabb59b8b3df9ae13615d03",
+      "backup_recorded_at": 1793053654.3260765,
+      "records": 96,
+      "responses_sha256": "5f0a80f6f5bd5c10513bbe3ae75588bce0bc4fc369ed33250ab1e54d1a86e7fe",
+      "elapsed_seconds": 248.74036574363708,
+      "incomplete": 0,
+      "role": "candidate_calibration"
+    },
+    {
+      "job": "candidate-development-A4-075",
+      "backup_archive_sha256": "0abc6e79a508fc13f995facdc213b403dd66d9c5e6d5f6dad538cccf3d2eb0ef",
+      "backup_recorded_at": 1793054272.5290923,
+      "records": 176,
+      "responses_sha256": "8d9ecfcebf6be08589fb5abbbd9e6a0a1ba8901065f148e5f08aa47fae14f21c",
+      "elapsed_seconds": 200.40462684631348,
+      "incomplete": 0,
+      "role": "candidate_development"
+    },
+    {
+      "job": "candidate-development-A4-150",
+      "backup_archive_sha256": "6b988682afb18a50f4ec6e300ed0649bfd0774abb37b93e38575b40644020202",
+      "backup_recorded_at": 1793054688.6073697,
+      "records": 176,
+      "responses_sha256": "a7fcccdde6ffe3f2c708bad1458840687c3409d34f973e529142aad1dc623a2e",
+      "elapsed_seconds": 211.89965796470642,
+      "incomplete": 0,
+      "role": "candidate_development"
+    },
+    {
+      "job": "candidate-development-B4-075",
+      "backup_archive_sha256": "0f1fe2d68144318cd1aa8ec9fd11dd70d48c03517ecb4e3ed0566c5fbc5069a8",
+      "backup_recorded_at": 1793055319.0951095,
+      "records": 176,
+      "responses_sha256": "1b41d59f79300981fa129d0cabc8144764f5ad195fc5e167f30bc982149c2acc",
+      "elapsed_seconds": 425.2609746456146,
+      "incomplete": 0,
+      "role": "candidate_development"
+    },
+    {
+      "job": "candidate-development-B4-150",
+      "backup_archive_sha256": "9a776bc7b8deed0cb24b5a9ec9395c3d896f0b1486986f1d5bb0582d913caabc",
+      "backup_recorded_at": 1793055979.2409995,
+      "records": 176,
+      "responses_sha256": "3215ba0a38ec4074ccac3883eab2f7822c2db09f9b476291b8cfec41e1cbcd2c",
+      "elapsed_seconds": 432.32192492485046,
+      "incomplete": 0,
+      "role": "candidate_development"
+    },
+    {
+      "job": "candidate-development-C5-076",
+      "backup_archive_sha256": "76a8138e445dacc0e9a386006a4bc4f5683948836335102149b7bcdee9c90875",
+      "backup_recorded_at": 1793056586.3592367,
+      "records": 176,
+      "responses_sha256": "6102a7da71315b82e0512f319627ec2d860831cefee9372265a8b656428d4e1c",
+      "elapsed_seconds": 387.6520516872406,
+      "incomplete": 0,
+      "role": "candidate_development"
+    },
+    {
+      "job": "candidate-development-C5-152",
+      "backup_archive_sha256": "4c852712a62cdb982a2fc758b06e00089918563503b99a23d1eedde42411ec7f",
+      "backup_recorded_at": 1793057161.2643971,
+      "records": 176,
+      "responses_sha256": "de973534d44b1ceb1594ce833a891668ecde4dd531cedf980048bb30131f695b",
+      "elapsed_seconds": 365.98069071769714,
+      "incomplete": 0,
+      "role": "candidate_development"
+    }
+  ],
+  "standardized_response_counts": {
+    "baseline_calibration": 384,
+    "baseline_development": 704,
+    "candidate_calibration": 576,
+    "candidate_development": 1056,
+    "setup_or_diagnostic": 408,
+    "training": 0
+  },
+  "formal_response_decisions": 2720,
+  "review_provenance": [
+    {
+      "phase": "calibration",
+      "decision_records": 384,
+      "exact_reuse_records": 0,
+      "prior_calibration_reuse_records": 192,
+      "decision_file_sha256": "46188958cf4b462cc3f5b4a5514ba2564b367b129fa9b34c0aef910c16e02a70"
+    },
+    {
+      "phase": "development",
+      "decision_records": 704,
+      "exact_reuse_records": 0,
+      "prior_calibration_reuse_records": 0,
+      "decision_file_sha256": "0f07ea0c3c606bd781d3571a436eb30165476f8e946f586bc9a17d07144b45cc"
+    },
+    {
+      "phase": "candidate_calibration",
+      "decision_records": 576,
+      "exact_reuse_records": 162,
+      "prior_calibration_reuse_records": 0,
+      "decision_file_sha256": "b7a7425dcb12f3d5d60e752db02d0efcace3d22c93cd297e4f25ee1b153a17a5"
+    },
+    {
+      "phase": "candidate_development",
+      "decision_records": 1056,
+      "exact_reuse_records": 393,
+      "prior_calibration_reuse_records": 0,
+      "decision_file_sha256": "ec058c939ca094267846d204ece94e6e86c3c4e178b213a5f74b0f02864274f3"
+    }
+  ],
+  "human_reviewers": 0,
+  "scope": "Counts are generated response records, not unique questions or statistically independent samples. Null records means this job does not use the standardized evaluation JSONL, not that it made zero inferences. Setup failure on the earlier attempt is documented separately.",
+  "verification": "Response hashes and row counts rechecked at export; full archive/member hashes were verified during each recorded backup.",
+  "sealed_final_inference_executed": false,
+  "final_material_scope": "Generated and validated before training, then sealed. No final inference or use for candidate selection."
+}

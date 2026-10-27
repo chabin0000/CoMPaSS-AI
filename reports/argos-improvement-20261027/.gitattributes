@@ -1,0 +1,4 @@
+# Preserve archived bytes for MANIFEST.json verification.
+* -text
+*.pdf binary
+*.png binary

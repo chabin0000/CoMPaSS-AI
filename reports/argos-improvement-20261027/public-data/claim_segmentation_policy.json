@@ -1,0 +1,6 @@
+{
+  "at": 1793048278.3463142,
+  "timing": "Before any claim decisions, after primary baseline response review; secondary descriptive analysis only",
+  "unit": "Distinct explicitly asserted contextual propositions per response. Split independently checkable conjunctions. Do not count repeated conclusions twice. A fee equation is assessed as a fee claim, not rescued by context-free arithmetic. Source attribution is attached to its proposition, not counted again as a second claim.",
+  "limits": "Single AI segmentation and labels; dependent claims and output length affect rates; no population-level hallucination claim"
+}

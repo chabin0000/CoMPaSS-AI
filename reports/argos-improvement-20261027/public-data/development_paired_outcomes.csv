@@ -1,0 +1,9 @@
+﻿candidate,comparator,scope,n,both_correct,candidate_only,comparator_only,both_wrong,confirmatory
+B4-075,S0,all_document,96,43,10,25,18,False
+B4-075,S0,exclude_zero_coupon,94,43,9,25,17,False
+B4-075,ARGOS_old,all_document,96,31,22,4,39,False
+B4-075,ARGOS_old,exclude_zero_coupon,94,31,21,4,38,False
+B4-075,gpt_oss,all_document,96,52,1,41,2,False
+B4-075,gpt_oss,exclude_zero_coupon,94,52,0,41,1,False
+B4-075,glm,all_document,96,51,2,35,8,False
+B4-075,glm,exclude_zero_coupon,94,50,2,35,7,False

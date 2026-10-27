@@ -1,0 +1,91 @@
+{
+  "at": 1793045727.8794465,
+  "prompt_choices": {
+    "S0": "verify",
+    "gpt_oss": "direct",
+    "glm": "direct",
+    "ARGOS_old": "direct"
+  },
+  "table": {
+    "S0": {
+      "direct": {
+        "correct": 26,
+        "n": 48,
+        "valid_explanations": 22,
+        "format_valid": 48,
+        "changed_from_automatic": 4
+      },
+      "verify": {
+        "correct": 36,
+        "n": 48,
+        "valid_explanations": 27,
+        "format_valid": 42,
+        "changed_from_automatic": 9
+      }
+    },
+    "gpt_oss": {
+      "direct": {
+        "correct": 47,
+        "n": 48,
+        "valid_explanations": 43,
+        "format_valid": 45,
+        "changed_from_automatic": 1
+      },
+      "verify": {
+        "correct": 47,
+        "n": 48,
+        "valid_explanations": 46,
+        "format_valid": 47,
+        "changed_from_automatic": 0
+      }
+    },
+    "glm": {
+      "direct": {
+        "correct": 43,
+        "n": 48,
+        "valid_explanations": 40,
+        "format_valid": 47,
+        "changed_from_automatic": 0
+      },
+      "verify": {
+        "correct": 39,
+        "n": 48,
+        "valid_explanations": 31,
+        "format_valid": 40,
+        "changed_from_automatic": 2
+      }
+    },
+    "ARGOS_old": {
+      "direct": {
+        "correct": 17,
+        "n": 48,
+        "valid_explanations": 12,
+        "format_valid": 21,
+        "changed_from_automatic": 4
+      },
+      "verify": {
+        "correct": 11,
+        "n": 48,
+        "valid_explanations": 1,
+        "format_valid": 0,
+        "changed_from_automatic": 2
+      }
+    }
+  },
+  "length_counts": {
+    "S0": 0,
+    "gpt_oss": 2,
+    "glm": 7,
+    "ARGOS_old": 0
+  },
+  "generation_cap": 8192,
+  "bounded_generation_comparison": true,
+  "cap_expansion_used": true,
+  "reviewed_responses": 384,
+  "reviewer": "Codex single AI, author of the questions; model labels masked in packet, not independent blinded human review",
+  "human_reviewers": 0,
+  "decision_sha256": "46188958cf4b462cc3f5b4a5514ba2564b367b129fa9b34c0aef910c16e02a70",
+  "rubric": "Final-conclusion semantic correctness; format and valid supporting explanation separate",
+  "tie_break": "semantic_correct_desc_then_direct",
+  "final_keys_accessed": false
+}

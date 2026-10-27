@@ -1,0 +1,89 @@
+{
+  "at": 1793053819.717868,
+  "table": {
+    "A4-075": {
+      "direct": {
+        "correct": 22,
+        "valid_explanations": 0,
+        "n": 48
+      },
+      "verify": {
+        "correct": 22,
+        "valid_explanations": 0,
+        "n": 48
+      }
+    },
+    "A4-150": {
+      "direct": {
+        "correct": 24,
+        "valid_explanations": 0,
+        "n": 48
+      },
+      "verify": {
+        "correct": 24,
+        "valid_explanations": 0,
+        "n": 48
+      }
+    },
+    "B4-075": {
+      "direct": {
+        "correct": 21,
+        "valid_explanations": 19,
+        "n": 48
+      },
+      "verify": {
+        "correct": 24,
+        "valid_explanations": 20,
+        "n": 48
+      }
+    },
+    "B4-150": {
+      "direct": {
+        "correct": 29,
+        "valid_explanations": 27,
+        "n": 48
+      },
+      "verify": {
+        "correct": 27,
+        "valid_explanations": 22,
+        "n": 48
+      }
+    },
+    "C5-076": {
+      "direct": {
+        "correct": 26,
+        "valid_explanations": 22,
+        "n": 48
+      },
+      "verify": {
+        "correct": 24,
+        "valid_explanations": 21,
+        "n": 48
+      }
+    },
+    "C5-152": {
+      "direct": {
+        "correct": 28,
+        "valid_explanations": 24,
+        "n": 48
+      },
+      "verify": {
+        "correct": 18,
+        "valid_explanations": 14,
+        "n": 48
+      }
+    }
+  },
+  "prompt_choices": {
+    "A4-075": "direct",
+    "A4-150": "direct",
+    "B4-075": "verify",
+    "B4-150": "direct",
+    "C5-076": "direct",
+    "C5-152": "direct"
+  },
+  "generation_cap": 8192,
+  "tie_break": "semantic_correct_desc_then_direct",
+  "decision_sha256": "b7a7425dcb12f3d5d60e752db02d0efcace3d22c93cd297e4f25ee1b153a17a5",
+  "human_reviewers": 0
+}

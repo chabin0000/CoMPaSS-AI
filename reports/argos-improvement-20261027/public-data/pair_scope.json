@@ -1,0 +1,19 @@
+{
+  "at": 1793057337.6003437,
+  "pairs": 72,
+  "candidate": "B4-075",
+  "promoted": false,
+  "model_names_removed": true,
+  "independent_human_blinding": false,
+  "human_reviewers": 0,
+  "raters": [
+    "Codex",
+    "ProjectPro"
+  ],
+  "shared_design_and_chat_context": true,
+  "packet_sha256": "fc912899bd4f334b4d27ba89a57462c1f6ba55d10eb51e5e9e5d83dc4a7581ed",
+  "plan_sha256": "ef3414ae1e64552713eb4bba271d04d3f1382984d2bf969016a05b0a908e13df",
+  "orientation": "SHA256(pair-audit-82728|questionID|comparator), candidate A for even integer; same for both raters",
+  "ordering": "SHA256(pair-order-82728|questionID|comparator)",
+  "not_for_selection": true
+}
