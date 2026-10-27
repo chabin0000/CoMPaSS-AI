@@ -1,0 +1,116 @@
+{
+  "source_commit": "e34167c20ef9f5d97bc0d1106a117d53fa509c89",
+  "sources": [
+    {
+      "path": "reports/argos-final-20261027/data/historical_metrics.json",
+      "sha256": "eaabf2b7ab1e65370e59beedb635aa0524a306e085070f0944cf5b9d334da430",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-final-20261027/data/history_training_runs.json",
+      "sha256": "ef9c823d6786520209ebc7ba6c84ffc3ca677c818a521ec0b05c1ca6af20eea4",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-final-20261027/data/history_early_pilot.json",
+      "sha256": "c2c6392c83c0eae504100411f29b06f81003da54e30554c42f2c61132d8aa1d1",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-final-20261027/data/history_a40_pilot.json",
+      "sha256": "41b9633775b58978524dbb7af86149fdeac59a50c671759c3245c1c26b392157",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-final-20261027/data/history_cloud_transition.json",
+      "sha256": "2410157ff9e291387d1dddeaa52529fae5d423b65d11da62bc043a57176f1b83",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-final-20261027/data/historical_execution_summary.json",
+      "sha256": "cc2f7339bc7992da5ea3f06db14f6d698ffdde800c22dcda6d4941cca34d5bbd",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-final-20261027/data/training_audit.json",
+      "sha256": "cbd8f2c6bed303b988a734982656a56769bb334e595ebb3b1d0434a2b6670edf",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-final-20261027/data/method_clarifications.json",
+      "sha256": "733951ea18582e285ecc4da4bcd867937f635d1af705340cf714bbda8935a0ea",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-final-20261027/data/metrics.json",
+      "sha256": "4a72eccc216cf0a25b2d2d1ddfb3cda9a7aa4fd7a1998edfdef4ec3282e6fda3",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-final-20261027/data/comparisons.json",
+      "sha256": "2f5682b4648a6bfd0571d79e4b6d8755b98d41cd82da2b37463db6617c4b8131",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-final-20261027/data/claim_metrics.json",
+      "sha256": "ce56b40949bec16578cbbcfaa785783d04c3fba8babe8ba1b870b1df3d31042b",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-final-20261027/data/qualitative.json",
+      "sha256": "c95f9d50da6396cad86c8eb762e3c9b89a71612b8f12b88ea6bd04343904d1f4",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-final-20261027/data/local_efficiency.json",
+      "sha256": "3ec8f4cf4b7bf5bd3147f6650d80c1bc93ddf04bc4cda57d00aea88657a8f7da",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-final-20261027/data/followup_summary.json",
+      "sha256": "f628770c528e55307abc1c63e44f8f834c7dcc16d856c9429691bea0408816a9",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-improvement-20261027/public-data/report_data.json",
+      "sha256": "a153dd3e86e8fbac6f793c8c8b5ae435ef96fe768445c63eb890fcf9013cfa77",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-improvement-20261027/public-data/claim_aggregate.json",
+      "sha256": "497608dab4acfeb41f84de1d62324c247510b83e2fdcab256aee6fb4f77bc264",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-improvement-20261027/public-data/pair_aggregate.json",
+      "sha256": "7b91fd83c01c2d23733b55c7a3a8f45457919031657a8286e0a165f7981bf522",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-improvement-20261027/public-data/recovery_adapter_diagnosis.json",
+      "sha256": "efcbe841c1f138f8803d8e1a4873c561ee71e0c0ba0b105115d261089a2c8578",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-improvement-20261027/public-data/recovery_training_summary.json",
+      "sha256": "57996fedb6554991eb77254a1aa8fc6b8e73fac888ee0e28c279ae2eee7ea9df",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-improvement-20261027/public-data/recovery_train_receipt.json",
+      "sha256": "d7cdd96fac9c17c941ff2f86daf76fe0275eb84b616e2bd2cbc0be433e5f886a",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-improvement-20261027/public-data/recovery_protocol.json",
+      "sha256": "43aa8a8117077fcda6526bf1df7865d0bb3bf08335fed0c0917d0d74abbd668b",
+      "role": "published evidence at synthesis start"
+    },
+    {
+      "path": "reports/argos-improvement-20261027/public-data/recovery_selection.json",
+      "sha256": "245107984c7928df91506d6e2b03d8ea20d162daf273608ec82ab256477bf81a",
+      "role": "published evidence at synthesis start"
+    }
+  ],
+  "notes": "These input hashes identify the preceding published evidence. report_data.json is deliberately revised by this synthesis; old identity is available in the source commit."
+}

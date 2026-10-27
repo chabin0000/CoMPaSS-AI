@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-27",
+  "mode": "Existing compass ai project / Pro",
+  "completed_rounds": 2,
+  "scope": "Historical document reconstruction and interpretation reconciliation, not new experiments or R6 item re-rating",
+  "agreements": [
+    "Early matched controls already documented August9",
+    "Early DGX hardware not independently attested by archived metadata",
+    "R6 failed overall promotion, not every individual gate",
+    "Executed S5 new evaluation differs from unexecuted R6 final",
+    "USD40 andPC96h are user reports",
+    "13.92h is a30-minute message-window sum, not human labor time"
+  ],
+  "limits": [
+    "No independent human reviewers",
+    "No new raw execution audit by WebGPT",
+    "Private project URL and raw conversations omitted"
+  ]
+}

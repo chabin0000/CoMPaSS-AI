@@ -1,0 +1,193 @@
+{
+  "canonical_data_sha256": "40761ccc6860ec2a63351b518cd445b2293ea3c7012f010ac21a16f0b45a629b",
+  "figures": [
+    {
+      "figure": "01_timeline",
+      "queries": [
+        "synthesis-timeline"
+      ],
+      "files": {
+        ".png": "698fcf121467fedf20c3cb6b7638dfbf9a4a7bc33ae072aba4668d692f7a49c8",
+        ".svg": "33e7926f284a8bb44dc6d304c93915d049ad3534a0abd90041bf47d73d19f7aa"
+      }
+    },
+    {
+      "figure": "02_workflow",
+      "queries": [
+        "synthesis-conditions",
+        "synthesis-evaluation-generations"
+      ],
+      "files": {
+        ".png": "9f870f9fa1e9f7e8a7773a5e6c559a96f88eefd53af38fe42115f77ccb070948",
+        ".svg": "71965c41a436ee6d4eb98f4d6118f888cc70eb8586c532b0fe53a19625232188"
+      }
+    },
+    {
+      "figure": "03_pilot",
+      "queries": [
+        "synthesis-pilot"
+      ],
+      "files": {
+        ".png": "dde0e4db37081441a99e7b671a0afa97b604df25c53a7dcf5ec0ba29fa631602",
+        ".svg": "b5daaed5bf69ad38910c146e333cce922b39173e28886d52ec87db2fb7483498"
+      }
+    },
+    {
+      "figure": "04_collection",
+      "queries": [
+        "historical-collection"
+      ],
+      "files": {
+        ".png": "b63ef0b65491f0f95a7dc0312495b22558dd58ac9db3b7a31601eb20401e5504",
+        ".svg": "47ae40ac713f31b75e31d883b670ea0d06f3346747d7ab748e3d88fbb0f7f045"
+      }
+    },
+    {
+      "figure": "05_original_models",
+      "queries": [
+        "synthesis-original-models"
+      ],
+      "files": {
+        ".png": "17a1762b66e7db8104ec1803a0473a5f858e3d148d2ebf38f15b512f7fd4fca7",
+        ".svg": "e5dd1cf94585119d4d939403308f400a2fe55d3175575bca8426160ed48f9327"
+      }
+    },
+    {
+      "figure": "06_specialized",
+      "queries": [
+        "synthesis-specialized"
+      ],
+      "files": {
+        ".png": "1b3e5f403cca6eb2c747681991985ff57de2084938c0e929daf650476910b6ee",
+        ".svg": "7f4fcaf889640269369c835a2223a14caa0ab7fd7b8b76d3421bed5fe2304332"
+      }
+    },
+    {
+      "figure": "07_confirmation",
+      "queries": [
+        "synthesis-confirmation"
+      ],
+      "files": {
+        ".png": "cdaa45dc6eba2a8e42f6e1292a52da58527c6ae0e2fbeb9106be2468aeb15bb3",
+        ".svg": "8c6d1d5ff403ffc33d966ba96d9c341b026bfaf6296568bdbac8c870781b6248"
+      }
+    },
+    {
+      "figure": "08_all_development",
+      "queries": [
+        "synthesis-all-development"
+      ],
+      "files": {
+        ".png": "a0b26a12d6e37319e945f9a7171d1d95cd01b97290a5179839e13006f3d90d93",
+        ".svg": "54359816edeb392d5258f97845a5c56037f96e300cda53fd35a603321935a39f"
+      }
+    },
+    {
+      "figure": "09_adapter",
+      "queries": [
+        "recovery-adapter-dose"
+      ],
+      "files": {
+        ".png": "56409b9e9691ef8ac91b67b99f59cb3c7440476ee84a8c6c0dbb9cde30b9aeed",
+        ".svg": "94067086d7cb280ed54e460a8bad0f790090950d9b25a6642c367be5412b3569"
+      }
+    },
+    {
+      "figure": "10_r6_checkpoints",
+      "queries": [
+        "synthesis-all-development",
+        "recovery-selection-design"
+      ],
+      "files": {
+        ".png": "432e77fa96db91c628abd17272f52eacaae828cb56807d9d2905b8f40970e7db",
+        ".svg": "831cb931c53b30bae23776c68cba283b85cd2401cc53b36d106c7dc1ad029e06"
+      }
+    },
+    {
+      "figure": "11_families",
+      "queries": [
+        "recovery-families"
+      ],
+      "files": {
+        ".png": "71df09e808aa6103dc05a05151e1442e30f6b92cd1dad730732e1cc611ab8400",
+        ".svg": "5bbdef4936881fed96bbf8297b14e0b7066db9e475ec425fda5fb54905d30c35"
+      }
+    },
+    {
+      "figure": "12_paired",
+      "queries": [
+        "recovery-paired-results"
+      ],
+      "files": {
+        ".png": "efb4d59db2e4bef379fa8de2d634c9569b9b0b6e6f2655c7f51b6ef620e227ff",
+        ".svg": "6c42bdcb3a43ba0391b337a534a148a23be9ab5b231815751284bd2c5085c8c8"
+      }
+    },
+    {
+      "figure": "13_claims",
+      "queries": [
+        "baseline-claims"
+      ],
+      "files": {
+        ".png": "e9258fa4bd920603ee872368831f9c184160f944ed4f87dd94a6d94427fa5dde",
+        ".svg": "81e11899af75af92c2ffe885085d17329f7a6465342ef464b4bd8fd6860f942f"
+      }
+    },
+    {
+      "figure": "14_agreement",
+      "queries": [
+        "synthesis-pair-matrix",
+        "pair-agreement"
+      ],
+      "files": {
+        ".png": "072095806f98d41bed261ca3aa5de49b75d06bb94c11578751c0f4758efd751a",
+        ".svg": "59572ce5a9e7404dae7b5e1138ac780928c8bf5ffa9c858b3468a41c70f74a15"
+      }
+    },
+    {
+      "figure": "15_evaluation_flow",
+      "queries": [
+        "synthesis-evaluation-generations"
+      ],
+      "files": {
+        ".png": "437171f3e4d5f4de14357699c952a6b41c441852014434053b56d7eefe26466a",
+        ".svg": "d3827fcc78dd3e9304bc2f19d781801270982c27ba11aa020a4b1c7249d33d27"
+      }
+    },
+    {
+      "figure": "16_intervals",
+      "queries": [
+        "synthesis-confirmation-statistics"
+      ],
+      "files": {
+        ".png": "b71572b9de988775880189437b99fc26cb2b918cdb4d702249cec12f0d4e6ca7",
+        ".svg": "aba04fafdcde3b07f790793db7699200c83c645698f4c49eccb66ad254decbe0"
+      }
+    },
+    {
+      "figure": "17_cost_time",
+      "queries": [
+        "synthesis-cost",
+        "synthesis-activity"
+      ],
+      "files": {
+        ".png": "5ab3cbe49bbe273fee80936ad01efe6f4aab3a88754bdc07e5d6126c04292999",
+        ".svg": "004b503e5873025277de58bac88577c9d6769e31762e650c776e61cb781bc8b9"
+      }
+    },
+    {
+      "figure": "18_activity",
+      "queries": [
+        "synthesis-activity",
+        "synthesis-activity-daily"
+      ],
+      "files": {
+        ".png": "f7d426aa1b2e85b6bd12cd5d44ed982b39eeb8d5b05362e9cd105aaed043ceba",
+        ".svg": "91c1cc1413afd751ed3af51fe6d023cdf91af88313c346f95e0a5df44d775c12"
+      }
+    }
+  ],
+  "number_of_figures": 18,
+  "software": "Matplotlib scientific figures, PNG and SVG from the same reviewed data",
+  "no_new_inference": true
+}

@@ -1,0 +1,12 @@
+.argos-report {font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif; letter-spacing:0;}
+.argos-report .report-header {padding-bottom:28px; margin-bottom:36px; border-bottom:1px solid var(--border, #b8b8b8);}
+.argos-report .report-header h1 {font-size:clamp(26px,3.2vw,36px); line-height:1.45; font-weight:700; letter-spacing:-.025em;}
+.argos-report .report-deck {font-size:15px; line-height:1.85;}
+.argos-report h2 {font-size:21px; line-height:1.55; letter-spacing:-.015em; margin:34px 0 14px;}
+.argos-report p {line-height:1.85;}
+.argos-report .argos-table-scroll {overflow-x:auto; margin:18px 0 28px;}
+.argos-report .argos-table {width:100%; border-collapse:collapse; font-size:13px; line-height:1.7; border-top:1px solid var(--text, #353535); border-bottom:1px solid var(--text, #353535);}
+.argos-report .argos-table th,.argos-report .argos-table td {padding:10px 9px; border-bottom:1px solid var(--border, #dddddd); text-align:left; vertical-align:top; background:transparent;}
+.argos-report .argos-table th {font-weight:700; border-bottom:1px solid var(--text, #555555);}
+.argos-report .argos-table .numeric {text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap;}
+.argos-report .argos-cell-narrative p {margin:0; font-size:inherit; line-height:inherit;}
