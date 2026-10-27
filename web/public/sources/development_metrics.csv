@@ -1,0 +1,11 @@
+﻿model,label,prompt,document_correct,valid_explanations,gsm8k_correct,kobest_official,kobest_corrected,document_n,gsm8k_n,kobest_n,incomplete,qualified
+S0,기본 S0,verify,68,42,35,36,37,96,40,40,0,
+ARGOS_old,기존 ARGOS,direct,35,25,6,37,38,96,40,40,0,
+A4-075,A4-075,direct,44,0,16,37,38,96,40,40,0,False
+A4-150,A4-150,direct,49,0,18,36,37,96,40,40,0,False
+B4-075,B4-075,verify,53,40,32,37,38,96,40,40,0,False
+B4-150,B4-150,direct,52,42,30,37,38,96,40,40,0,False
+C5-076,C5-076,direct,47,36,22,37,38,96,40,40,0,False
+C5-152,C5-152,direct,50,42,22,36,37,96,40,40,0,False
+gpt_oss,GPT-OSS 20B,direct,93,87,38,35,36,96,40,40,0,
+glm,GLM-4.7-Flash,direct,86,72,39,37,38,96,40,40,5,

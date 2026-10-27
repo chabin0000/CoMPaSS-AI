@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.firebase/
+firebase-debug.log*
+*.tsbuildinfo
+qa/*.png
+qa/*.webm
+qa/*.json
+qa-server*.log
+qa-preview*.log

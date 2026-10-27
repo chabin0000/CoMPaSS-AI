@@ -1,0 +1,101 @@
+{
+  "at": 1793075392.1332853,
+  "authorization": "User chose one additional experiment today then freeze; no Web ChatGPT; Thursday 2026-10-29 17:00 KST submission deadline.",
+  "scope": "One fresh-base SFT training run with predeclared checkpoints; adapter-strength diagnosis is not model selection.",
+  "training": {
+    "name": "R6",
+    "base_revision": "553ea250b9a5317231459279d5847d6cf955b9aa",
+    "seed": 20261027,
+    "learning_rate": 1e-05,
+    "steps": 120,
+    "save_steps": 40,
+    "checkpoints": [
+      40,
+      80,
+      120
+    ],
+    "epochs": 1,
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "gradient_accumulation": 8,
+    "batch_size": 1,
+    "quantization": "NF4 double BF16",
+    "max_length": 1536,
+    "document_instruction": "제공된 가상 문서에서 적용 조건, 예외, 시점과 단위를 확인하세요. 문서 번호를 밝혀 핵심 근거와 필요한 계산을 짧게 설명한 뒤 검산한 답을 마지막 줄에 정답: 값 형식으로 쓰세요. 외부 사실이나 명시되지 않은 예외를 추가하지 마세요. 계산 실수는 다시 계산하여 고치고, 문서 자체에 필요한 정보가 없는 경우에만 확인 불가라고 답하세요. 숫자 답의 단위 표기는 질문을 따르세요.",
+    "instruction_note": "Use the same verify instruction at training and evaluation. The former B4 training instruction was shorter; document bodies are identical after its existing exchange clarification."
+  },
+  "diagnosis": {
+    "old_adapter": "B4-075",
+    "scales": [
+      0,
+      0.25,
+      0.5,
+      1
+    ],
+    "questions": 56,
+    "source": "Previously exposed calibration 24 + GSM8K16 + KoBEST16",
+    "purpose": "Controlled reversible perturbation; cannot isolate LR, data or token-budget causes"
+  },
+  "candidate_prompt": "verify",
+  "baseline_prompt": "verify",
+  "teacher_prompts": {
+    "gpt_oss": "direct",
+    "glm": "direct"
+  },
+  "generation_cap": 8192,
+  "development_items": 176,
+  "selection_gates": {
+    "document_at_least_baseline_plus": 5,
+    "gsm8k_at_least_same_run_baseline": true,
+    "kobest_official_at_least_same_run_baseline": true,
+    "kobest_corrected_at_least_same_run_baseline": true,
+    "valid_document_explanations_at_least_same_run_baseline": true
+  },
+  "ranking": [
+    "document_correct descending",
+    "gsm8k_correct descending",
+    "checkpoint_step ascending"
+  ],
+  "final": {
+    "conditional_on_selection": true,
+    "items": 280,
+    "document": 200,
+    "retention": 80,
+    "models": [
+      "S0",
+      "selected",
+      "gpt_oss",
+      "glm"
+    ],
+    "single_frozen_checkpoint": true,
+    "reselection": false,
+    "training_seed_replication": false
+  },
+  "conclusion_rules": "All gates are new-study recovery selection, not satisfaction of old study gates or proof of teacher superiority. Final teacher claims require both paired comparisons Holm adjusted p<0.05 and positive family-cluster bootstrap lower bounds; report single seed and synthetic scope. No weaker selection rule after seeing candidates.",
+  "final_quality": "Single AI semantic adjudication of ambiguous answers and explanation review; all human reviewers 0.",
+  "budget": "Continue original USD10 anchor, reserve at least USD1 account balance; this round maximum additional USD2.00 and six-hour compute deadline.",
+  "no_additional_training_after_R6": true,
+  "no_website_chatgpt": true,
+  "train_receipt_sha256": "d7cdd96fac9c17c941ff2f86daf76fe0275eb84b616e2bd2cbc0be433e5f886a",
+  "seal_sha256": "f50e04bc10a7352c544cfaaa68b7f35d7a4b4a46251f83dd398b23df3f64af01",
+  "pretraining_sentence_amendment": {
+    "at": 1793075699.8422086,
+    "before_training": true,
+    "old_training_sha256": "291686fe507eecde3fa804c3405d637c4088c86719213abb131ce4dc1107fc90",
+    "new_training_sha256": "63ea7617def08b4374fd336b29d08b61de5b61d8f102f896c6b83bcfaa3806ca",
+    "changed_general_rows": 10,
+    "reason": "Naive period splitting broke abbreviations such as Terry v. Ohio; use original annotated answer spans and abbreviation-aware sentence boundaries.",
+    "numerical_targets_changed": false,
+    "sealed_final_changed": false,
+    "training_runs_started": 0
+  },
+  "selection_historical_floors": {
+    "document_correct": 73,
+    "gsm8k_correct": 35,
+    "kobest_official": 36,
+    "kobest_corrected": 37,
+    "valid_document_explanations": 42
+  },
+  "selection_floor_note": "Require both the same-run baseline comparison and these historical floors; do not benefit from a weaker repeated baseline. Added before the same-run baseline results or candidate outputs are observed."
+}

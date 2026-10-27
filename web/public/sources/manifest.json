@@ -1,0 +1,103 @@
+{
+  "sourceCommit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938",
+  "files": [
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/ARGOS_Improvement_Report_KO.pdf",
+      "url": "/sources/improvement-report.pdf",
+      "sha256": "f4674920cc5d8c6a9ee111df1ba3089656406f603aed6f4c29fb34e500a94c3d",
+      "bytes": 3212665,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-final-20261027/CoMPaSS_ARGOS_final_report_20261027.pdf",
+      "url": "/sources/final-report.pdf",
+      "sha256": "1a10fc0092969838374f09f659e37ed5d00c48bcffdf1ad73c8aa0f5ab14646b",
+      "bytes": 544071,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/REPORT_KO.md",
+      "url": "/sources/improvement-report.md",
+      "sha256": "27a82ef68c3f698e3370dbdbb062d31c0917dafa26fe0194c0ccf3cecd20a52d",
+      "bytes": 93609,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-final-20261027/REPORT_KO.md",
+      "url": "/sources/frozen-report.md",
+      "sha256": "a55303430c64a734ee8fb3131a077a1672b933784103ad29bd6c3ca95835bf67",
+      "bytes": 102417,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-final-20261027/data/metrics.json",
+      "url": "/sources/metrics.json",
+      "sha256": "4a72eccc216cf0a25b2d2d1ddfb3cda9a7aa4fd7a1998edfdef4ec3282e6fda3",
+      "bytes": 4133,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/development_metrics.csv",
+      "url": "/sources/development_metrics.csv",
+      "sha256": "c373702e8e38bf94765bba969fca9fade669d0095a5cb0bfa20841a944991a75",
+      "bytes": 690,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/recovery_selection.json",
+      "url": "/sources/recovery_selection.json",
+      "sha256": "245107984c7928df91506d6e2b03d8ea20d162daf273608ec82ab256477bf81a",
+      "bytes": 2212,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/runtime_identity.json",
+      "url": "/sources/runtime_identity.json",
+      "sha256": "fd655a7fcf66961d439e4f057c7c7b12fd7170c20d1009acd0d9e5e49af6788d",
+      "bytes": 1977,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/report_data.json",
+      "url": "/sources/report_data.json",
+      "sha256": "40761ccc6860ec2a63351b518cd445b2293ea3c7012f010ac21a16f0b45a629b",
+      "bytes": 251641,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/recovery_seal.json",
+      "url": "/sources/recovery_seal.json",
+      "sha256": "f50e04bc10a7352c544cfaaa68b7f35d7a4b4a46251f83dd398b23df3f64af01",
+      "bytes": 790,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/recovery_protocol.json",
+      "url": "/sources/recovery_protocol.json",
+      "sha256": "43aa8a8117077fcda6526bf1df7865d0bb3bf08335fed0c0917d0d74abbd668b",
+      "bytes": 4696,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/actual_prompts.json",
+      "url": "/sources/actual_prompts.json",
+      "sha256": "a0f8bd47d63c203cfe89bd30037d3d4eb7e5b06c2552ef7082b4d17d86fd611b",
+      "bytes": 1455,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/recovery_development_evidence.jsonl",
+      "url": "/sources/recovery_development_evidence.jsonl",
+      "sha256": "5f03f40e7e4605910ff49a081fce4d38f2dea507561c7a51bf9fa9d32901331e",
+      "bytes": 1121620,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/synthetic_development_evidence.jsonl",
+      "url": "/sources/synthetic_development_evidence.jsonl",
+      "sha256": "d3226c7c7041b7b25df21bdf5bd8c9046a2f05c5780901fa8b56e4713583fbb5",
+      "bytes": 1128731,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    }
+  ]
+}

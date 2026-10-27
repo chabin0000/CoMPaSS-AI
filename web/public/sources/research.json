@@ -1,0 +1,668 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938",
+  "repository": "https://github.com/chabin0000/CoMPaSS-AI",
+  "date": "2026-10-27",
+  "baseModel": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct",
+  "baseRevision": "553ea250b9a5317231459279d5847d6cf955b9aa",
+  "frozenCheckpoint": "S5_general_control-20261022",
+  "confirmation": [
+    {
+      "id": "source_claims",
+      "label": "제공 자료의 요청 사실 충족",
+      "short": "자료 충실도",
+      "definition": "문항에 주어진 가상 기록을 바탕으로 요청한 사실을 충족한 응답 수입니다. 일반적인 세계 지식의 정확도를 뜻하지 않습니다.",
+      "interpretation": "제공 자료에서 요청한 사실을 충족한 응답은 늘었습니다. 이 과제의 관측을 일반적인 사실성 향상으로 확대할 수는 없습니다.",
+      "results": [
+        {
+          "model": "S0",
+          "correct": 53,
+          "n": 60,
+          "rate": 0.8833333333333333,
+          "unknown": 0,
+          "complete": 60
+        },
+        {
+          "model": "ARGOS",
+          "correct": 60,
+          "n": 60,
+          "rate": 1,
+          "unknown": 0,
+          "complete": 60
+        }
+      ]
+    },
+    {
+      "id": "instruction",
+      "label": "공백 정규화 후 전체 응답 일치",
+      "short": "정확 출력",
+      "definition": "양끝 공백과 내부 일반 공백(U+0020)을 제거한 뒤 전체 응답을 정답과 비교합니다. 내부 개행과 문장부호는 유지합니다. 내용과 형식이 결합된 지표입니다.",
+      "interpretation": "공백을 정규화한 전체 응답의 일치가 늘었습니다. 이 결과를 바이트 단위의 정확 일치나 순수한 형식 능력 점수로 해석하지 않습니다.",
+      "results": [
+        {
+          "model": "S0",
+          "correct": 3,
+          "n": 40,
+          "rate": 0.075,
+          "unknown": 0,
+          "complete": 40
+        },
+        {
+          "model": "ARGOS",
+          "correct": 27,
+          "n": 40,
+          "rate": 0.675,
+          "unknown": 0,
+          "complete": 40
+        }
+      ]
+    },
+    {
+      "id": "math",
+      "label": "수학 내용 정답",
+      "short": "수학",
+      "definition": "신규 수학 80문항에서 최종 정수·분수 값이 맞은 응답 수입니다. 모든 중간 풀이가 타당하다는 보증은 아닙니다. 미확정은 전체 분모에 남깁니다.",
+      "interpretation": "새 수학 표본에서 큰 저하가 관측됐습니다. S0와 ARGOS의 미확정 응답은 각각 1개이며, 정답으로 인정하지 않았습니다.",
+      "results": [
+        {
+          "model": "S0",
+          "correct": 68,
+          "n": 80,
+          "rate": 0.85,
+          "unknown": 1,
+          "complete": 79
+        },
+        {
+          "model": "ARGOS",
+          "correct": 37,
+          "n": 80,
+          "rate": 0.4625,
+          "unknown": 1,
+          "complete": 80
+        }
+      ]
+    },
+    {
+      "id": "premise",
+      "label": "전제 판단의 결론 정답",
+      "short": "전제 판단",
+      "definition": "제공된 가상 기록에서 질문의 전제를 지지하는지에 대한 첫 줄 결론을 채점합니다. 설명의 타당성과는 별개입니다.",
+      "interpretation": "전제 판단의 결론 정답도 줄었습니다. 결론이 맞더라도 설명 요구를 충족했다고 볼 수 없습니다.",
+      "results": [
+        {
+          "model": "S0",
+          "correct": 55,
+          "n": 60,
+          "rate": 0.9166666666666666,
+          "unknown": 0,
+          "complete": 60
+        },
+        {
+          "model": "ARGOS",
+          "correct": 50,
+          "n": 60,
+          "rate": 0.8333333333333334,
+          "unknown": 0,
+          "complete": 60
+        }
+      ]
+    },
+    {
+      "id": "gsm8k",
+      "label": "GSM8K 표본 최종 정답",
+      "short": "GSM8K",
+      "definition": "GSM8K main test에서 뽑은 영어 40문항의 최종 정답입니다. 전체 벤치마크 점수가 아닙니다.",
+      "interpretation": "공개 수학 표본에서도 큰 저하가 나타났습니다. 이 확인평가의 S0 37/40과 후속 개발평가의 S0 35/40은 실행 조건과 평가 목적이 다릅니다.",
+      "results": [
+        {
+          "model": "S0",
+          "correct": 37,
+          "n": 40,
+          "rate": 0.925,
+          "unknown": 1,
+          "complete": 39
+        },
+        {
+          "model": "ARGOS",
+          "correct": 6,
+          "n": 40,
+          "rate": 0.15,
+          "unknown": 0,
+          "complete": 40
+        }
+      ]
+    },
+    {
+      "id": "klue_nli",
+      "label": "KLUE NLI 표본 정답",
+      "short": "KLUE NLI",
+      "definition": "KLUE NLI validation의 고정 40문항 표본입니다. 공식 전체 벤치마크 점수가 아닙니다.",
+      "interpretation": "이 작은 자연어 추론 표본에서는 정답이 늘었습니다. 표본의 크기와 사전학습 오염 가능성을 함께 고려해야 합니다.",
+      "results": [
+        {
+          "model": "S0",
+          "correct": 33,
+          "n": 40,
+          "rate": 0.825,
+          "unknown": 0,
+          "complete": 40
+        },
+        {
+          "model": "ARGOS",
+          "correct": 36,
+          "n": 40,
+          "rate": 0.9,
+          "unknown": 0,
+          "complete": 40
+        }
+      ]
+    },
+    {
+      "id": "kobest_boolq",
+      "label": "KoBEST BoolQ 표본 정답",
+      "short": "KoBEST",
+      "definition": "KoBEST BoolQ test의 고정 40문항 표본입니다. 공식 전체 벤치마크 점수가 아닙니다.",
+      "interpretation": "정답 1개의 차이가 관측됐습니다. 이 차이만으로 일반적인 한국어 능력 향상을 주장할 수 없습니다.",
+      "results": [
+        {
+          "model": "S0",
+          "correct": 36,
+          "n": 40,
+          "rate": 0.9,
+          "unknown": 0,
+          "complete": 40
+        },
+        {
+          "model": "ARGOS",
+          "correct": 37,
+          "n": 40,
+          "rate": 0.925,
+          "unknown": 0,
+          "complete": 40
+        }
+      ]
+    }
+  ],
+  "development": {
+    "metrics": [
+      {
+        "id": "document",
+        "label": "문서 정답",
+        "n": 96,
+        "definition": "제공된 합성 문서 96개에서 요청한 최종 정답이 맞은 응답 수.",
+        "interpretation": "R6-120은 기존 ARGOS보다 회복했지만 기본 S0 재측정에는 미달했습니다. 문서의 선정 하한은 73/96입니다."
+      },
+      {
+        "id": "valid",
+        "label": "유효 설명",
+        "n": 96,
+        "definition": "문서 정답이 맞고, 근거·계산·조건 적용에 중대한 오류가 없는 응답 수. 잘못된 부가 주장과 명시적 오인용도 실패로 처리합니다. 단일 AI 판정입니다.",
+        "interpretation": "R6-120은 기본 S0보다 유효 설명이 2개 많았습니다. 최종 정답만 맞고 설명이 틀린 경우는 이 성공 수에 넣지 않았습니다."
+      },
+      {
+        "id": "gsm8k",
+        "label": "GSM8K",
+        "n": 40,
+        "definition": "동일한 GSM8K 개발 표본 40개의 최종 정답. 후보 선정에 재사용한 부분집합이며 새 독립 최종시험이 아닙니다.",
+        "interpretation": "기존 ARGOS 6/40에서 별도 회복 후보 R6-120 34/40으로, 15%에서 85%로 회복한 관측입니다. 같은 기반 모델에서 새로 학습한 후보이며 연속 학습 곡선이 아닙니다."
+      },
+      {
+        "id": "kobest",
+        "label": "KoBEST 공식",
+        "n": 40,
+        "definition": "KoBEST BoolQ 40개 개발 표본을 공식 정답표로 채점한 결과. 정답 오류 수정 기준의 점수와 구분합니다.",
+        "interpretation": "R6-120은 기본 S0와 같고 기존 ARGOS보다 정답 1개가 적었습니다. 이 표는 공식 정답 기준이며 오류 수정 기준을 혼합하지 않습니다."
+      }
+    ],
+    "models": [
+      {
+        "id": "S0",
+        "label": "기본 S0 재측정",
+        "kind": "base",
+        "prompt": "verify",
+        "values": {
+          "document": 68,
+          "valid": 42,
+          "gsm8k": 35,
+          "kobest": 36
+        },
+        "incomplete": 0,
+        "source": "reports/argos-improvement-20261027/public-data/recovery_selection.json"
+      },
+      {
+        "id": "ARGOS_old",
+        "label": "기존 ARGOS",
+        "kind": "frozen",
+        "prompt": "direct",
+        "values": {
+          "document": 35,
+          "valid": 25,
+          "gsm8k": 6,
+          "kobest": 37
+        },
+        "incomplete": 0,
+        "source": "reports/argos-improvement-20261027/public-data/development_metrics.csv"
+      },
+      {
+        "id": "A4-075",
+        "label": "A4-075",
+        "kind": "candidate",
+        "prompt": "direct",
+        "values": {
+          "document": 44,
+          "valid": 0,
+          "gsm8k": 16,
+          "kobest": 37
+        },
+        "incomplete": 0,
+        "source": "reports/argos-improvement-20261027/public-data/development_metrics.csv"
+      },
+      {
+        "id": "A4-150",
+        "label": "A4-150",
+        "kind": "candidate",
+        "prompt": "direct",
+        "values": {
+          "document": 49,
+          "valid": 0,
+          "gsm8k": 18,
+          "kobest": 36
+        },
+        "incomplete": 0,
+        "source": "reports/argos-improvement-20261027/public-data/development_metrics.csv"
+      },
+      {
+        "id": "B4-075",
+        "label": "B4-075",
+        "kind": "candidate",
+        "prompt": "verify",
+        "values": {
+          "document": 53,
+          "valid": 40,
+          "gsm8k": 32,
+          "kobest": 37
+        },
+        "incomplete": 0,
+        "source": "reports/argos-improvement-20261027/public-data/development_metrics.csv"
+      },
+      {
+        "id": "B4-150",
+        "label": "B4-150",
+        "kind": "candidate",
+        "prompt": "direct",
+        "values": {
+          "document": 52,
+          "valid": 42,
+          "gsm8k": 30,
+          "kobest": 37
+        },
+        "incomplete": 0,
+        "source": "reports/argos-improvement-20261027/public-data/development_metrics.csv"
+      },
+      {
+        "id": "C5-076",
+        "label": "C5-076",
+        "kind": "candidate",
+        "prompt": "direct",
+        "values": {
+          "document": 47,
+          "valid": 36,
+          "gsm8k": 22,
+          "kobest": 37
+        },
+        "incomplete": 0,
+        "source": "reports/argos-improvement-20261027/public-data/development_metrics.csv"
+      },
+      {
+        "id": "C5-152",
+        "label": "C5-152",
+        "kind": "candidate",
+        "prompt": "direct",
+        "values": {
+          "document": 50,
+          "valid": 42,
+          "gsm8k": 22,
+          "kobest": 36
+        },
+        "incomplete": 0,
+        "source": "reports/argos-improvement-20261027/public-data/development_metrics.csv"
+      },
+      {
+        "id": "gpt_oss",
+        "label": "GPT-OSS-20B",
+        "kind": "teacher",
+        "prompt": "direct",
+        "values": {
+          "document": 93,
+          "valid": 87,
+          "gsm8k": 38,
+          "kobest": 35
+        },
+        "incomplete": 0,
+        "source": "reports/argos-improvement-20261027/public-data/development_metrics.csv"
+      },
+      {
+        "id": "glm",
+        "label": "GLM-4.7-Flash",
+        "kind": "teacher",
+        "prompt": "direct",
+        "values": {
+          "document": 86,
+          "valid": 72,
+          "gsm8k": 39,
+          "kobest": 37
+        },
+        "incomplete": 5,
+        "source": "reports/argos-improvement-20261027/public-data/development_metrics.csv"
+      },
+      {
+        "id": "R6-040",
+        "label": "R6-040",
+        "kind": "candidate",
+        "prompt": "verify",
+        "values": {
+          "document": 46,
+          "valid": 23,
+          "gsm8k": 34,
+          "kobest": 36
+        },
+        "incomplete": 0,
+        "source": "reports/argos-improvement-20261027/public-data/recovery_selection.json"
+      },
+      {
+        "id": "R6-080",
+        "label": "R6-080",
+        "kind": "candidate",
+        "prompt": "verify",
+        "values": {
+          "document": 57,
+          "valid": 45,
+          "gsm8k": 31,
+          "kobest": 36
+        },
+        "incomplete": 0,
+        "source": "reports/argos-improvement-20261027/public-data/recovery_selection.json"
+      },
+      {
+        "id": "R6-120",
+        "label": "R6-120",
+        "kind": "candidate",
+        "prompt": "verify",
+        "values": {
+          "document": 55,
+          "valid": 44,
+          "gsm8k": 34,
+          "kobest": 36
+        },
+        "incomplete": 0,
+        "source": "reports/argos-improvement-20261027/public-data/recovery_selection.json"
+      }
+    ],
+    "primary": [
+      "S0",
+      "ARGOS_old",
+      "R6-120",
+      "gpt_oss",
+      "glm"
+    ],
+    "final": {
+      "status": "unmeasured",
+      "n": 280,
+      "score": null,
+      "inferences": 0
+    },
+    "eligible": [],
+    "selected": null,
+    "thresholds": {
+      "document": 73,
+      "gsm8k": 35,
+      "kobest_boolq": 36,
+      "kobest_corrected": 37,
+      "valid_explanations": 42
+    }
+  },
+  "review": {
+    "humanReviewers": 0,
+    "method": "자동 검사와 AI 판정. R6는 단일 AI 비블라인드 검수."
+  },
+  "examples": [
+    {
+      "id": "development-offer-006",
+      "label": "정답과 설명의 차이",
+      "note": "업체명 정답과 계산의 타당성은 별개입니다. R6-120은 업체명을 맞혔지만 1,700 × 28을 49,600으로 잘못 계산했습니다.",
+      "responses": [
+        {
+          "model": "ARGOS_old",
+          "label": "기존 ARGOS",
+          "question": "자료 식별자: development-offer-006\n[문서1] 견적표: 가람: 개당 1700원, 주문당 배송비 800원; 누리: 개당 700원, 주문당 배송비 300원; 다온: 개당 1900원, 주문당 배송비 700원.\n[문서2] 동일 물건 28개를 한 업체에서 구매한다. 모든 업체의 재고와 품질은 충분하고 같으며 추가 비용은 없다.\n\n질문: 배송비를 포함한 총액이 가장 낮은 업체 이름은 무엇인가?",
+          "response": "문서1에 따르면 누리의 개당 가격은 700원이고 배송비는 300원이므로, 1개당 총 가격은 1000원입니다. 따라서 28개를 구매할 때의 총 가격은 28 * 1000 = 28000원입니다.\n정답: 누리",
+          "reference": "누리",
+          "correct": true,
+          "valid": false,
+          "complete": true,
+          "prompt": "direct",
+          "source": "reports/argos-improvement-20261027/public-data/synthetic_development_evidence.jsonl",
+          "responseSha256": "76965f4262ff87c69e1223fa29ee4a0e517e3c3f782cb3084738cbc194e41160"
+        },
+        {
+          "model": "R6-120",
+          "label": "R6-120",
+          "question": "제공된 가상 문서에서 적용 조건, 예외, 시점과 단위를 확인하세요. 문서 번호를 밝혀 핵심 근거와 필요한 계산을 짧게 설명한 뒤 검산한 답을 마지막 줄에 정답: 값 형식으로 쓰세요. 외부 사실이나 명시되지 않은 예외를 추가하지 마세요. 계산 실수는 다시 계산하여 고치고, 문서 자체에 필요한 정보가 없는 경우에만 확인 불가라고 답하세요. 숫자 답의 단위 표기는 질문을 따르세요.\n\n자료 식별자: development-offer-006\n[문서1] 견적표: 가람: 개당 1700원, 주문당 배송비 800원; 누리: 개당 700원, 주문당 배송비 300원; 다온: 개당 1900원, 주문당 배송비 700원.\n[문서2] 동일 물건 28개를 한 업체에서 구매한다. 모든 업체의 재고와 품질은 충분하고 같으며 추가 비용은 없다.\n\n질문: 배송비를 포함한 총액이 가장 낮은 업체 이름은 무엇인가?",
+          "response": "근거: [문서1] 견적표에서 각 업체의 개당 가격과 배송비를 확인하고, [문서2]에서 주문 수량을 확인한다. 계산: 가람 총액 = (1700원 * 28) + 800원 = 49600원 + 800원 = 50400원; 누리 총액 = (700원 * 28) + 300원 = 19600원 + 300원 = 19900원; 다온 총액 = (1900원 * 28) + 700원 = 53200원 + 700원 = 53900원. 정답: 누리:19900원",
+          "reference": "누리",
+          "correct": true,
+          "valid": false,
+          "complete": true,
+          "prompt": "verify",
+          "source": "reports/argos-improvement-20261027/public-data/recovery_development_evidence.jsonl",
+          "responseSha256": "79418e59efb8d29fd0f58851a7afd49031bddab5d631b439c590142f70dec89e"
+        },
+        {
+          "model": "S0",
+          "label": "기본 S0 재측정",
+          "question": "제공된 가상 문서에서 적용 조건, 예외, 시점과 단위를 확인하세요. 문서 번호를 밝혀 핵심 근거와 필요한 계산을 짧게 설명한 뒤 검산한 답을 마지막 줄에 정답: 값 형식으로 쓰세요. 외부 사실이나 명시되지 않은 예외를 추가하지 마세요. 계산 실수는 다시 계산하여 고치고, 문서 자체에 필요한 정보가 없는 경우에만 확인 불가라고 답하세요. 숫자 답의 단위 표기는 질문을 따르세요.\n\n자료 식별자: development-offer-006\n[문서1] 견적표: 가람: 개당 1700원, 주문당 배송비 800원; 누리: 개당 700원, 주문당 배송비 300원; 다온: 개당 1900원, 주문당 배송비 700원.\n[문서2] 동일 물건 28개를 한 업체에서 구매한다. 모든 업체의 재고와 품질은 충분하고 같으며 추가 비용은 없다.\n\n질문: 배송비를 포함한 총액이 가장 낮은 업체 이름은 무엇인가?",
+          "response": "**핵심 근거:**\n\n* **가람:** 개당 가격 1700원 + 주문당 배송비 800원 = 개당 총 가격 2500원\n* **누리:** 개당 가격 700원 + 주문당 배송비 300원 = 개당 총 가격 1000원\n* **다온:** 개당 가격 1900원 + 주문당 배송비 700원 = 개당 총 가격 2600원\n\n**계산:**\n\n* **가람:** 28개 * 2500원/개 = 70,000원\n* **누리:** 28개 * 1000원/개 = 28,000원\n* **다온:** 28개 * 2600원/개 = 72,800원\n\n**정답:** 누리: 28,000원",
+          "reference": "누리",
+          "correct": true,
+          "valid": false,
+          "complete": true,
+          "prompt": "verify",
+          "source": "reports/argos-improvement-20261027/public-data/recovery_development_evidence.jsonl",
+          "responseSha256": "8daa0f10b6dca0933e3cf12786deb1d1c4b70c15229396fe812ea5adf3bd4bf9"
+        }
+      ]
+    },
+    {
+      "id": "development-weighted-006",
+      "label": "반올림의 오류",
+      "note": "중간 계산을 맞히고도 마지막 값을 잘못 반올림하면 최종 정답에 실패합니다.",
+      "responses": [
+        {
+          "model": "ARGOS_old",
+          "label": "기존 ARGOS",
+          "question": "자료 식별자: development-weighted-006\n[문서1] 평가표: 1차 80점(반영비율 10%), 2차 46점(반영비율 40%), 3차 91점(반영비율 50%).\n[문서2] 가중합을 구한 뒤 소수 둘째 자리에서 반올림하여 소수 첫째 자리까지 표시한다. 중간에는 반올림하지 않는다.\n\n질문: 최종 점수는 얼마인가? 단위 없이 소수 첫째 자리까지 답하라.",
+          "response": "가중합을 구한 뒤 소수 둘째 자리에서 반올림하여 소수 첫째 자리까지 표시한다. 중간에는 반올림하지 않는다.\n정답: 110.0",
+          "reference": "71.9",
+          "correct": false,
+          "valid": false,
+          "complete": true,
+          "prompt": "direct",
+          "source": "reports/argos-improvement-20261027/public-data/synthetic_development_evidence.jsonl",
+          "responseSha256": "4b1c1e9e840a6bb607e4078c0a941743d195c750deb69e99e040210cb5224537"
+        },
+        {
+          "model": "R6-120",
+          "label": "R6-120",
+          "question": "제공된 가상 문서에서 적용 조건, 예외, 시점과 단위를 확인하세요. 문서 번호를 밝혀 핵심 근거와 필요한 계산을 짧게 설명한 뒤 검산한 답을 마지막 줄에 정답: 값 형식으로 쓰세요. 외부 사실이나 명시되지 않은 예외를 추가하지 마세요. 계산 실수는 다시 계산하여 고치고, 문서 자체에 필요한 정보가 없는 경우에만 확인 불가라고 답하세요. 숫자 답의 단위 표기는 질문을 따르세요.\n\n자료 식별자: development-weighted-006\n[문서1] 평가표: 1차 80점(반영비율 10%), 2차 46점(반영비율 40%), 3차 91점(반영비율 50%).\n[문서2] 가중합을 구한 뒤 소수 둘째 자리에서 반올림하여 소수 첫째 자리까지 표시한다. 중간에는 반올림하지 않는다.\n\n질문: 최종 점수는 얼마인가? 단위 없이 소수 첫째 자리까지 답하라.",
+          "response": "근거: [문서1] 평가표에 따라 1차 80점(반영비율 10%) * 0.1 = 8점, 2차 46점(반영비율 40%) * 0.4 = 18.4점, 3차 91점(반영비율 50%) * 0.5 = 45.5점을 각각 계산하고, [문서2] 가중합을 구한 뒤 소수 둘째 자리에서 반올림하여 소수 첫째 자리까지 표시한다. 중간에는 반올림하지 않는다. 따라서 8 + 18.4 + 45.5 = 71.9 → 72점.\n정답: 72",
+          "reference": "71.9",
+          "correct": false,
+          "valid": false,
+          "complete": true,
+          "prompt": "verify",
+          "source": "reports/argos-improvement-20261027/public-data/recovery_development_evidence.jsonl",
+          "responseSha256": "7fabaca6f87f1e693e22ac5796340f1691e047801fe002961b7c1323790724a9"
+        },
+        {
+          "model": "S0",
+          "label": "기본 S0 재측정",
+          "question": "제공된 가상 문서에서 적용 조건, 예외, 시점과 단위를 확인하세요. 문서 번호를 밝혀 핵심 근거와 필요한 계산을 짧게 설명한 뒤 검산한 답을 마지막 줄에 정답: 값 형식으로 쓰세요. 외부 사실이나 명시되지 않은 예외를 추가하지 마세요. 계산 실수는 다시 계산하여 고치고, 문서 자체에 필요한 정보가 없는 경우에만 확인 불가라고 답하세요. 숫자 답의 단위 표기는 질문을 따르세요.\n\n자료 식별자: development-weighted-006\n[문서1] 평가표: 1차 80점(반영비율 10%), 2차 46점(반영비율 40%), 3차 91점(반영비율 50%).\n[문서2] 가중합을 구한 뒤 소수 둘째 자리에서 반올림하여 소수 첫째 자리까지 표시한다. 중간에는 반올림하지 않는다.\n\n질문: 최종 점수는 얼마인가? 단위 없이 소수 첫째 자리까지 답하라.",
+          "response": "**핵심 근거:**\n- 1차 평가 점수: 80점 (반영 비율: 10%)\n- 2차 평가 점수: 46점 (반영 비율: 40%)\n- 3차 평가 점수: 91점 (반영 비율: 50%)\n\n**계산 과정:**\n1. 각 평가 점수를 해당 반영 비율로 가중치를 적용합니다.\n   - 1차 가중치 점수: \\( 80 \\times 0.10 = 8 \\)\n   - 2차 가중치 점수: \\( 46 \\times 0.40 = 18.4 \\)\n   - 3차 가중치 점수: \\( 91 \\times 0.50 = 45.5 \\)\n\n2. 가중치 점수들을 합산합니다.\n   - 최종 점수: \\( 8 + 18.4 + 45.5 = 71.9 \\)\n\n3. 문서2에 따르면 소수 둘째 자리에서 반올림하여 소수 첫째 자리까지 표시해야 합니다. 따라서 71.9는 이미 소수 첫째 자리까지 반올림된 상태입니다.\n\n**정답:**\n71.9",
+          "reference": "71.9",
+          "correct": true,
+          "valid": true,
+          "complete": true,
+          "prompt": "verify",
+          "source": "reports/argos-improvement-20261027/public-data/recovery_development_evidence.jsonl",
+          "responseSha256": "327aaa8b858be38cb868bec73b8385ff743d496023e1bd35ebcbee3433459753"
+        }
+      ]
+    },
+    {
+      "id": "development-capacity-000",
+      "label": "정답 사례",
+      "note": "제공된 정원과 인원수를 계산하고 올림을 적용하는 합성 문서 사례입니다. 성공 사례 하나가 전체 성능을 대표하지는 않습니다.",
+      "responses": [
+        {
+          "model": "ARGOS_old",
+          "label": "기존 ARGOS",
+          "question": "자료 식별자: development-capacity-000\n[문서1] 참가자 88명을 한 번에 이동시킨다. 차량 한 대당 정원은 16명이며 운전자는 정원에 포함되지 않는다.\n[문서2] 예약 가능한 차량은 15대이다. 정원을 넘길 수 없고 왕복 운행은 허용하지 않는다.\n\n질문: 모두 이동시키는 데 필요한 최소 차량 대수를 숫자로 답하라. 차량이 부족하면 불가라고 답하라.",
+          "response": "참가자 88명을 한 번에 이동시키려면 차량 한 대당 정원 16명을 고려하면 88 / 16 = 5대가 필요하다. 하지만 예약 가능한 차량은 15대로, 이보다 많은 차량이 필요하므로 차량이 부족하다.\n\n불가",
+          "reference": "6",
+          "correct": false,
+          "valid": false,
+          "complete": true,
+          "prompt": "direct",
+          "source": "reports/argos-improvement-20261027/public-data/synthetic_development_evidence.jsonl",
+          "responseSha256": "30ca115465396485db1fe52e379cccdb05066381cc676bcd7f383deeb99581d4"
+        },
+        {
+          "model": "R6-120",
+          "label": "R6-120",
+          "question": "제공된 가상 문서에서 적용 조건, 예외, 시점과 단위를 확인하세요. 문서 번호를 밝혀 핵심 근거와 필요한 계산을 짧게 설명한 뒤 검산한 답을 마지막 줄에 정답: 값 형식으로 쓰세요. 외부 사실이나 명시되지 않은 예외를 추가하지 마세요. 계산 실수는 다시 계산하여 고치고, 문서 자체에 필요한 정보가 없는 경우에만 확인 불가라고 답하세요. 숫자 답의 단위 표기는 질문을 따르세요.\n\n자료 식별자: development-capacity-000\n[문서1] 참가자 88명을 한 번에 이동시킨다. 차량 한 대당 정원은 16명이며 운전자는 정원에 포함되지 않는다.\n[문서2] 예약 가능한 차량은 15대이다. 정원을 넘길 수 없고 왕복 운행은 허용하지 않는다.\n\n질문: 모두 이동시키는 데 필요한 최소 차량 대수를 숫자로 답하라. 차량이 부족하면 불가라고 답하라.",
+          "response": "근거: [문서1] 참가자 88명, [문서1] 차량 한 대당 정원 16명, [문서2] 예약 가능한 차량 15대\n계산: 88명 / 16명/차량 = 5.5 차량 → 올림 처리 필요, 6대 필요\n검산: 6대 * 16명/대 = 96명 수용 가능, 88명 이동 가능\n정답: 6",
+          "reference": "6",
+          "correct": true,
+          "valid": true,
+          "complete": true,
+          "prompt": "verify",
+          "source": "reports/argos-improvement-20261027/public-data/recovery_development_evidence.jsonl",
+          "responseSha256": "7026f18409a34ee549fc6a39d06f31d1861ffa891c15da365b85cf5aa14c03d5"
+        },
+        {
+          "model": "S0",
+          "label": "기본 S0 재측정",
+          "question": "제공된 가상 문서에서 적용 조건, 예외, 시점과 단위를 확인하세요. 문서 번호를 밝혀 핵심 근거와 필요한 계산을 짧게 설명한 뒤 검산한 답을 마지막 줄에 정답: 값 형식으로 쓰세요. 외부 사실이나 명시되지 않은 예외를 추가하지 마세요. 계산 실수는 다시 계산하여 고치고, 문서 자체에 필요한 정보가 없는 경우에만 확인 불가라고 답하세요. 숫자 답의 단위 표기는 질문을 따르세요.\n\n자료 식별자: development-capacity-000\n[문서1] 참가자 88명을 한 번에 이동시킨다. 차량 한 대당 정원은 16명이며 운전자는 정원에 포함되지 않는다.\n[문서2] 예약 가능한 차량은 15대이다. 정원을 넘길 수 없고 왕복 운행은 허용하지 않는다.\n\n질문: 모두 이동시키는 데 필요한 최소 차량 대수를 숫자로 답하라. 차량이 부족하면 불가라고 답하라.",
+          "response": "**핵심 근거:**\n- 참가자 수: 88명\n- 차량 한 대당 정원: 16명\n- 예약 가능한 차량 대수: 15대\n\n**계산:**\n필요한 최소 차량 대수를 계산하기 위해 참가자 수를 차량 한 대당 정원으로 나눕니다.\n\n\\[ \\text{필요한 차량 대수} = \\left\\lceil \\frac{88 \\text{명}}{16 \\text{명/차량}} \\right\\rceil \\]\n\n\\[ \\frac{88}{16} = 5.5 \\]\n\n차량 대수는 정수여야 하므로 올림 처리를 합니다. 따라서 필요한 최소 차량 대수는 6대입니다. 하지만 예약 가능한 차량은 총 15대로 제한되어 있습니다.\n\n**검산:**\n6대의 차량을 사용할 경우 총 정원은 \\(6 \\times 16 = 96\\)명으로, 88명을 충분히 수용할 수 있습니다. 하지만 문제 조건에 따르면 예약 가능한 차량은 최대 15대로 제한되어 있으므로, 이 제한 내에서는 6대가 가능합니다.\n\n**정답:** 6",
+          "reference": "6",
+          "correct": true,
+          "valid": true,
+          "complete": true,
+          "prompt": "verify",
+          "source": "reports/argos-improvement-20261027/public-data/recovery_development_evidence.jsonl",
+          "responseSha256": "fc75d198c88dcf8ef03242a59426166f2f27ce9aac367ae2839dacea044777a6"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/ARGOS_Improvement_Report_KO.pdf",
+      "url": "/sources/improvement-report.pdf",
+      "sha256": "f4674920cc5d8c6a9ee111df1ba3089656406f603aed6f4c29fb34e500a94c3d",
+      "bytes": 3212665,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-final-20261027/CoMPaSS_ARGOS_final_report_20261027.pdf",
+      "url": "/sources/final-report.pdf",
+      "sha256": "1a10fc0092969838374f09f659e37ed5d00c48bcffdf1ad73c8aa0f5ab14646b",
+      "bytes": 544071,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/REPORT_KO.md",
+      "url": "/sources/improvement-report.md",
+      "sha256": "27a82ef68c3f698e3370dbdbb062d31c0917dafa26fe0194c0ccf3cecd20a52d",
+      "bytes": 93609,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-final-20261027/REPORT_KO.md",
+      "url": "/sources/frozen-report.md",
+      "sha256": "a55303430c64a734ee8fb3131a077a1672b933784103ad29bd6c3ca95835bf67",
+      "bytes": 102417,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-final-20261027/data/metrics.json",
+      "url": "/sources/metrics.json",
+      "sha256": "4a72eccc216cf0a25b2d2d1ddfb3cda9a7aa4fd7a1998edfdef4ec3282e6fda3",
+      "bytes": 4133,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/development_metrics.csv",
+      "url": "/sources/development_metrics.csv",
+      "sha256": "c373702e8e38bf94765bba969fca9fade669d0095a5cb0bfa20841a944991a75",
+      "bytes": 690,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/recovery_selection.json",
+      "url": "/sources/recovery_selection.json",
+      "sha256": "245107984c7928df91506d6e2b03d8ea20d162daf273608ec82ab256477bf81a",
+      "bytes": 2212,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/runtime_identity.json",
+      "url": "/sources/runtime_identity.json",
+      "sha256": "fd655a7fcf66961d439e4f057c7c7b12fd7170c20d1009acd0d9e5e49af6788d",
+      "bytes": 1977,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/report_data.json",
+      "url": "/sources/report_data.json",
+      "sha256": "40761ccc6860ec2a63351b518cd445b2293ea3c7012f010ac21a16f0b45a629b",
+      "bytes": 251641,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/recovery_seal.json",
+      "url": "/sources/recovery_seal.json",
+      "sha256": "f50e04bc10a7352c544cfaaa68b7f35d7a4b4a46251f83dd398b23df3f64af01",
+      "bytes": 790,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/recovery_protocol.json",
+      "url": "/sources/recovery_protocol.json",
+      "sha256": "43aa8a8117077fcda6526bf1df7865d0bb3bf08335fed0c0917d0d74abbd668b",
+      "bytes": 4696,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/actual_prompts.json",
+      "url": "/sources/actual_prompts.json",
+      "sha256": "a0f8bd47d63c203cfe89bd30037d3d4eb7e5b06c2552ef7082b4d17d86fd611b",
+      "bytes": 1455,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/recovery_development_evidence.jsonl",
+      "url": "/sources/recovery_development_evidence.jsonl",
+      "sha256": "5f03f40e7e4605910ff49a081fce4d38f2dea507561c7a51bf9fa9d32901331e",
+      "bytes": 1121620,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    },
+    {
+      "repositoryPath": "reports/argos-improvement-20261027/public-data/synthetic_development_evidence.jsonl",
+      "url": "/sources/synthetic_development_evidence.jsonl",
+      "sha256": "d3226c7c7041b7b25df21bdf5bd8c9046a2f05c5780901fa8b56e4713583fbb5",
+      "bytes": 1128731,
+      "commit": "2f2d46f427fc39736a4cffc246d0f7cfa759c938"
+    }
+  ]
+}
