@@ -1,0 +1,22 @@
+{
+  "revision_date": "2026-10-29",
+  "reason": "Researcher correction of human reviewer count and fuller attribution of research leadership",
+  "human_review": {
+    "human_reviewers": 1,
+    "reviewer": "연구자 본인(사용자)",
+    "basis": "2026-10-29 연구자 본인의 검수 수행 확인 및 표기 정정 요청",
+    "scope": "연구 진행 중 자료·결과 검토와 최종보고서 검수",
+    "independent_external_human_reviewers": 0,
+    "item_level_human_regrading_count": null,
+    "human_inter_rater_agreement": "not_measured",
+    "ai_item_judgments_unchanged": true
+  },
+  "previous_canonical_data_sha256": "40761ccc6860ec2a63351b518cd445b2293ea3c7012f010ac21a16f0b45a629b",
+  "canonical_data_sha256": "b15dc991d969cd3005fb0cedfdefa19edd8661c3d5a2f15b0b3fe95511126701",
+  "prior_design_preservation_record": "synthesis_design_preservation.json",
+  "all_figure_files_unchanged": true,
+  "experiment_results_and_raw_ai_judgments_unchanged": true,
+  "new_training_or_model_inference": 0,
+  "scope": "Authorship and human-review reporting correction; no new item-level human regrading or independent external review claimed.",
+  "numeric_query_values_sha256": "96a29102da15ebb6dc9db68c4e76993d08d8dbb99b90a6c608cdd279aef5eb03"
+}

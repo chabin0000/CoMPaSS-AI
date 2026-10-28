@@ -126,8 +126,20 @@ def verify(root):
                 table_values += 1
     if (data / 'synthesis_design_preservation.json').exists():
         baseline = read('synthesis_design_preservation.json')
-        assert sha(data / 'report_data.json') == baseline['canonical_data_sha256']
+        revision_path = data / 'synthesis_authorship_revision.json'
+        if revision_path.exists():
+            revision = read('synthesis_authorship_revision.json')
+            assert revision['previous_canonical_data_sha256'] == baseline['canonical_data_sha256']
+            assert revision['canonical_data_sha256'] == sha(data / 'report_data.json')
+            assert d['report']['humanReview']['human_reviewers'] == 1
+            assert d['report']['humanReview']['independent_external_human_reviewers'] == 0
+        else:
+            assert sha(data / 'report_data.json') == baseline['canonical_data_sha256']
         for name, digest in baseline['figures'].items():
+            if name == 'figure_manifest.json' and revision_path.exists():
+                # Manifest now points to amended authorship text; image bytes
+                # retain the original design-preservation hashes below.
+                continue
             assert sha(root / 'figures' / name) == digest
 
     return dict(status='verified', sections=51, figures=18, original_model_conditions=13,

@@ -1,11 +1,11 @@
 {
   "pdf": "ARGOS_Improvement_Report_KO.pdf",
-  "sha256": "85921742ad53c8816540cfb2203248cef02226165ebbbdb1e26b95885215fa17",
+  "sha256": "4e470bee903d309b529f2dbea052521bb4baa70211d2d1e11b4632cbce9feac1",
   "pages": 39,
   "narrative_sections": 51,
   "figures": 18,
-  "canonical_data_sha256": "40761ccc6860ec2a63351b518cd445b2293ea3c7012f010ac21a16f0b45a629b",
-  "extracted_characters": 48696,
+  "canonical_data_sha256": "b15dc991d969cd3005fb0cedfdefa19edd8661c3d5a2f15b0b3fe95511126701",
+  "extracted_characters": 49007,
   "section_pages": [
     {
       "level": 0,
@@ -54,7 +54,7 @@
     },
     {
       "level": 1,
-      "title": "07. 사용자·웹 ChatGPT·Codex의 역할",
+      "title": "07. 연구자 본인·Codex·웹 GPT의 역할",
       "page": 9
     },
     {
@@ -75,7 +75,7 @@
     {
       "level": 1,
       "title": "11. PASS 30개로 실제 학생 어댑터를 만들다",
-      "page": 11
+      "page": 12
     },
     {
       "level": 1,
@@ -85,7 +85,7 @@
     {
       "level": 1,
       "title": "13. 문서를 보존하고 클라우드 실행부를 다시 설계하다",
-      "page": 12
+      "page": 13
     },
     {
       "level": 1,
@@ -95,12 +95,12 @@
     {
       "level": 0,
       "title": "III. 임대 GPU에서 만든 원래 ARGOS",
-      "page": 13
+      "page": 14
     },
     {
       "level": 1,
       "title": "15. 48GB에서 24GB로 옮긴 실제 이유와 실행 범위",
-      "page": 13
+      "page": 14
     },
     {
       "level": 1,
@@ -115,12 +115,12 @@
     {
       "level": 1,
       "title": "18. 열 개의 학생 학습은 독립된 비교 실험이었다",
-      "page": 15
+      "page": 16
     },
     {
       "level": 1,
       "title": "19. 13개 조건에서 의미 정확도와 형식 통과가 갈라졌다",
-      "page": 16
+      "page": 17
     },
     {
       "level": 1,
@@ -140,12 +140,12 @@
     {
       "level": 0,
       "title": "IV. 손실을 확인하고 개선을 시도한 과정",
-      "page": 20
+      "page": 21
     },
     {
       "level": 1,
       "title": "23. 수학이 낮아진 현상을 원인과 구분해 진단하다",
-      "page": 20
+      "page": 21
     },
     {
       "level": 1,
@@ -155,12 +155,12 @@
     {
       "level": 1,
       "title": "25. 같은 이름의 평가셋들을 하나로 합치지 않는다",
-      "page": 21
+      "page": 22
     },
     {
       "level": 1,
       "title": "26. 기본 모델과 두 교사의 기준선을 먼저 다시 세우다",
-      "page": 22
+      "page": 23
     },
     {
       "level": 1,
@@ -170,7 +170,7 @@
     {
       "level": 1,
       "title": "28. A4·B4·C5: 정답만, 설명 포함, 유지 자료 혼합",
-      "page": 23
+      "page": 24
     },
     {
       "level": 1,
@@ -200,7 +200,7 @@
     {
       "level": 1,
       "title": "33. 계산 단계를 드러낸 960행을 새 기반 모델에 학습하다",
-      "page": 27
+      "page": 28
     },
     {
       "level": 1,
@@ -215,7 +215,7 @@
     {
       "level": 1,
       "title": "36. 부분 회복은 컸지만 전체 승격 요건은 충족하지 못했다",
-      "page": 28
+      "page": 29
     },
     {
       "level": 1,
@@ -309,5 +309,5 @@
     }
   ],
   "font_sha256": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f",
-  "visual_verification": "Cover page rendered and inspected after link update; earlier report layout preserved."
+  "visual_verification": "All 39 pages inspected in seven Poppler contact sheets; full-page checks of pages 1, 9, 10, 31 and 38. No clipping, overlap or missing Korean glyphs observed."
 }
