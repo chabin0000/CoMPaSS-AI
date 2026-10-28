@@ -10,7 +10,7 @@ const root=resolve(web,'..');
 const improvement='reports/argos-improvement-20261027';
 const previous='reports/argos-final-20261027';
 const pub=`${improvement}/public-data`;
-const sourceCommit=execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim();
+const sourceCommit=execFileSync('git',['rev-parse',process.env.ARGOS_REPORT_SOURCE_COMMIT??'HEAD'],{cwd:root,encoding:'utf8'}).trim();
 const read=async path=>JSON.parse(await readFile(resolve(root,path),'utf8'));
 const jsonl=async path=>(await readFile(resolve(root,path),'utf8')).trim().split(/\r?\n/).map(x=>JSON.parse(x));
 const [frozen,recovery,report,runtime,seal,protocol]=await Promise.all([
@@ -68,7 +68,7 @@ const sources=[
 await mkdir(resolve(web,'public/sources'),{recursive:true});await mkdir(resolve(web,'src/data'),{recursive:true});
 const manifest=[];
 for(const [path,name]of sources){const bytes=await readFile(resolve(root,path));manifest.push({repositoryPath:path,url:`/sources/${name}`,sha256:createHash('sha256').update(bytes).digest('hex'),bytes:bytes.length,commit:sourceCommit});await copyFile(resolve(root,path),resolve(web,'public/sources',name));}
-const data={schemaVersion:1,sourceCommit,repository:'https://github.com/chabin0000/CoMPaSS-AI',date:'2026-10-27',baseModel:runtime.base_model,baseRevision:runtime.base_revision,frozenCheckpoint:'S5_general_control-20261022',confirmation,development:{metrics:devMetrics,models,primary:['S0','ARGOS_old','R6-120','gpt_oss','glm'],final:{status:'unmeasured',n:finalN,score:null,inferences:0},eligible:recovery.eligible,selected:recovery.selected,thresholds:recovery.thresholds},review:{humanReviewers:recovery.human_reviewers,method:'자동 검사와 AI 판정. R6는 단일 AI 비블라인드 검수.'},examples,sources:manifest};
+const data={schemaVersion:1,sourceCommit,repository:'https://github.com/chabin0000/CoMPaSS-AI',date:'2026-10-27',baseModel:runtime.base_model,baseRevision:runtime.base_revision,frozenCheckpoint:'S5_general_control-20261022',confirmation,development:{metrics:devMetrics,models,primary:['S0','ARGOS_old','R6-120','gpt_oss','glm'],final:{status:'unmeasured',n:finalN,score:null,inferences:0},eligible:recovery.eligible,selected:recovery.selected,thresholds:recovery.thresholds},review:{humanReviewers:report.report.humanReview.human_reviewers,method:'연구자 본인 1명이 자료·결과와 최종보고서를 검수했습니다. R6 문항별 판정은 단일 AI 비블라인드 방식이며, 외부 2인 독립 검수는 미수행입니다.'},examples,sources:manifest};
 await writeFile(resolve(web,'src/data/research.json'),JSON.stringify(data,null,2)+'\n');
 await writeFile(resolve(web,'public/sources/research.json'),JSON.stringify(data,null,2)+'\n');
 await writeFile(resolve(web,'public/sources/manifest.json'),JSON.stringify({sourceCommit,files:manifest},null,2)+'\n');
